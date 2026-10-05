@@ -24728,10 +24728,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-21T07:51",
+     "disponible_el": "2026-12-28T19:58",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 21 dic 2026 a las 07:51 Reservar EPUB (Domina tu dopamina)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 28 dic 2026 a las 19:58 Reservar EPUB (Domina tu dopamina)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a917527dec17e293a16f714",
@@ -27346,7 +27346,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-05T15:02:19Z",
+    "ultima_ok": "2026-10-05T15:08:31Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27354,7 +27354,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-05T15:02:19Z",
+     "ultima_lectura": "2026-10-05T15:08:31Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27362,7 +27362,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-05T15:02:19Z",
+     "ultima_lectura": "2026-10-05T15:08:31Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27378,31 +27378,15 @@
    "ultima_completa": "2026-10-05T14:32:26Z"
   }
  },
- "busquedas": {},
- "historial": [],
- "lista": {
-  "madrid:5fcfb7846af9f8028930f4c8": {
-   "anadido": "2026-10-05T15:02:16Z",
-   "autores": [
-    "Jo Nesbo"
-   ],
-   "biblioteca": "madrid",
-   "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-05T15:02:29Z",
-   "disponible_el": null,
-   "ejemplares": 4,
-   "estado": "disponible",
-   "estado_texto": "EPUB Streaming 4 ejemplares disponibles Prestar EPUB (Fantasma )",
-   "formato": "EPUB",
-   "id": "5fcfb7846af9f8028930f4c8",
-   "origen": "telegram",
-   "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4abf4b16-97ec-415f-ccb2-8fe7297c1300/default",
-   "sinopsis": "Después de El leopardo llega Fantasma.El nuevo thriller de Harry Hole. HARRY HOLE AFRONTA UN NUEVO CASO Cuando Harry Hole se marchó a vivir a Hong Kong creyó que su vida cambiaría para siempre: dejaba atrás su pasado en Oslo...",
-   "tipo": "libro",
-   "titulo": "Fantasma",
-   "url": "https://madrid.ebiblio.es/resources/5fcfb7846af9f8028930f4c8"
+ "busquedas": {
+  "52da34c6": {
+   "anadida": "2026-10-05T15:08:30Z",
+   "texto": "Fantasma de Nerea Pérez de las Heras",
+   "ultima": "2026-10-05T15:08:30Z"
   }
  },
+ "historial": [],
+ "lista": {},
  "opciones": {
   "5fcfb57d6af9f8028930ca52": "madrid",
   "5fcfb7846af9f8028930f4c8": "madrid",
@@ -27416,11 +27400,12 @@
   "664ca5b3d091e572449bcf18": "madrid",
   "66e19f00015f71d263254d92": "madrid",
   "68c81172d70bf46d9e1211c9": "madrid",
-  "6a1d70f9d5771c345f41f64d": "madrid"
+  "6a1d70f9d5771c345f41f64d": "madrid",
+  "6a883a5a1f73e5a2746f4730": "madrid"
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899064
+  "offset": 119899066
  },
  "version": 1
 }
