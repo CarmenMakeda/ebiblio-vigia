@@ -173,3 +173,21 @@ def test_estado_se_guarda_y_recarga(tmp_path):
     ruta = tmp_path / "estado.json"
     est.guarda(v.estado, ruta)
     assert est.carga(ruta)["bibliotecas"]["madrid"]["inicializada"] is True
+
+
+def test_dejar_de_vigilar_una_seccion_se_aplica_en_la_siguiente_vuelta():
+    web, v, reloj, bib = montar(secciones=["Novedades ficción", "Novedades no ficción"])
+    v.comprueba(bib)
+    assert v.estado["bibliotecas"]["madrid"]["inicializada"]
+    bib.secciones = ["Novedades ficción"]          # la lectora quita una sección de config.yaml
+    reloj.avanza(hours=1)
+    web.urls.clear()
+    inf = v.comprueba(bib)
+    assert inf.secciones == ["Novedades ficción"]
+    assert not any(NOF in u for u in web.urls)
+    assert inf.total_activos == 79                  # los 9 ensayos ya no cuentan
+    bib.secciones = ["Novedades ficción", "Novedades no ficción"]   # y si la vuelve a poner…
+    reloj.avanza(hours=1)
+    inf = v.comprueba(bib)
+    assert set(inf.secciones) == {"Novedades ficción", "Novedades no ficción"}
+    assert inf.nuevos == []                          # …no avisa como novedades de libros ya conocidos

@@ -17,7 +17,7 @@ bibliotecas:
     secciones:
       - Novedades ficción
       - Novedades no ficción
-      - Nuevos audiolibros
+      # - Nuevos audiolibros   (quita la # para vigilar también audiolibros)
 
   # Siguiente fase: cambia «activa» a true cuando quieras probarlas.
   - id: castillayleon
@@ -42,7 +42,7 @@ intereses:
     # - Fjällbacka
   excluir:             # libros que no quieres ni ver en los avisos
     # - infantil
-  tipos: [libro, audiolibro]   # quita «audiolibro» si no te interesan
+  tipos: [libro]       # añade «audiolibro» si quieres también audiolibros: [libro, audiolibro]
 
 # Tu lista «quiero leer» se maneja desde Telegram: escribe al bot el título
 # de un libro y lo sigue por ti. /lista para ver lo que sigue.

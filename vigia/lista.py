@@ -89,7 +89,7 @@ class Lista:
         for bib in self.cfg.activas:
             pag = lee_seccion(self.cliente.get(f"{bib.url}/resources?q={quote_plus(texto)}"), bib.url)
             for orden, l in enumerate(pag.libros):
-                if l.tipo not in ("libro", "audiolibro"):
+                if l.tipo not in ("libro", "audiolibro") or l.tipo not in self.cfg.intereses.tipos:
                     continue
                 t = normaliza(l.titulo)
                 todo = normaliza(l.titulo + " " + " ".join(l.autores))

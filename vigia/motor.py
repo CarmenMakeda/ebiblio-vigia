@@ -125,6 +125,12 @@ class Vigia:
             if len(vacias) == len(hechas):
                 raise ErrorDeLectura("Todas las secciones aparecen vacías: puede que la web haya cambiado")
             inf.secciones = [b["secciones"][x]["nombre"] for x in hechas]
+            # Libros que sólo estaban en secciones que ya no vigilas: dejan de contarse
+            vigentes = {k for k, v in b["secciones"].items() if v.get("vigilada")}
+            for rec in b["libros"].values():
+                if rec.get("activo") and not set(rec.get("secciones", [])) & vigentes:
+                    rec["activo"] = False
+                    rec["retirado"] = _iso(ahora)
             if completa:
                 b["ultima_completa"] = _iso(ahora)
             b["inicializada"] = True
@@ -138,9 +144,16 @@ class Vigia:
 
     # ------------------------------------------------------------- secciones
     def _secciones(self, bib: Biblioteca, b: dict, ahora: datetime, inf: Informe, forzar: bool) -> list[tuple[str, str]]:
-        vigiladas = [(k, v["nombre"]) for k, v in b["secciones"].items() if v.get("vigilada")]
+        # Las ya conocidas, filtradas por lo que diga config.yaml ahora (por si lo has cambiado)
+        vigiladas = [(k, v["nombre"]) for k, v in b["secciones"].items()
+                     if v.get("vigilada") and _seccion_elegida(v["nombre"], bib.secciones)]
+        conocidas = {normaliza(n) for _, n in vigiladas}
+        falta_alguna = any(not f.startswith("re:") and normaliza(f) not in conocidas for f in bib.secciones)
         ultima = _de_iso(b["descubierto"])
-        if not forzar and vigiladas and ultima and ahora - ultima < timedelta(hours=HORAS_REDESCUBRIR):
+        if (not forzar and vigiladas and not falta_alguna and ultima
+                and ahora - ultima < timedelta(hours=HORAS_REDESCUBRIR)):
+            for k, v in b["secciones"].items():
+                v["vigilada"] = any(k == x for x, _ in vigiladas)
             return vigiladas
         try:
             todas = lee_secciones_portada(self.cliente.get(bib.url + "/"))

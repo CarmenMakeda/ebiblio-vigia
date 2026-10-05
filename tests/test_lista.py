@@ -207,3 +207,23 @@ def test_busquedas_reales_de_ebiblio():
     assert "en sus 3 ediciones" in r and len(lista.libros) == 3
     r = responde(lista, "Los huérfanos")
     assert "Hay varios libros titulados" in r and r.count("/s_") == 2 and "Führer" not in r
+
+
+def test_sin_audiolibros_la_lista_sigue_solo_el_epub():
+    from pathlib import Path
+    fix = Path(__file__).parent / "fixtures"
+    pagina = (fix / "busqueda_asistenta.html").read_text(encoding="utf-8")
+
+    class Cliente:
+        peticiones = 0
+        def get(self, url):
+            if "?q=" in url:
+                return pagina
+            rid = url.rsplit("/", 1)[1]
+            return f'<h1>Libro {rid}</h1><section class="transactions"><h2 class="transaction__title">EPUB</h2><div class="availability">En este momento no hay reservas libres</div></section>'
+
+    web, v, reloj, bib, _, _ = preparar()
+    v.cfg.intereses.tipos = ["libro"]
+    lista = Lista(v.cfg, v.estado, Cliente(), ahora=reloj)
+    r = responde(lista, "La asistenta")
+    assert "Apuntado en tu lista" in r and len(lista.libros) == 1
