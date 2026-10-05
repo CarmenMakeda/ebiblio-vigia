@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f4efe6;font-family:Georgia,'Times New Roman',serif;color:#2b2420;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4efe6;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;background:#fffdf8;border:1px solid #e6dccb;border-radius:10px;">
+  <tr><td style="padding:24px 28px 8px 28px;">
+    <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#9a4a2f;font-family:Arial,sans-serif;">Vigía eBiblio</div>
+  </td></tr>
+{% for inf in informes %}
+  {% if inf.alerta %}
+  <tr><td style="padding:8px 28px;">
+    <div style="background:#fdecea;border-left:4px solid #b3261e;padding:12px 14px;font-family:Arial,sans-serif;font-size:14px;">
+      <b>⚠️ {{ inf.biblioteca.nombre }}</b><br>{{ inf.alerta }}
+    </div>
+  </td></tr>
+  {% endif %}
+  {% if inf.recuperada %}
+  <tr><td style="padding:8px 28px;font-family:Arial,sans-serif;font-size:14px;">✅ Vuelvo a leer <b>{{ inf.biblioteca.nombre }}</b> con normalidad.</td></tr>
+  {% endif %}
+  {% if inf.inicial and not inf.error %}
+  <tr><td style="padding:8px 28px;font-family:Arial,sans-serif;font-size:14px;line-height:1.5;">
+    ✅ <b>Vigía activado para {{ inf.biblioteca.nombre }}.</b> Vigilo {{ inf.secciones|join(', ') }} ({{ inf.total_activos }} títulos registrados).
+  </td></tr>
+  {% endif %}
+  {% if inf.liberados %}
+  <tr><td style="padding:16px 28px 4px 28px;"><h2 style="margin:0;font-size:22px;font-weight:normal;">🔔 Ya los puedes conseguir</h2></td></tr>
+  {% for ev in inf.liberados %}{% set r = ev.libro %}
+  <tr><td style="padding:10px 28px;">
+    <table role="presentation" cellspacing="0" cellpadding="0"><tr>
+      {% if r.portada %}<td valign="top" style="padding-right:14px;"><a href="{{ r.url }}"><img src="{{ r.portada }}" width="72" alt="" style="display:block;border-radius:3px;"></a></td>{% endif %}
+      <td valign="top" style="font-family:Arial,sans-serif;font-size:14px;line-height:1.45;">
+        <a href="{{ r.url }}" style="color:#2b2420;font-family:Georgia,serif;font-size:17px;text-decoration:none;"><b>{{ r.titulo }}</b></a><br>
+        <span style="color:#6b5e55;">{{ r|autores }}</span><br>{{ r|estado }}
+      </td></tr></table>
+  </td></tr>
+  {% endfor %}
+  {% endif %}
+  {% if inf.nuevos %}
+  <tr><td style="padding:20px 28px 4px 28px;">
+    <h2 style="margin:0;font-size:22px;font-weight:normal;">{{ inf.nuevos|length }} novedad{{ 'es' if inf.nuevos|length != 1 }} en {{ inf.biblioteca.nombre }}</h2>
+  </td></tr>
+  {% for ev in inf.nuevos|sort(attribute='motivos', reverse=True) %}{% set r = ev.libro %}
+  <tr><td style="padding:10px 28px;border-top:1px solid #f0e8da;">
+    <table role="presentation" cellspacing="0" cellpadding="0"><tr>
+      {% if r.portada %}<td valign="top" style="padding-right:14px;"><a href="{{ r.url }}"><img src="{{ r.portada }}" width="{{ 72 if ev.motivos else 52 }}" alt="" style="display:block;border-radius:3px;"></a></td>{% endif %}
+      <td valign="top" style="font-family:Arial,sans-serif;font-size:14px;line-height:1.45;">
+        {% if ev.motivos %}<span style="color:#9a4a2f;font-size:12px;">⭐ Te interesa por {{ ev.motivos|join(', ') }}</span><br>{% endif %}
+        <a href="{{ r.url }}" style="color:#2b2420;font-family:Georgia,serif;font-size:17px;text-decoration:none;"><b>{{ r.titulo }}</b></a><br>
+        <span style="color:#6b5e55;">{{ r|autores }}{% if r.tipo == 'audiolibro' %} · 🎧 audiolibro{% endif %}</span><br>
+        {{ r|estado }}<br><span style="color:#9b8f86;font-size:12px;">{{ ev.seccion }}</span>
+      </td></tr></table>
+  </td></tr>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+  <tr><td style="padding:20px 28px 26px 28px;font-family:Arial,sans-serif;font-size:13px;color:#6b5e55;">
+    {% if cfg.avisos.web %}<a href="{{ cfg.avisos.web }}" style="color:#9a4a2f;">Ver todas las novedades en tu web →</a>{% endif %}
+  </td></tr>
+</table>
+</td></tr></table>
+</body>
+</html>

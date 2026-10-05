@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titulo }}</title>
+<meta name="description" content="Novedades de eBiblio y su disponibilidad, actualizadas cada hora.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1E3A32">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E3A32'/%3E%3Cpath d='M8 9h6v15H8zM15.5 9h4v15h-4zM21 10.5l3.6-1 3.4 13.5-3.6 1z' fill='%23F3F5F2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --verde: #1E3A32;
+  --verde-claro: #2B5246;
+  --papel: #F3F5F2;
+  --hoja: #FFFFFF;
+  --tinta: #1D2421;
+  --tinta-suave: #5B6460;
+  --linea: #DCE2DE;
+  --sello: #4B3FA6;
+  --sello-fondo: #ECEAF8;
+  --ok: #2E7D4F;
+  --ok-fondo: #E4F2E9;
+  --cola: #8A5F00;
+  --cola-fondo: #FBF1D9;
+  --nada: #6F6A66;
+  --nada-fondo: #EEEDEB;
+  --cab-texto: #F3F5F2;
+  --cab-suave: #B9CBC3;
+  --serif: "Literata", Georgia, serif;
+  --sans: "Atkinson Hyperlegible", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papel: #121A17; --hoja: #18221E; --tinta: #E6ECE8; --tinta-suave: #A3B0AA; --linea: #2A3832;
+    --sello: #B3A9FF; --sello-fondo: #2A2650; --ok: #7FD3A0; --ok-fondo: #1D3A2A;
+    --cola: #E9C46A; --cola-fondo: #3A3016; --nada: #B0AAA5; --nada-fondo: #2A2827; --verde: #0F231D;
+  }
+}
+:root[data-theme="dark"] {
+  --papel: #121A17; --hoja: #18221E; --tinta: #E6ECE8; --tinta-suave: #A3B0AA; --linea: #2A3832;
+  --sello: #B3A9FF; --sello-fondo: #2A2650; --ok: #7FD3A0; --ok-fondo: #1D3A2A;
+  --cola: #E9C46A; --cola-fondo: #3A3016; --nada: #B0AAA5; --nada-fondo: #2A2827; --verde: #0F231D;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--papel); color: var(--tinta); font: 16px/1.5 var(--sans); }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--sello); outline-offset: 2px; border-radius: 4px; }
+.envoltura { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+/* Cabecera: la balda */
+.cabecera { background: var(--verde); color: var(--cab-texto); padding: 20px 0 0; }
+.marca { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--cab-suave); }
+.marca strong { color: var(--cab-texto); font-size: 15px; }
+.salud-error { color: #FFD3C9; }
+.titular { font-family: var(--serif); font-weight: 400; font-size: clamp(26px, 5.2vw, 44px); line-height: 1.18; margin: 22px 0 22px; max-width: 24ch; letter-spacing: -0.01em; }
+.titular b { font-weight: 600; }
+.balda { display: flex; gap: 12px; overflow-x: auto; padding: 4px 0 0; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.balda a { flex: 0 0 auto; scroll-snap-align: start; display: block; position: relative; text-decoration: none; }
+.balda img { display: block; height: 150px; width: auto; min-width: 96px; border-radius: 2px 4px 4px 2px; box-shadow: 0 -2px 0 rgba(255,255,255,.06) inset; background: var(--verde-claro); }
+.lomo { height: 150px; width: 100px; display: flex; align-items: flex-end; padding: 10px; border-radius: 2px 4px 4px 2px; background: var(--verde-claro); color: var(--cab-texto); font-family: var(--serif); font-size: 13px; line-height: 1.25; overflow: hidden; }
+.libro .lomo { width: 64px; height: 96px; font-size: 10px; padding: 6px; }
+.balda .estrella { position: absolute; top: 6px; left: 6px; background: var(--sello); color: #fff; border-radius: 50%; width: 22px; height: 22px; display: grid; place-items: center; font-size: 13px; }
+.listón { height: 14px; background: #3B2A1E; border-top: 3px solid #5A4130; margin-top: -2px; }
+
+/* Filtros */
+.filtros { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--papel) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linea); }
+.filtros .envoltura { display: grid; grid-template-columns: 1fr auto; gap: 8px 10px; padding-top: 10px; padding-bottom: 10px; align-items: center; }
+.buscar { min-width: 0; font: inherit; padding: 8px 12px; border: 1px solid var(--linea); border-radius: 8px; background: var(--hoja); color: var(--tinta); }
+.selectores { display: flex; gap: 8px; min-width: 0; }
+.selectores select { max-width: 44vw; }
+.chips { grid-column: 1 / -1; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
+.chips::-webkit-scrollbar { display: none; }
+@media (min-width: 900px) {
+  .filtros .envoltura { grid-template-columns: minmax(220px, 1fr) auto auto; }
+  .chips { grid-column: auto; margin: 0; padding: 0; order: 2; }
+  .selectores { order: 3; }
+}
+.chip { flex: 0 0 auto; font: inherit; font-size: 14px; border: 1px solid var(--linea); background: var(--hoja); color: var(--tinta); padding: 6px 11px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.chip .cuenta { opacity: .7; margin-left: 4px; }
+select { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--linea); border-radius: 8px; background: var(--hoja); color: var(--tinta); max-width: 100%; }
+
+/* Tandas */
+main { padding: 8px 0 48px; }
+.tanda { margin-top: 34px; }
+.tanda-cab { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+.sello { font-family: var(--serif); font-weight: 600; font-size: 19px; color: var(--sello); border: 2px solid var(--sello); border-radius: 6px; padding: 3px 12px 4px; transform: rotate(-2.2deg); background: var(--sello-fondo); white-space: nowrap; }
+.tanda-cab p { margin: 0; color: var(--tinta-suave); font-size: 14px; }
+.libros { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+@media (max-width: 420px) { .libros { grid-template-columns: 1fr; } }
+.libro { background: var(--hoja); border: 1px solid var(--linea); border-radius: 8px; padding: 12px; display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: start; }
+.libro.fav { border-color: var(--sello); box-shadow: inset 3px 0 0 var(--sello); }
+.libro img { width: 64px; height: auto; display: block; border-radius: 2px; background: var(--linea); aspect-ratio: 2/3; object-fit: cover; }
+.libro h3 { font-family: var(--serif); font-weight: 600; font-size: 17px; line-height: 1.25; margin: 0 0 2px; }
+.libro h3 a { text-decoration: none; }
+.libro h3 a:hover { text-decoration: underline; }
+.autor { color: var(--tinta-suave); font-size: 14px; margin: 0; }
+.motivo { color: var(--sello); font-size: 13px; margin: 4px 0 0; }
+.pie { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-top: 8px; font-size: 13px; color: var(--tinta-suave); }
+.estado { font-weight: 700; font-size: 13px; padding: 2px 9px; border-radius: 999px; border: 1.5px solid currentColor; }
+.estado.disponible { color: var(--ok); background: var(--ok-fondo); }
+.estado.reservable { color: var(--cola); background: var(--cola-fondo); }
+.estado.sin_reservas, .estado.desconocido, .estado.en_linea { color: var(--nada); background: var(--nada-fondo); }
+details { margin-top: 6px; font-size: 14px; }
+summary { cursor: pointer; color: var(--tinta-suave); width: fit-content; }
+details p { margin: 6px 0 0; line-height: 1.55; font-family: var(--serif); font-size: 15px; max-width: 62ch; }
+.vacio { text-align: center; color: var(--tinta-suave); padding: 60px 16px; font-family: var(--serif); font-size: 19px; }
+.mas { display: block; margin: 28px auto 0; font: inherit; padding: 10px 18px; border-radius: 8px; border: 1px solid var(--linea); background: var(--hoja); color: var(--tinta); cursor: pointer; }
+footer { border-top: 1px solid var(--linea); color: var(--tinta-suave); font-size: 14px; padding: 22px 0 40px; }
+footer p { margin: 4px 0; max-width: 70ch; }
+.oculto { display: none !important; }
+@media (prefers-reduced-motion: no-preference) {
+  .balda a img { transition: transform .2s ease; }
+  .balda a:hover img { transform: translateY(-4px); }
+}
+</style>
+</head>
+<body>
+<header class="cabecera">
+  <div class="envoltura">
+    <div class="marca"><strong>Vigía eBiblio</strong><span id="comprobado"></span></div>
+    <h1 class="titular" id="titular">Cargando las novedades…</h1>
+    <nav class="balda" id="balda" aria-label="Última tanda de novedades"></nav>
+  </div>
+  <div class="listón" aria-hidden="true"></div>
+</header>
+
+<div class="filtros">
+  <div class="envoltura">
+    <input class="buscar" id="buscar" type="search" placeholder="Busca por título, autor o tema" aria-label="Buscar">
+
+    <div class="selectores">
+      <select id="seccion" aria-label="Sección"><option value="">Todas las secciones</option></select>
+      <select id="biblioteca" aria-label="Biblioteca" class="oculto"><option value="">Todas las bibliotecas</option></select>
+    </div>
+    <div class="chips" role="group" aria-label="Filtrar por disponibilidad">
+      <button class="chip" data-filtro="todo" aria-pressed="true">Todo</button>
+      <button class="chip" data-filtro="fav" aria-pressed="false">Te interesan<span class="cuenta" id="c-fav"></span></button>
+      <button class="chip" data-filtro="disponible" aria-pressed="false">Disponibles ya<span class="cuenta" id="c-disp"></span></button>
+      <button class="chip" data-filtro="reservable" aria-pressed="false">Se pueden reservar<span class="cuenta" id="c-res"></span></button>
+    </div>
+  </div>
+</div>
+
+<main class="envoltura" id="lista" aria-live="polite"></main>
+
+<footer>
+  <div class="envoltura" id="pie"></div>
+</footer>
+
+<script id="datos" type="application/json">{{ datos_json|safe }}</script>
+{% raw %}
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById("datos").textContent);
+  const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+  const MC = ["ene","feb","mar","abr","may","jun","jul","ago","sept","oct","nov","dic"];
+  const ETQ = { disponible: "Disponible ya", reservable: "Reservable", sin_reservas: "Sin reservas libres", en_linea: "En línea", desconocido: "Sin datos" };
+  const RANGO = { disponible: 2, en_linea: 2, reservable: 1, sin_reservas: 0, desconocido: 0 };
+  const bibs = Object.fromEntries(D.bibliotecas.map(b => [b.id, b]));
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const diaLargo = f => { const [a, m, d] = f.split("-").map(Number); return `${d} de ${MESES[m - 1]}${a !== new Date().getFullYear() ? " de " + a : ""}`; };
+  const diaCorto = iso => { if (!iso) return ""; const [a, m, d] = iso.slice(0, 10).split("-").map(Number); return `${d} ${MC[m - 1]}`; };
+  const hace = iso => {
+    if (!iso) return "";
+    const min = Math.round((Date.now() - new Date(iso)) / 60000);
+    if (min < 2) return "hace un momento";
+    if (min < 60) return `hace ${min} min`;
+    const h = Math.round(min / 60);
+    if (h < 24) return `hace ${h} h`;
+    const d = Math.round(h / 24); return `hace ${d} día${d > 1 ? "s" : ""}`;
+  };
+  const plural = (n, s, p) => `${n} ${n === 1 ? s : p}`;
+  // Si la portada no carga, se muestra un lomo con el título en su lugar
+  const portada = (l, alt) => l.p
+    ? `<img src="${esc(l.p)}" alt="${esc(alt)}" loading="lazy" onerror="this.outerHTML='<span class=&quot;lomo&quot;>'+this.dataset.t+'</span>'" data-t="${esc(esc(l.t))}">`
+    : `<span class="lomo">${esc(l.t)}</span>`;
+
+  const visibles = D.libros.filter(l => !l.z);
+  visibles.forEach(l => { l._q = norm([l.t, l.a.join(" "), l.s, l.x.join(" ")].join(" ")); });
+
+  // ---- Cabecera
+  const ok = D.bibliotecas.map(b => b.ultima_ok).filter(Boolean).sort().pop();
+  const conError = D.bibliotecas.filter(b => b.error);
+  $("comprobado").innerHTML = conError.length
+    ? `<span class="salud-error">La última comprobación falló · ${esc(conError[0].error).slice(0, 90)}</span>`
+    : (ok ? `Comprobado ${hace(ok)}` : "");
+  const hoy = new Date(); const semana = new Date(hoy - 7 * 864e5).toISOString().slice(0, 10);
+  const recientes = visibles.filter(l => l.f >= semana);
+  const recDisp = recientes.filter(l => l.e === "disponible").length;
+  const recFav = recientes.filter(l => l.i.length).length;
+  let titular;
+  if (recientes.length) {
+    titular = `Esta semana han llegado <b>${plural(recientes.length, "título", "títulos")}</b>.`;
+    titular += recDisp ? ` ${recDisp === 1 ? "Uno se puede" : recDisp + " se pueden"} coger ya.` : " Ahora mismo todos tienen cola.";
+    if (recFav) titular += ` ${recFav === 1 ? "Uno encaja" : recFav + " encajan"} con tus intereses.`;
+  } else if (visibles.length) {
+    titular = `Esta semana no ha llegado nada nuevo. La última tanda llegó el <b>${diaLargo(visibles[0].f)}</b>.`;
+  } else {
+    titular = "Aún no hay novedades registradas. Aparecerán tras la primera comprobación.";
+  }
+  $("titular").innerHTML = titular;
+  if (visibles.length) {
+    const ultima = visibles[0].f;
+    const tanda = visibles.filter(l => l.f === ultima).sort((a, b) => (b.i.length - a.i.length) || (RANGO[b.e] - RANGO[a.e])).slice(0, 24);
+    $("balda").innerHTML = tanda.map(l =>
+      `<a href="${esc(l.u)}" title="${esc(l.t)}${l.a.length ? " · " + esc(l.a[0]) : ""}" rel="noopener">${l.i.length ? '<span class="estrella" aria-label="Te interesa">★</span>' : ""}${portada(l, l.t)}</a>`
+    ).join("");
+  }
+
+  // ---- Selectores
+  const secciones = [...new Set(visibles.flatMap(l => l.x).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+  $("seccion").insertAdjacentHTML("beforeend", secciones.map(s => `<option>${esc(s)}</option>`).join(""));
+  if (D.bibliotecas.length > 1) {
+    $("biblioteca").classList.remove("oculto");
+    $("biblioteca").insertAdjacentHTML("beforeend", D.bibliotecas.map(b => `<option value="${esc(b.id)}">${esc(b.nombre)}</option>`).join(""));
+  }
+  $("c-fav").textContent = visibles.filter(l => l.i.length).length;
+  $("c-disp").textContent = visibles.filter(l => l.e === "disponible").length;
+  $("c-res").textContent = visibles.filter(l => l.e === "reservable").length;
+
+  // ---- Estado de filtros (se recuerda en este navegador si se puede)
+  let F = { filtro: "todo", q: "", seccion: "", biblioteca: "" };
+  try { F = Object.assign(F, JSON.parse(localStorage.getItem("vigia-filtros") || "{}")); } catch (e) {}
+  const guarda = () => { try { localStorage.setItem("vigia-filtros", JSON.stringify({ filtro: F.filtro, seccion: F.seccion, biblioteca: F.biblioteca })); } catch (e) {} };
+  $("buscar").value = "";
+  $("seccion").value = secciones.includes(F.seccion) ? F.seccion : "";
+  $("biblioteca").value = bibs[F.biblioteca] ? F.biblioteca : "";
+
+  const POR_PAGINA = 120;
+  let limite = POR_PAGINA;
+
+  function estadoHTML(l) {
+    let t = ETQ[l.e] || ETQ.desconocido;
+    if (l.e === "disponible" && l.n) t += ` · ${plural(l.n, "ejemplar", "ejemplares")}`;
+    if (l.e === "reservable" && l.d) t += ` · llega hacia el ${diaCorto(l.d)}`;
+    return `<span class="estado ${esc(l.e)}">${esc(t)}</span>`;
+  }
+
+  function fichaHTML(l) {
+    const varias = D.bibliotecas.length > 1 ? `<span>${esc(bibs[l.b]?.nombre || "")}</span>` : "";
+    return `<li class="libro${l.i.length ? " fav" : ""}">
+      <a href="${esc(l.u)}" rel="noopener" tabindex="-1" aria-hidden="true">${portada(l, "")}</a>
+      <div>
+        <h3><a href="${esc(l.u)}" rel="noopener">${esc(l.t)}</a></h3>
+        <p class="autor">${esc(l.a.slice(0, 3).join(", "))}${l.o === "audiolibro" ? " · Audiolibro" : ""}</p>
+        ${l.i.length ? `<p class="motivo">★ Te interesa por ${esc(l.i.join(", "))}</p>` : ""}
+        <div class="pie">${estadoHTML(l)}<span>${esc(l.x.join(", "))}</span>${varias}</div>
+        ${l.s ? `<details><summary>Sinopsis</summary><p>${esc(l.s)}</p></details>` : ""}
+      </div>
+    </li>`;
+  }
+
+  function pinta() {
+    const q = norm(F.q).trim();
+    const lista = visibles.filter(l =>
+      (F.filtro === "todo" || (F.filtro === "fav" ? l.i.length : l.e === F.filtro)) &&
+      (!F.seccion || l.x.includes(F.seccion)) &&
+      (!F.biblioteca || l.b === F.biblioteca) &&
+      (!q || q.split(/\s+/).every(p => l._q.includes(p)))
+    );
+    document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c.dataset.filtro === F.filtro)));
+    if (!lista.length) {
+      $("lista").innerHTML = `<p class="vacio">${q ? "Ningún título coincide con esa búsqueda." : F.filtro === "fav"
+        ? "Ninguna novedad coincide aún con tus intereses. Añade autores o temas en config.yaml."
+        : "Ahora mismo no hay títulos con ese filtro."}</p>`;
+      return;
+    }
+    const tandas = new Map();
+    lista.slice(0, limite).forEach(l => { if (!tandas.has(l.f)) tandas.set(l.f, []); tandas.get(l.f).push(l); });
+    const total = new Map(); lista.forEach(l => total.set(l.f, (total.get(l.f) || 0) + 1));
+    let html = "";
+    for (const [f, ls] of tandas) {
+      ls.sort((a, b) => (b.i.length > 0) - (a.i.length > 0) || RANGO[b.e] - RANGO[a.e] || a.t.localeCompare(b.t, "es"));
+      html += `<section class="tanda" aria-label="Llegaron el ${diaLargo(f)}">
+        <div class="tanda-cab"><span class="sello">${diaLargo(f)}</span><p>${plural(total.get(f), "título", "títulos")}</p></div>
+        <ul class="libros">${ls.map(fichaHTML).join("")}</ul></section>`;
+    }
+    if (lista.length > limite) html += `<button class="mas" id="mas">Mostrar ${Math.min(POR_PAGINA, lista.length - limite)} más (quedan ${lista.length - limite})</button>`;
+    $("lista").innerHTML = html;
+    $("mas")?.addEventListener("click", () => { limite += POR_PAGINA; pinta(); });
+  }
+
+  document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => { F.filtro = c.dataset.filtro; limite = POR_PAGINA; guarda(); pinta(); }));
+  let t; $("buscar").addEventListener("input", e => { clearTimeout(t); t = setTimeout(() => { F.q = e.target.value; limite = POR_PAGINA; pinta(); }, 120); });
+  $("seccion").addEventListener("change", e => { F.seccion = e.target.value; limite = POR_PAGINA; guarda(); pinta(); });
+  $("biblioteca").addEventListener("change", e => { F.biblioteca = e.target.value; limite = POR_PAGINA; guarda(); pinta(); });
+  pinta();
+
+  // ---- Pie
+  const intereses = [...D.intereses.autores, ...D.intereses.palabras];
+  $("pie").innerHTML = D.bibliotecas.map(b =>
+    `<p><a href="${esc(b.url)}" rel="noopener">${esc(b.nombre)}</a>: vigilo ${esc(b.secciones.join(", "))}. Última lectura correcta ${b.ultima_ok ? hace(b.ultima_ok) : "pendiente"}.</p>`
+  ).join("") + `<p>${intereses.length ? `Tus intereses: ${esc(intereses.join(", "))}.` : "Aún no has indicado intereses: añádelos en config.yaml para recibir avisos destacados."} Las fechas indican cuándo llegó cada tanda.</p>`;
+})();
+</script>
+{% endraw %}
+</body>
+</html>

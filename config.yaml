@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────
+#  Vigía eBiblio · configuración
+#  Puedes editar este archivo desde la web de GitHub (icono del lápiz).
+#  Los cambios se aplican en la siguiente comprobación.
+# ─────────────────────────────────────────────────────────────
+
+bibliotecas:
+  - id: madrid
+    nombre: eBiblio Madrid
+    url: https://madrid.ebiblio.es
+    activa: true
+    # Listas que se vigilan, con el nombre exacto que tienen en la portada.
+    # Si la biblioteca crea una lista nueva con el mismo nombre (p. ej. al
+    # cambiar de año), el vigía la encuentra solo.
+    # Déjalo vacío para vigilar automáticamente todo lo que empiece por
+    # «Novedades» o «Nuevos».
+    secciones:
+      - Novedades ficción
+      - Novedades no ficción
+      - Nuevos audiolibros
+
+  # Siguiente fase: cambia «activa» a true cuando quieras probarlas.
+  - id: castillayleon
+    nombre: eBiblio Castilla y León
+    url: https://castillayleon.ebiblio.es
+    activa: false
+
+  - id: andalucia
+    nombre: eBiblio Andalucía
+    url: https://andalucia.ebiblio.es
+    activa: false
+
+# Lo que te interesa. Los libros que coincidan llegan con portada y ⭐,
+# y te aviso también cuando se liberan. Da igual mayúsculas y tildes.
+intereses:
+  autores:
+    # - Carmen Mola
+    # - Rosa Montero
+    # - Camilla Läckberg
+  palabras:            # se buscan en el título y la sinopsis
+    # - novela negra
+    # - Fjällbacka
+  excluir:             # libros que no quieres ni ver en los avisos
+    # - infantil
+  tipos: [libro, audiolibro]   # quita «audiolibro» si no te interesan
+
+avisos:
+  # novedades: todas = cada libro nuevo | intereses = sólo los tuyos | ninguna
+  novedades: todas
+  # liberados: avisar cuando un libro pasa a «se puede coger/reservar»
+  # (intereses = sólo los tuyos; todas = cualquiera de las novedades)
+  liberados: intereses
+  portadas: true       # enviar con portada los libros que te interesan
+  max_lista: 60        # títulos por mensaje antes de resumir
+  fallos_para_alertar: 3
+
+comprobacion:
+  paginas_estado: 2              # páginas que se releen cada hora para ver estados
+  sincronizacion_completa_horas: 20   # una vez al día se repasa la lista entera
+  pausa_segundos: 2              # pausa entre peticiones, por cortesía con la web
