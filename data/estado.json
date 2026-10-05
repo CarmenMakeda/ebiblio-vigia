@@ -33,7 +33,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "677eb30ff6cbb0c9fb95ab71": {
-     "activo": true,
+     "activo": false,
      "alta": "2025-01-08T17:17:03Z",
      "autores": [
       "Susana Martín Gijón"
@@ -49,6 +49,7 @@
      "id": "677eb30ff6cbb0c9fb95ab71",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1bf32fca-23f6-4887-1d84-a4aef0050c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -60,7 +61,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "68bfe938cbddd0299a58302b": {
-     "activo": true,
+     "activo": false,
      "alta": "2025-09-09T08:45:44Z",
      "autores": [
       "John Boyne"
@@ -76,6 +77,7 @@
      "id": "68bfe938cbddd0299a58302b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/bc8f2fbb-77a5-4c57-33e1-396b5a082200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -87,7 +89,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "696912d6b2dc2fa0c69560f8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-01-15T16:16:22Z",
      "autores": [
       "Marta Jiménez Serrano"
@@ -103,6 +105,7 @@
      "id": "696912d6b2dc2fa0c69560f8",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/34999488-de82-4967-c136-fa8ec0a11f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -114,7 +117,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "696912d7b2dc2fa0c6956144": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-01-15T16:16:23Z",
      "autores": [
       "S.A. Cosby"
@@ -130,6 +133,7 @@
      "id": "696912d7b2dc2fa0c6956144",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c4590ecc-371b-4e9d-0547-512b31f15800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -141,7 +145,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "696912d7b2dc2fa0c695618c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-01-15T16:16:23Z",
      "autores": [
       "Florence Knapp"
@@ -157,6 +161,7 @@
      "id": "696912d7b2dc2fa0c695618c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/adcb6390-8cb0-4204-bae2-b511db62c400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -168,7 +173,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "696912d8b2dc2fa0c69561ce": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-01-15T16:16:24Z",
      "autores": [
       "Laura Portas"
@@ -184,6 +189,7 @@
      "id": "696912d8b2dc2fa0c69561ce",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7e998f60-f0bf-4834-4711-4dc3cad54700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2437,7 +2443,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ed843c2afc0bbb597b1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:16Z",
      "autores": [
       "N.K. Jemisin"
@@ -2453,6 +2459,7 @@
      "id": "69899ed843c2afc0bbb597b1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/3a3cb9a4-5d5f-4e31-7bd0-2aea504b5000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2464,7 +2471,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899eda43c2afc0bbb5997c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:18Z",
      "autores": [
       "Laura Wood"
@@ -2480,6 +2487,7 @@
      "id": "69899eda43c2afc0bbb5997c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/33bda558-c6a1-425e-28a2-612687c65b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2491,7 +2499,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899edf43c2afc0bbb59c70": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:23Z",
      "autores": [
       "Sara Torres"
@@ -2507,6 +2515,7 @@
      "id": "69899edf43c2afc0bbb59c70",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/bae3e95a-10bd-4473-f1af-91403f6d9b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2518,7 +2527,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899edf43c2afc0bbb59c7c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:23Z",
      "autores": [
       "Lucinda Riley"
@@ -2534,6 +2543,7 @@
      "id": "69899edf43c2afc0bbb59c7c",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7231399.jpg?size=large&t=1767827263",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2545,7 +2555,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899edf43c2afc0bbb59c8a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:23Z",
      "autores": [
       "Richard Price"
@@ -2561,6 +2571,7 @@
      "id": "69899edf43c2afc0bbb59c8a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/efd67dd5-f091-42d8-0b75-91eb4c925200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2572,7 +2583,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899edf43c2afc0bbb59c98": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:23Z",
      "autores": [
       "Frederick Forsyth"
@@ -2588,6 +2599,7 @@
      "id": "69899edf43c2afc0bbb59c98",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e8bc3d4d-6127-4129-caa7-7d893efdbb00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2599,7 +2611,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee043c2afc0bbb59ca9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:24Z",
      "autores": [
       "Santiago Díaz"
@@ -2615,6 +2627,7 @@
      "id": "69899ee043c2afc0bbb59ca9",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b58d81b1-220a-444c-9e41-b8fea545e400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2626,7 +2639,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee043c2afc0bbb59cb7": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:24Z",
      "autores": [
       "Salman Rushdie"
@@ -2642,6 +2655,7 @@
      "id": "69899ee043c2afc0bbb59cb7",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/fa0366f8-0ba4-42af-a56f-1e4c37984f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2653,7 +2667,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee043c2afc0bbb59cc3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:24Z",
      "autores": [
       "Salman Rushdie"
@@ -2669,6 +2683,7 @@
      "id": "69899ee043c2afc0bbb59cc3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e9bd8609-eac2-4988-2f5f-de0e32f53c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2680,7 +2695,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee043c2afc0bbb59ccf": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:24Z",
      "autores": [
       "Freida McFadden"
@@ -2696,6 +2711,7 @@
      "id": "69899ee043c2afc0bbb59ccf",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/40c2fec8-abc6-41a6-d17a-6ec7ab5c4c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2707,7 +2723,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee043c2afc0bbb59cdf": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:24Z",
      "autores": [
       "Shari Lapena"
@@ -2723,6 +2739,7 @@
      "id": "69899ee043c2afc0bbb59cdf",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/351217e5-3778-4fc1-0696-ad7935bdef00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2734,7 +2751,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59ced": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Luis García Jambrina"
@@ -2750,6 +2767,7 @@
      "id": "69899ee143c2afc0bbb59ced",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1a69b272-308d-4ee3-0e52-3770663dc100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2761,7 +2779,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59cfb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Tere Díaz"
@@ -2777,6 +2795,7 @@
      "id": "69899ee143c2afc0bbb59cfb",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5f1bd8a3-6b1d-4038-9693-a3b3f3264b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2788,7 +2807,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59d07": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Brian Herbert"
@@ -2804,6 +2823,7 @@
      "id": "69899ee143c2afc0bbb59d07",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/3d5e1d86-9647-4352-2791-c2db5c112500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2815,7 +2835,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59d13": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Susana Martín Gijón"
@@ -2831,6 +2851,7 @@
      "id": "69899ee143c2afc0bbb59d13",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/248ccc68-299b-4003-724d-82bef342a800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2842,7 +2863,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59d1f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Miguel Ángel González"
@@ -2858,6 +2879,7 @@
      "id": "69899ee143c2afc0bbb59d1f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/69da8680-b4a4-4c6c-48b3-3bc5968a3300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2869,7 +2891,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59d2d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Rachel Van Dyken"
@@ -2885,6 +2907,7 @@
      "id": "69899ee143c2afc0bbb59d2d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b55ef642-d875-4d0f-d46c-80aa2fcf1900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -2896,7 +2919,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69899ee143c2afc0bbb59d45": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-09T08:46:25Z",
      "autores": [
       "Jennifer Iacopelli"
@@ -2912,6 +2935,7 @@
      "id": "69899ee143c2afc0bbb59d45",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6581cbee-2604-4d54-486e-c53d4ef96b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -3031,7 +3055,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "699342badabe66ea10778d1c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-16T16:15:54Z",
      "autores": [
       "Cristina Araújo Gámir"
@@ -3047,6 +3071,7 @@
      "id": "699342badabe66ea10778d1c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/50fd5615-7f99-4db2-cc29-b66c4733a100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -3085,7 +3110,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "699342bbdabe66ea10778d90": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-16T16:15:55Z",
      "autores": [
       "Hiyoko Kurisu"
@@ -3101,6 +3126,7 @@
      "id": "699342bbdabe66ea10778d90",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a445747c-02b7-49b8-5d59-77057234ba00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -3139,7 +3165,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "699342bcdabe66ea10778dd1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-16T16:15:56Z",
      "autores": [
       "Ana María Matute"
@@ -3155,6 +3181,7 @@
      "id": "699342bcdabe66ea10778dd1",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7211631.jpg?size=large&t=1766156622",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -3463,7 +3490,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "699342c1dabe66ea107790e1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-16T16:16:01Z",
      "autores": [
       "Pedro Martí"
@@ -3479,6 +3506,7 @@
      "id": "699342c1dabe66ea107790e1",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7200192.jpg?size=large&t=1765559349",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -3490,7 +3518,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "699342c1dabe66ea107790ed": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-16T16:16:01Z",
      "autores": [
       "David Uclés"
@@ -3506,6 +3534,7 @@
      "id": "699342c1dabe66ea107790ed",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7283331.jpg?size=large&t=1770232850",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4625,7 +4654,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dcfb63449074e3bc12": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:28Z",
      "autores": [
       "Jung Chang"
@@ -4641,6 +4670,7 @@
      "id": "6995e5dcfb63449074e3bc12",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f1d1653d-d4ec-4bdf-25a8-965762ec6f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4652,7 +4682,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dcfb63449074e3bc20": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:28Z",
      "autores": [
       "David Foenkinos"
@@ -4668,6 +4698,7 @@
      "id": "6995e5dcfb63449074e3bc20",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7270046.jpg?size=large&t=1769727825",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4679,7 +4710,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dcfb63449074e3bc2e": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:28Z",
      "autores": [
       "Luis Zueco"
@@ -4695,6 +4726,7 @@
      "id": "6995e5dcfb63449074e3bc2e",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7271520.jpg?size=large&t=1769814265",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4706,7 +4738,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5ddfb63449074e3bc5d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:29Z",
      "autores": [
       "Shaun Walker"
@@ -4722,6 +4754,7 @@
      "id": "6995e5ddfb63449074e3bc5d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c5503f00-c751-4bff-f694-a8e416d70f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4733,7 +4766,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5ddfb63449074e3bc6b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:29Z",
      "autores": [
       "Shailee Thompson"
@@ -4749,6 +4782,7 @@
      "id": "6995e5ddfb63449074e3bc6b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e5ca9021-6f90-46cf-146f-057734d77a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4760,7 +4794,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bc87": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Leila Guerriero"
@@ -4776,6 +4810,7 @@
      "id": "6995e5defb63449074e3bc87",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/79f4a689-54d2-433e-59df-fb35a58cf600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4787,7 +4822,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bc95": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Pol Guasch"
@@ -4803,6 +4838,7 @@
      "id": "6995e5defb63449074e3bc95",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9a1f9487-4b27-471e-8160-ad90341b4200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4814,7 +4850,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bca1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Claire Lynch"
@@ -4830,6 +4866,7 @@
      "id": "6995e5defb63449074e3bca1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6ac3020f-27d0-4bcc-914d-643a8e385900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4841,7 +4878,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bcb1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Jano García"
@@ -4857,6 +4894,7 @@
      "id": "6995e5defb63449074e3bcb1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6154b6e2-59c8-42cb-d5fb-2f349c7c1400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4868,7 +4906,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bcbb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Mick Herron"
@@ -4884,6 +4922,7 @@
      "id": "6995e5defb63449074e3bcbb",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/fb556d47-1ac7-4a44-95f0-74bf66b31900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4895,7 +4934,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bcd5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Rebeca Stones"
@@ -4911,6 +4950,7 @@
      "id": "6995e5defb63449074e3bcd5",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/97438ead-24d1-467b-05f0-9bed04014400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4922,7 +4962,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5defb63449074e3bce3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:30Z",
      "autores": [
       "Kiran Desai"
@@ -4938,6 +4978,7 @@
      "id": "6995e5defb63449074e3bce3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/03e15e6a-b731-49d4-65fe-b72685cf4e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4949,7 +4990,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dffb63449074e3bd05": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:31Z",
      "autores": [
       "Fernando García Ballesteros"
@@ -4965,6 +5006,7 @@
      "id": "6995e5dffb63449074e3bd05",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d2ab1b8b-7a2e-426d-3820-e072bc80ba00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -4976,7 +5018,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dffb63449074e3bd15": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:31Z",
      "autores": [
       "Toshikazu Kawaguchi"
@@ -4992,6 +5034,7 @@
      "id": "6995e5dffb63449074e3bd15",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/03b9c810-18e9-4ccd-5dca-48b7f991a300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -5003,7 +5046,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dffb63449074e3bd21": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:31Z",
      "autores": [
       "Aria Aber"
@@ -5019,6 +5062,7 @@
      "id": "6995e5dffb63449074e3bd21",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/896851e4-4e5b-4719-b346-3d33e7f1d400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -5030,7 +5074,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6995e5dffb63449074e3bd2f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-02-18T16:16:31Z",
      "autores": [
       "Iñaki Urdangarin"
@@ -5046,6 +5090,7 @@
      "id": "6995e5dffb63449074e3bd2f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cbe4e6db-e1f6-4c36-da50-5e78c819ac00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6380,7 +6425,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a521e6564021d38e7f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:29Z",
      "autores": [
       "Juan Manuel Gil"
@@ -6396,6 +6441,7 @@
      "id": "69aec8a521e6564021d38e7f",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7314863.jpg?size=large&t=1770750314",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6461,7 +6507,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a521e6564021d38ef5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:29Z",
      "autores": [
       "Colleen Hoover"
@@ -6477,6 +6523,7 @@
      "id": "69aec8a521e6564021d38ef5",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7325653.jpg?size=large&t=1771945450",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6515,7 +6562,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a621e6564021d38f16": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:30Z",
      "autores": [
       "Calista Sweet"
@@ -6531,6 +6578,7 @@
      "id": "69aec8a621e6564021d38f16",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a6b3d301-ddde-407b-757e-a0adc9c09a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6542,7 +6590,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a621e6564021d38f34": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:30Z",
      "autores": [
       "Manuel Vilas"
@@ -6558,6 +6606,7 @@
      "id": "69aec8a621e6564021d38f34",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7327727.jpg?size=large&t=1771369381",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6596,7 +6645,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a621e6564021d38f55": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:30Z",
      "autores": [
       "Catharine Titi"
@@ -6612,6 +6661,7 @@
      "id": "69aec8a621e6564021d38f55",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/176de7ef-999a-4485-a59b-4589deed9800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6704,7 +6754,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a721e6564021d38fe6": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:31Z",
      "autores": [
       "Víctor del Árbol"
@@ -6720,6 +6770,7 @@
      "id": "69aec8a721e6564021d38fe6",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7242013.jpg?size=large&t=1768403159",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6731,7 +6782,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a721e6564021d38ff4": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:31Z",
      "autores": [
       "Luis Landero"
@@ -6747,6 +6798,7 @@
      "id": "69aec8a721e6564021d38ff4",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7319426.jpg?size=large&t=1770894288",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6839,7 +6891,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a821e6564021d390f5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:32Z",
      "autores": [
       "Silvia Congost"
@@ -6855,6 +6907,7 @@
      "id": "69aec8a821e6564021d390f5",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/585132ef-0f49-4c07-2843-0a76a9876300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6866,7 +6919,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a921e6564021d39123": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:33Z",
      "autores": [
       "Karina Sainz Borgo"
@@ -6882,6 +6935,7 @@
      "id": "69aec8a921e6564021d39123",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7283481.jpg?size=large&t=1770246193",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6893,7 +6947,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a921e6564021d39149": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:33Z",
      "autores": [
       "Lucía Solla Sobral"
@@ -6909,6 +6963,7 @@
      "id": "69aec8a921e6564021d39149",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/924cbdbb-46f9-44d3-54a5-bab49c7ab300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6920,7 +6975,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a921e6564021d39165": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:33Z",
      "autores": [
       "Jeanette Winterson"
@@ -6936,6 +6991,7 @@
      "id": "69aec8a921e6564021d39165",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/38637201-f757-4d4b-5890-a74e4a3dd700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6947,7 +7003,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8a921e6564021d3917f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:33Z",
      "autores": [
       "Safia El Aaddam"
@@ -6963,6 +7019,7 @@
      "id": "69aec8a921e6564021d3917f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/54b991c8-fc7f-472f-4617-fc0bb9985800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -6974,7 +7031,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8aa21e6564021d39199": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:34Z",
      "autores": [
       "Nieves Corte"
@@ -6990,6 +7047,7 @@
      "id": "69aec8aa21e6564021d39199",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b4d9e1ec-6928-4a6e-3539-f3cb83352b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7001,7 +7059,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8aa21e6564021d391a7": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:34Z",
      "autores": [
       "Selva Almada"
@@ -7017,6 +7075,7 @@
      "id": "69aec8aa21e6564021d391a7",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ff9608a1-1138-4edc-491e-c415f619f500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7028,7 +7087,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8aa21e6564021d391c1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:34Z",
      "autores": [
       "Beatriz Rivas"
@@ -7044,6 +7103,7 @@
      "id": "69aec8aa21e6564021d391c1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a403c0da-4aed-4fd6-36a8-927abafc1c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7055,7 +7115,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69aec8aa21e6564021d391cd": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-09T13:18:34Z",
      "autores": [
       "Juan Gómez-Jurado"
@@ -7071,6 +7131,7 @@
      "id": "69aec8aa21e6564021d391cd",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7325651.jpg?size=large&t=1770994965",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7082,7 +7143,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d0fe46b635024cd0ce": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:08Z",
      "autores": [
       "Gillian McAllister"
@@ -7098,6 +7159,7 @@
      "id": "69bd79d0fe46b635024cd0ce",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/41af8bdb-030b-4001-2af9-fc142f23c100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7109,7 +7171,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d0fe46b635024cd0dc": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:08Z",
      "autores": [
       "Christian Gálvez"
@@ -7125,6 +7187,7 @@
      "id": "69bd79d0fe46b635024cd0dc",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b1dcea37-9576-4705-10af-87d4cba3b100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7136,7 +7199,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d0fe46b635024cd0ea": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:08Z",
      "autores": [
       "Reyes Monforte"
@@ -7152,6 +7215,7 @@
      "id": "69bd79d0fe46b635024cd0ea",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7329951.jpg?size=large&t=1771441520",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7163,7 +7227,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d0fe46b635024cd0f8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:08Z",
      "autores": [
       "Han Kang"
@@ -7179,6 +7243,7 @@
      "id": "69bd79d0fe46b635024cd0f8",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7342798.jpg?size=large&t=1772046227",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7190,7 +7255,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd133": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Sergio del Molino"
@@ -7206,6 +7271,7 @@
      "id": "69bd79d1fe46b635024cd133",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7342796.jpg?size=large&t=1772046340",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7217,7 +7283,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd141": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Santiago Díaz"
@@ -7233,6 +7299,7 @@
      "id": "69bd79d1fe46b635024cd141",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7098169.jpg?size=large&t=1769814243",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7244,7 +7311,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd151": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Jorge Molist"
@@ -7260,6 +7327,7 @@
      "id": "69bd79d1fe46b635024cd151",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7355322.jpg?size=large&t=1772737572",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7271,7 +7339,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd15f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Sara Barquinero"
@@ -7287,6 +7355,7 @@
      "id": "69bd79d1fe46b635024cd15f",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7329949.jpg?size=large&t=1771441490",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7298,7 +7367,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd16d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Pierre Lemaitre"
@@ -7314,6 +7383,7 @@
      "id": "69bd79d1fe46b635024cd16d",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7327884.jpg?size=large&t=1771340508",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7325,7 +7395,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd17b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "José Luis Sastre"
@@ -7341,6 +7411,7 @@
      "id": "69bd79d1fe46b635024cd17b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ac6aa0d8-d7e3-44a2-8c88-e4385e67aa00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -7352,7 +7423,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69bd79d1fe46b635024cd189": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-03-20T16:46:09Z",
      "autores": [
       "Jessie Garcia"
@@ -7368,6 +7439,7 @@
      "id": "69bd79d1fe46b635024cd189",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/031157e7-9a06-489a-903c-cf802f7b8100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -9944,7 +10016,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad183d4c889a0d2d7d4": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:45Z",
      "autores": [
       "Andrea Longarela"
@@ -9960,6 +10032,7 @@
      "id": "69d62ad183d4c889a0d2d7d4",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1c53e57e-d7ad-4499-4d70-15b89ddb0000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10025,7 +10098,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad183d4c889a0d2d82e": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:45Z",
      "autores": [
       "Inés Plana"
@@ -10041,6 +10114,7 @@
      "id": "69d62ad183d4c889a0d2d82e",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5e72cc71-2519-4650-e109-74b6950ea600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10052,7 +10126,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad283d4c889a0d2d83c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:46Z",
      "autores": [
       "David Toscana"
@@ -10068,6 +10142,7 @@
      "id": "69d62ad283d4c889a0d2d83c",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7290532.jpg?size=large&t=1771023991",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10133,7 +10208,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad283d4c889a0d2d8fb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:46Z",
      "autores": [
       "Stefan Zweig"
@@ -10149,6 +10224,7 @@
      "id": "69d62ad283d4c889a0d2d8fb",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7389328.jpg?size=large&t=1773961311",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10214,7 +10290,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad483d4c889a0d2da31": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:48Z",
      "autores": [
       "Marie Kondo"
@@ -10230,6 +10306,7 @@
      "id": "69d62ad483d4c889a0d2da31",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ceea00cf-6874-47dd-9a6d-2aa4ee53e400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10241,7 +10318,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad583d4c889a0d2dab8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:49Z",
      "autores": [
       "Amélie Nothomb"
@@ -10257,6 +10334,7 @@
      "id": "69d62ad583d4c889a0d2dab8",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7402214.jpg?size=large&t=1774364581",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10457,7 +10535,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad783d4c889a0d2dcad": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:51Z",
      "autores": [
       "Hisashi Kashiwai"
@@ -10473,6 +10551,7 @@
      "id": "69d62ad783d4c889a0d2dcad",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7375485.jpg?size=large&t=1773702084",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10484,7 +10563,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69d62ad783d4c889a0d2dd07": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-08T10:15:51Z",
      "autores": [
       "Kevin Kwan"
@@ -10500,6 +10579,7 @@
      "id": "69d62ad783d4c889a0d2dd07",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ece0735f-0283-4d98-b74f-a713fcfd2c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10673,7 +10753,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e8e000546bdf110dcc": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:52Z",
      "autores": [
       "Natalia Ginzburg"
@@ -10689,6 +10769,7 @@
      "id": "69e0c4e8e000546bdf110dcc",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7355324.jpg?size=large&t=1772723055",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10700,7 +10781,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e8e000546bdf110dda": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:52Z",
      "autores": [
       "Hu AnYan"
@@ -10716,6 +10797,7 @@
      "id": "69e0c4e8e000546bdf110dda",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7355326.jpg?size=large&t=1772737534",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10727,7 +10809,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e8e000546bdf110df9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:52Z",
      "autores": [
       "Fernando Aramburu"
@@ -10743,6 +10825,7 @@
      "id": "69e0c4e8e000546bdf110df9",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7351308.jpg?size=large&t=1772579104",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10754,7 +10837,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e9e000546bdf110e31": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:53Z",
      "autores": [
       "Roberto Ampuero"
@@ -10770,6 +10853,7 @@
      "id": "69e0c4e9e000546bdf110e31",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0c10a3f5-0574-4dea-f64b-f50296a88a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10781,7 +10865,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e9e000546bdf110e3d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:53Z",
      "autores": [
       "Eva Baltasar"
@@ -10797,6 +10881,7 @@
      "id": "69e0c4e9e000546bdf110e3d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c1bb7c5c-8ee3-4293-4b52-e57fffc6b500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10808,7 +10893,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e9e000546bdf110e4b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:53Z",
      "autores": [
       "Juan Francisco Ferrándiz"
@@ -10824,6 +10909,7 @@
      "id": "69e0c4e9e000546bdf110e4b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/22a4f55c-e094-4665-a547-f0b2f608db00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10835,7 +10921,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e9e000546bdf110e67": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:53Z",
      "autores": [
       "Peridis"
@@ -10851,6 +10937,7 @@
      "id": "69e0c4e9e000546bdf110e67",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/353f397c-7a3b-4913-4311-b6f8e6310400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10889,7 +10976,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4e9e000546bdf110e85": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:53Z",
      "autores": [
       "Albert Espinosa"
@@ -10905,6 +10992,7 @@
      "id": "69e0c4e9e000546bdf110e85",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7342784.jpg?size=large&t=1772031803",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10916,7 +11004,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4eae000546bdf110eeb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:54Z",
      "autores": [
       "Henrik Fexeus"
@@ -10932,6 +11020,7 @@
      "id": "69e0c4eae000546bdf110eeb",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7cf94508-9820-4c6b-af04-cc0990d1b900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10943,7 +11032,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4eae000546bdf110ef9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:54Z",
      "autores": [
       "Nerea Pascual"
@@ -10959,6 +11048,7 @@
      "id": "69e0c4eae000546bdf110ef9",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/83dfb8ac-42b8-4683-1a96-7494963f0000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -10970,7 +11060,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4eae000546bdf110f17": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:54Z",
      "autores": [
       "Sonsoles Ónega"
@@ -10986,6 +11076,7 @@
      "id": "69e0c4eae000546bdf110f17",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8764f5b3-1092-4073-d684-a7a804f95700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11024,7 +11115,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ebe000546bdf110f53": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:55Z",
      "autores": [
       "Arantza Portabales"
@@ -11040,6 +11131,7 @@
      "id": "69e0c4ebe000546bdf110f53",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9b8bc452-6eaf-4685-5241-8a98d140a400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11078,7 +11170,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ece000546bdf11103f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:56Z",
      "autores": [
       "Florencia Bonelli"
@@ -11094,6 +11186,7 @@
      "id": "69e0c4ece000546bdf11103f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/68e23c54-d4d0-4161-700a-4c15d8c13a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11105,7 +11198,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ece000546bdf11104d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:56Z",
      "autores": [
       "Byung-Chul Han"
@@ -11121,6 +11214,7 @@
      "id": "69e0c4ece000546bdf11104d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/78d79319-7fa5-4080-f5b9-2afb31859d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11132,7 +11226,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ede000546bdf111088": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:57Z",
      "autores": [
       "Pierre Boulle"
@@ -11148,6 +11242,7 @@
      "id": "69e0c4ede000546bdf111088",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a0b20f74-8b95-4e41-2a04-6d78c5d73d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11159,7 +11254,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ede000546bdf111094": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:57Z",
      "autores": [
       "Nona Fernández"
@@ -11175,6 +11270,7 @@
      "id": "69e0c4ede000546bdf111094",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/aeb04fed-ae8e-4169-32e6-ae6f84c18c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11186,7 +11282,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ede000546bdf1110a4": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:57Z",
      "autores": [
       "Bernardo Atxaga"
@@ -11202,6 +11298,7 @@
      "id": "69e0c4ede000546bdf1110a4",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7401399.jpg?size=large&t=1774306926",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11213,7 +11310,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ede000546bdf1110b2": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:57Z",
      "autores": [
       "Isak Dinesen"
@@ -11229,6 +11326,7 @@
      "id": "69e0c4ede000546bdf1110b2",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e4b0eceb-13ef-4b51-6f74-de9043e59000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11240,7 +11338,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4ede000546bdf1110be": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:57Z",
      "autores": [
       "John Banville"
@@ -11256,6 +11354,7 @@
      "id": "69e0c4ede000546bdf1110be",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7389327.jpg?size=large&t=1773961310",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11267,7 +11366,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4eee000546bdf1110e6": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:58Z",
      "autores": [
       "Jacobo Grinberg-Zylberbaum"
@@ -11283,6 +11382,7 @@
      "id": "69e0c4eee000546bdf1110e6",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0deed58b-2dfa-4b59-fe7f-44f1b5f9a000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -11294,7 +11394,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e0c4eee000546bdf1110f8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-16T11:15:58Z",
      "autores": [
       "Alia Trabucco Zerán"
@@ -11310,6 +11410,7 @@
      "id": "69e0c4eee000546bdf1110f8",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e2566e7c-072b-4516-52be-76fc7a7ad400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12104,7 +12205,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5747399fc9bf2063ee": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:43Z",
      "autores": [
       "Emmanuel Carrére"
@@ -12120,6 +12221,7 @@
      "id": "69e20f5747399fc9bf2063ee",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7402213.jpg?size=large&t=1774379076",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12131,7 +12233,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5747399fc9bf206411": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:43Z",
      "autores": [
       "Élmer Mendoza"
@@ -12147,6 +12249,7 @@
      "id": "69e20f5747399fc9bf206411",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4838056b-79aa-489e-8e53-1d6f2218c800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12158,7 +12261,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5847399fc9bf20641d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:44Z",
      "autores": [
       "Anne Jacobs"
@@ -12174,6 +12277,7 @@
      "id": "69e20f5847399fc9bf20641d",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7358617.jpg?size=large&t=1773097323",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12185,7 +12289,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5847399fc9bf20642b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:44Z",
      "autores": [
       "Raquel Brune"
@@ -12201,6 +12305,7 @@
      "id": "69e20f5847399fc9bf20642b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8f7b70a2-6227-49cc-65a3-cd342e94fe00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12212,7 +12317,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5847399fc9bf206439": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:44Z",
      "autores": [
       "Lea Ypi"
@@ -12228,6 +12333,7 @@
      "id": "69e20f5847399fc9bf206439",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7402224.jpg?size=large&t=1774379055",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12239,7 +12345,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5847399fc9bf206445": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:44Z",
      "autores": [
       "Niklas Natt Och Dag"
@@ -12255,6 +12361,7 @@
      "id": "69e20f5847399fc9bf206445",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/49ee1424-f9c7-41b9-ab8a-b0363f031f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12266,7 +12373,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5847399fc9bf206453": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:44Z",
      "autores": [
       "Sophie Lark"
@@ -12282,6 +12389,7 @@
      "id": "69e20f5847399fc9bf206453",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/85636fab-6749-4bd6-8866-524619186300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12293,7 +12401,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064a0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Eleanor Buchanan"
@@ -12309,6 +12417,7 @@
      "id": "69e20f5947399fc9bf2064a0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cef78f37-bcaa-4271-c5f3-690a2518eb00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12320,7 +12429,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064ac": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Arthur C. Clarke"
@@ -12336,6 +12445,7 @@
      "id": "69e20f5947399fc9bf2064ac",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6bc88517-1dc5-4b44-230b-57a8b823fd00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12347,7 +12457,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064b8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Ryan Leak"
@@ -12363,6 +12473,7 @@
      "id": "69e20f5947399fc9bf2064b8",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7b84fe15-614f-4bbc-e8aa-3454e5a4d600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12374,7 +12485,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064c2": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Carles Porta"
@@ -12390,6 +12501,7 @@
      "id": "69e20f5947399fc9bf2064c2",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a7a6fffa-09ad-4874-7f31-168bce113a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12401,7 +12513,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064ce": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Isabel Allende"
@@ -12417,6 +12529,7 @@
      "id": "69e20f5947399fc9bf2064ce",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7343295.jpg?size=large&t=1772060689",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12428,7 +12541,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064e6": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Andrea Marcolongo"
@@ -12444,6 +12557,7 @@
      "id": "69e20f5947399fc9bf2064e6",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/eab125cf-076a-44bc-c76c-e7a8369e6100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -12455,7 +12569,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69e20f5947399fc9bf2064f0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-17T10:45:45Z",
      "autores": [
       "Takeshi Yoro"
@@ -12471,6 +12585,7 @@
      "id": "69e20f5947399fc9bf2064f0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ad9fd710-dabf-470d-fa79-577378423500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13076,7 +13191,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d79b6c9e6a87e5adb27": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:53Z",
      "autores": [
       "Allen Levi"
@@ -13092,6 +13207,7 @@
      "id": "69ea0d79b6c9e6a87e5adb27",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ffdd2dba-0d26-475d-54d0-747fa566d600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13103,7 +13219,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d79b6c9e6a87e5adb35": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:53Z",
      "autores": [
       "Freida McFadden"
@@ -13119,6 +13235,7 @@
      "id": "69ea0d79b6c9e6a87e5adb35",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/133a187b-78a8-446e-d75a-125b819aad00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13130,7 +13247,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d79b6c9e6a87e5adb43": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:53Z",
      "autores": [
       "Javier Torras De Ugarte"
@@ -13146,6 +13263,7 @@
      "id": "69ea0d79b6c9e6a87e5adb43",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d061eff0-d109-4f74-4693-8dfff6e11d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13157,7 +13275,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d79b6c9e6a87e5adb4f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:53Z",
      "autores": [
       "Regina Rodríguez Sirvent"
@@ -13173,6 +13291,7 @@
      "id": "69ea0d79b6c9e6a87e5adb4f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/38783d3b-ddc3-4767-8cfd-31ee009e8e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13184,7 +13303,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adb67": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Nieves Herrero"
@@ -13200,6 +13319,7 @@
      "id": "69ea0d7ab6c9e6a87e5adb67",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ffd6d215-ea56-4cde-a72c-c40d1a29f000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13211,7 +13331,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adb83": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Sarah Lark"
@@ -13227,6 +13347,7 @@
      "id": "69ea0d7ab6c9e6a87e5adb83",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/07282050-f3d0-440a-5e7d-10516fa86900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13238,7 +13359,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adb9d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Freida McFadden"
@@ -13254,6 +13375,7 @@
      "id": "69ea0d7ab6c9e6a87e5adb9d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a195cfc8-600b-44b6-26df-c5dd0f366900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13265,7 +13387,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adbab": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Toshikazu Kawaguchi"
@@ -13281,6 +13403,7 @@
      "id": "69ea0d7ab6c9e6a87e5adbab",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0fe6962f-0495-4c03-6a89-cbe660b18900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13292,7 +13415,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adbb7": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Alexandre Escrivà"
@@ -13308,6 +13431,7 @@
      "id": "69ea0d7ab6c9e6a87e5adbb7",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/32eac8f5-e18d-4be6-cb6f-4cc1f9dfeb00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13319,7 +13443,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7ab6c9e6a87e5adbc5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:54Z",
      "autores": [
       "Isabel San Sebastián"
@@ -13335,6 +13459,7 @@
      "id": "69ea0d7ab6c9e6a87e5adbc5",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4df01cf6-e95a-4750-48b7-66c5f6900f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13346,7 +13471,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7bb6c9e6a87e5adc31": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:55Z",
      "autores": [
       "Francisco Sempere"
@@ -13362,6 +13487,7 @@
      "id": "69ea0d7bb6c9e6a87e5adc31",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c3b9cbb0-961e-4e99-f7f7-f4804443a900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13373,7 +13499,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7bb6c9e6a87e5adc3f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:55Z",
      "autores": [
       "Nora Roberts"
@@ -13389,6 +13515,7 @@
      "id": "69ea0d7bb6c9e6a87e5adc3f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b915d466-110b-4251-8aba-becac5d29800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -13400,7 +13527,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69ea0d7bb6c9e6a87e5adc55": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-04-23T12:15:55Z",
      "autores": [
       "Elísabet Benavent"
@@ -13416,6 +13543,7 @@
      "id": "69ea0d7bb6c9e6a87e5adc55",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7249739.jpg?size=large&t=1773875001",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14777,7 +14905,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f922ba5e7d5b4a0bb070ed": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-04T22:50:34Z",
      "autores": [
       "Ian McEwan"
@@ -14793,6 +14921,7 @@
      "id": "69f922ba5e7d5b4a0bb070ed",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7272548.jpg?size=large&t=1770044622",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14804,7 +14933,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f922bd5e7d5b4a0bb0738a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-04T22:50:37Z",
      "autores": [
       "Stefan Zweig"
@@ -14820,6 +14949,7 @@
      "id": "69f922bd5e7d5b4a0bb0738a",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7253316.jpg?size=large&t=1769166333",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14831,7 +14961,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f922be5e7d5b4a0bb073ec": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-04T22:50:38Z",
      "autores": [
       "Eduardo Mendoza"
@@ -14847,6 +14977,7 @@
      "id": "69f922be5e7d5b4a0bb073ec",
      "intereses": [],
      "portada": "https://covers.feedbooks.net/item/7425388.jpg?size=large&t=1775066659",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14858,7 +14989,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc53822aca0cbd36d994": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:55Z",
      "autores": [
       "Dancing Snail"
@@ -14874,6 +15005,7 @@
      "id": "69f9bc53822aca0cbd36d994",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f12b759b-b119-4261-5325-3e3d621ace00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14885,7 +15017,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc53822aca0cbd36d9ae": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:55Z",
      "autores": [
       "Dr. William Davis"
@@ -14901,6 +15033,7 @@
      "id": "69f9bc53822aca0cbd36d9ae",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0a7a4816-c2b9-48c0-55e3-9667c66fcd00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14912,7 +15045,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc54822aca0cbd36d9d0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:56Z",
      "autores": [
       "Pere Estupinyà"
@@ -14928,6 +15061,7 @@
      "id": "69f9bc54822aca0cbd36d9d0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e75aa9d7-a25b-453e-b003-80cbdabf8300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14939,7 +15073,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc55822aca0cbd36da08": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:57Z",
      "autores": [
       "Pedro Salazar Ugarte"
@@ -14955,6 +15089,7 @@
      "id": "69f9bc55822aca0cbd36da08",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e87cc5a7-49bc-48c8-6dc3-fa8d58df6a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14966,7 +15101,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc55822aca0cbd36da16": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:57Z",
      "autores": [
       "Elizabeth Kolbert"
@@ -14982,6 +15117,7 @@
      "id": "69f9bc55822aca0cbd36da16",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9bfced56-d0b5-4901-dc10-e9a3a02b2d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -14993,7 +15129,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc57822aca0cbd36daba": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:59Z",
      "autores": [
       "Tim Harford"
@@ -15009,6 +15145,7 @@
      "id": "69f9bc57822aca0cbd36daba",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/35f6b5e9-1328-4e81-8409-4c00f5753e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -15020,7 +15157,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc57822aca0cbd36dac8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:45:59Z",
      "autores": [
       "Stephen Grosz"
@@ -15036,6 +15173,7 @@
      "id": "69f9bc57822aca0cbd36dac8",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7ab4b0c0-1a89-42b3-1876-4d9a59aea300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -15047,7 +15185,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "69f9bc58822aca0cbd36db18": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-05T09:46:00Z",
      "autores": [
       "Ignacio Solares"
@@ -15063,6 +15201,7 @@
      "id": "69f9bc58822aca0cbd36db18",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7cd2680a-e7ee-482a-91c9-91ad5d3a6500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -15938,7 +16077,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a154fa6f50fdb5c6ded5436": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-26T07:45:42Z",
      "autores": [
       "Marie Vingtras"
@@ -15954,6 +16093,7 @@
      "id": "6a154fa6f50fdb5c6ded5436",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/874d4370-e559-4ffa-75be-cb8bf575c300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16613,7 +16753,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65b093f9df70cec1810": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:11Z",
      "autores": [
       "Nikoo Kafi"
@@ -16629,6 +16769,7 @@
      "id": "6a16b65b093f9df70cec1810",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5da7a2f5-3fff-4fed-75e4-ad6f15bccf00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16640,7 +16781,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65b093f9df70cec1822": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:11Z",
      "autores": [
       "Daniel Kehlmann"
@@ -16656,6 +16797,7 @@
      "id": "6a16b65b093f9df70cec1822",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e09ca86b-3497-46ee-c895-3647ebe11a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16667,7 +16809,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65b093f9df70cec183c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:11Z",
      "autores": [
       "Kōda Aya"
@@ -16683,6 +16825,7 @@
      "id": "6a16b65b093f9df70cec183c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0e2fead0-29d2-4cf8-a2ce-4e4d6fbe2500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16694,7 +16837,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec184a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "Fareed Zakaria"
@@ -16710,6 +16853,7 @@
      "id": "6a16b65c093f9df70cec184a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/09056c26-9f9c-4cc3-7935-3efede947700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16721,7 +16865,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec1876": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "Virginia Evans"
@@ -16737,6 +16881,7 @@
      "id": "6a16b65c093f9df70cec1876",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9bdce370-fb18-4e5e-9087-5cc94ccf6a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16748,7 +16893,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec1884": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "Viviana Rivero"
@@ -16764,6 +16909,7 @@
      "id": "6a16b65c093f9df70cec1884",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b010ba6f-b3d5-462c-aa91-9275f9ce5500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16775,7 +16921,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec1892": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "Laia Jufresa"
@@ -16791,6 +16937,7 @@
      "id": "6a16b65c093f9df70cec1892",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8ea1b61b-d4e3-4c5d-3eec-60dd73b6a000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16802,7 +16949,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec18a0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "John Grisham"
@@ -16818,6 +16965,7 @@
      "id": "6a16b65c093f9df70cec18a0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/db955e99-d4ae-499d-5a67-0ec2f8a82300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16829,7 +16977,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65c093f9df70cec18ae": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:12Z",
      "autores": [
       "Javier Cercas"
@@ -16845,6 +16993,7 @@
      "id": "6a16b65c093f9df70cec18ae",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f38d4a6a-8561-480a-032f-25f6a75d8b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16856,7 +17005,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec18d4": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "Hiromi Kawakami"
@@ -16872,6 +17021,7 @@
      "id": "6a16b65d093f9df70cec18d4",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9ffc5f02-3a18-40e2-20f8-d596c25d3300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16883,7 +17033,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec18e2": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "Jilly Cooper"
@@ -16899,6 +17049,7 @@
      "id": "6a16b65d093f9df70cec18e2",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4ec5bbbc-4b9d-407d-dc52-273e7f05dc00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16910,7 +17061,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec18f0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "Antonio Scurati"
@@ -16926,6 +17077,7 @@
      "id": "6a16b65d093f9df70cec18f0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/50e89f9a-f32d-444c-46c8-a8b94b6de700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16937,7 +17089,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec18fe": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "M.L. Stedman"
@@ -16953,6 +17105,7 @@
      "id": "6a16b65d093f9df70cec18fe",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d67f5cbd-55da-48cd-50d1-941820d07500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16964,7 +17117,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec190c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "Antonio Cabanas"
@@ -16980,6 +17133,7 @@
      "id": "6a16b65d093f9df70cec190c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/781a7af2-16de-4b6b-4fdf-b3be27726300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -16991,7 +17145,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65d093f9df70cec191a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:13Z",
      "autores": [
       "Arturo Pérez-Reverte"
@@ -17007,6 +17161,7 @@
      "id": "6a16b65d093f9df70cec191a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/93f3a76d-7ed5-42b9-20fa-916b55206800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17018,7 +17173,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec1948": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Andrea D. Morales"
@@ -17034,6 +17189,7 @@
      "id": "6a16b65e093f9df70cec1948",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d29ea14f-82ef-4993-a93e-0991f7fbc800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17045,7 +17201,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec1956": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Pepe García"
@@ -17061,6 +17217,7 @@
      "id": "6a16b65e093f9df70cec1956",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/32f054a8-b689-4c24-2110-aaaa00cb3600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17072,7 +17229,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec1962": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Nilda Chiaraviglio"
@@ -17088,6 +17245,7 @@
      "id": "6a16b65e093f9df70cec1962",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/79f5ff7b-78f9-4d23-b4b4-00b6933e6400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17099,7 +17257,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec196e": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "David Olivas"
@@ -17115,6 +17273,7 @@
      "id": "6a16b65e093f9df70cec196e",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/361929b9-c414-4d62-eb07-d4bb0945bc00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17126,7 +17285,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec197c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Steven Erikson"
@@ -17142,6 +17301,7 @@
      "id": "6a16b65e093f9df70cec197c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/dbabb978-e63d-4f3e-7eab-5b263deb6100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17153,7 +17313,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec1988": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Lydia Cacho"
@@ -17169,6 +17329,7 @@
      "id": "6a16b65e093f9df70cec1988",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/432ede54-a743-419a-9ca2-f71d74a71500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17180,7 +17341,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a16b65e093f9df70cec1994": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-05-27T09:16:14Z",
      "autores": [
       "Catherine Fletcher"
@@ -17196,6 +17357,7 @@
      "id": "6a16b65e093f9df70cec1994",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/753f3c95-fdb8-4095-fd58-bf7d32523e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17207,7 +17369,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd2532a62e846a9f0d9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:46Z",
      "autores": [
       "Luis De La Fuente"
@@ -17223,6 +17385,7 @@
      "id": "6a1d5bd2532a62e846a9f0d9",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/26fe9e8c-548e-477f-a0c8-0a85b1ca7200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17234,7 +17397,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd2532a62e846a9f0f1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:46Z",
      "autores": [
       "Osho"
@@ -17250,6 +17413,7 @@
      "id": "6a1d5bd2532a62e846a9f0f1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a9e554e9-4bc4-4257-3393-805f8365a000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17261,7 +17425,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd2532a62e846a9f123": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:46Z",
      "autores": [
       "Lana Corujo"
@@ -17277,6 +17441,7 @@
      "id": "6a1d5bd2532a62e846a9f123",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d516bec2-1ae8-4670-f8ab-e13cf12d5300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17288,7 +17453,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd3532a62e846a9f131": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:47Z",
      "autores": [
       "Kristin Hannah"
@@ -17304,6 +17469,7 @@
      "id": "6a1d5bd3532a62e846a9f131",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c3ba4638-8fe6-47d5-5b9f-9828ce95da00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17315,7 +17481,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd3532a62e846a9f13f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:47Z",
      "autores": [
       "Catherine Walsh"
@@ -17331,6 +17497,7 @@
      "id": "6a1d5bd3532a62e846a9f13f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4025d471-392d-4cd1-93d8-59a407644300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -17342,7 +17509,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a1d5bd3532a62e846a9f152": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-01T10:15:47Z",
      "autores": [
       "Manuel Jabois"
@@ -17358,6 +17525,7 @@
      "id": "6a1d5bd3532a62e846a9f152",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c9306817-b342-43a3-fa82-4f79f18b5000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19205,7 +19373,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fc4b82487d5205d5d3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:40Z",
      "autores": [
       "Óscar Reboiras"
@@ -19221,6 +19389,7 @@
      "id": "6a2ab4fc4b82487d5205d5d3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a268d3de-0078-4c4e-2321-c1be90756300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19232,7 +19401,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fc4b82487d5205d5ef": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:40Z",
      "autores": [
       "Irene Nortes"
@@ -19248,6 +19417,7 @@
      "id": "6a2ab4fc4b82487d5205d5ef",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/fba4d430-3885-4893-95a9-dc5b039a5900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19259,7 +19429,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fc4b82487d5205d5fd": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:40Z",
      "autores": [
       "Denis Johnson"
@@ -19275,6 +19445,7 @@
      "id": "6a2ab4fc4b82487d5205d5fd",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a2736803-b9c7-4a9d-e5aa-e8a55fb3d500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19286,7 +19457,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fc4b82487d5205d60b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:40Z",
      "autores": [
       "Sandrone Dazieri"
@@ -19302,6 +19473,7 @@
      "id": "6a2ab4fc4b82487d5205d60b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/8268ce6d-2a0f-4723-a24b-e251bd553f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19313,7 +19485,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fc4b82487d5205d619": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:40Z",
      "autores": [
       "Toshikazu Kawaguchi"
@@ -19329,6 +19501,7 @@
      "id": "6a2ab4fc4b82487d5205d619",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e0bf5df4-2e69-475e-16a3-695082d28f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19340,7 +19513,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d633": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Sophie Elmhirst"
@@ -19356,6 +19529,7 @@
      "id": "6a2ab4fd4b82487d5205d633",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c5d70ada-fea8-4f8d-a52e-8ff073176800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19367,7 +19541,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d641": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Gil Pratsobrerroca"
@@ -19383,6 +19557,7 @@
      "id": "6a2ab4fd4b82487d5205d641",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d43679de-7bc4-44e1-cd9a-31bf027b6200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19394,7 +19569,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d65d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Jessica Felleman"
@@ -19410,6 +19585,7 @@
      "id": "6a2ab4fd4b82487d5205d65d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/298cbdc5-69f0-4d49-b84c-2a998d45e200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19421,7 +19597,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d66b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Sara Mesa"
@@ -19437,6 +19613,7 @@
      "id": "6a2ab4fd4b82487d5205d66b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1362cda2-0ee8-47ce-ce71-ae3260dd8a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19448,7 +19625,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d679": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "María Oruña"
@@ -19464,6 +19641,7 @@
      "id": "6a2ab4fd4b82487d5205d679",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/93fef7a4-3e95-481e-96eb-d0e45e4b6700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19475,7 +19653,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d687": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "María G. Durán"
@@ -19491,6 +19669,7 @@
      "id": "6a2ab4fd4b82487d5205d687",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/aa3ac46e-685c-4911-86fa-4b6bde086600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19502,7 +19681,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d695": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Iñaki C. Martínez"
@@ -19518,6 +19697,7 @@
      "id": "6a2ab4fd4b82487d5205d695",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0a12fc16-2502-486f-e3d8-538e8295be00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19529,7 +19709,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a2ab4fd4b82487d5205d6a3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-11T13:15:41Z",
      "autores": [
       "Rafael Santandreu"
@@ -19545,6 +19725,7 @@
      "id": "6a2ab4fd4b82487d5205d6a3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/24177af0-73ec-4a21-cf8b-c46adc9f2b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19556,7 +19737,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f42d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Xabi Uribe-Etxebarria"
@@ -19572,6 +19753,7 @@
      "id": "6a3161dbf3278d075052f42d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/80d72cc6-137d-4125-4d68-c70e46afb600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19583,7 +19765,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f439": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Adolfo Rodríguez"
@@ -19599,6 +19781,7 @@
      "id": "6a3161dbf3278d075052f439",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9f3cc776-4949-4a66-8aae-bb580d769200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19610,7 +19793,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f445": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Adolfo Rodríguez"
@@ -19626,6 +19809,7 @@
      "id": "6a3161dbf3278d075052f445",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c7fe705d-a4b6-4ac1-7b31-4ce0210fe000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19637,7 +19821,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f453": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Adolfo Rodríguez"
@@ -19653,6 +19837,7 @@
      "id": "6a3161dbf3278d075052f453",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9aa00c8c-a506-4d93-f9ed-b8c4f1aa7000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19664,7 +19849,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f45f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Irene Vallejo"
@@ -19680,6 +19865,7 @@
      "id": "6a3161dbf3278d075052f45f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6c8c1ac6-ff46-418e-0d46-5437bc514b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -19691,7 +19877,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a3161dbf3278d075052f46b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-06-16T14:46:51Z",
      "autores": [
       "Catherine Lacey"
@@ -19707,6 +19893,7 @@
      "id": "6a3161dbf3278d075052f46b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/45e0d6e3-ee97-4ebe-5bd4-ccd377a9aa00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21527,7 +21714,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b02969b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "Vanessa Chan"
@@ -21543,6 +21730,7 @@
      "id": "6a451a0d7d4426e92b02969b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c6996d70-618f-4c27-0d7c-c66d0d153e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21554,7 +21742,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b0296a9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "Brandon Sanderson"
@@ -21570,6 +21758,7 @@
      "id": "6a451a0d7d4426e92b0296a9",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6bb3a22b-1454-484b-2d52-2e03e3450d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21581,7 +21770,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b0296b7": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "David McCloskey"
@@ -21597,6 +21786,7 @@
      "id": "6a451a0d7d4426e92b0296b7",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/751d28b6-6e22-4377-7a15-6efe5771c700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21608,7 +21798,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b0296c5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "Milena Busquets"
@@ -21624,6 +21814,7 @@
      "id": "6a451a0d7d4426e92b0296c5",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f64a295b-25a5-4c65-8129-335cadf9ea00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21635,7 +21826,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b0296d1": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "Laura Bishop"
@@ -21651,6 +21842,7 @@
      "id": "6a451a0d7d4426e92b0296d1",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f5d1352c-bd8f-454d-2b32-d05970bc5e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21662,7 +21854,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0d7d4426e92b0296df": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:49Z",
      "autores": [
       "Freida McFadden"
@@ -21678,6 +21870,7 @@
      "id": "6a451a0d7d4426e92b0296df",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/17383f2b-8e09-4e7a-ec03-41d10217f200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21689,7 +21882,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0e7d4426e92b0296ed": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:50Z",
      "autores": [
       "Delphine De Vigan"
@@ -21705,6 +21898,7 @@
      "id": "6a451a0e7d4426e92b0296ed",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/2972a834-d177-4c85-f076-0410919b4b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21716,7 +21910,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0e7d4426e92b029707": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:50Z",
      "autores": [
       "Cherry Chic"
@@ -21732,6 +21926,7 @@
      "id": "6a451a0e7d4426e92b029707",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a04b1218-6bf0-49b5-ba5d-a63b0d8a2900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21743,7 +21938,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0e7d4426e92b029715": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:50Z",
      "autores": [
       "Elizabeth Strout"
@@ -21759,6 +21954,7 @@
      "id": "6a451a0e7d4426e92b029715",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/26325d08-cff6-438c-eaf3-e341903c1400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21770,7 +21966,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0e7d4426e92b029723": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:50Z",
      "autores": [
       "Joël Dicker"
@@ -21786,6 +21982,7 @@
      "id": "6a451a0e7d4426e92b029723",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ff2ba58f-b81a-4fd0-1047-ecb91ec68b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21797,7 +21994,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0f7d4426e92b029763": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:51Z",
      "autores": [
       "David Martínez Álvarez"
@@ -21813,6 +22010,7 @@
      "id": "6a451a0f7d4426e92b029763",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cb467801-62c9-4dd9-a021-c51ec7868f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21824,7 +22022,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0f7d4426e92b02976f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:51Z",
      "autores": [
       "Albert Espinosa"
@@ -21840,6 +22038,7 @@
      "id": "6a451a0f7d4426e92b02976f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b17329cb-3233-48d9-f829-35f1a5484000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21851,7 +22050,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a0f7d4426e92b029795": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:51Z",
      "autores": [
       "Kate Eberle"
@@ -21867,6 +22066,7 @@
      "id": "6a451a0f7d4426e92b029795",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cb99d879-0c60-47f9-8f01-0f96b391f900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21878,7 +22078,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a107d4426e92b0297eb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:52Z",
      "autores": [
       "John Grisham"
@@ -21894,6 +22094,7 @@
      "id": "6a451a107d4426e92b0297eb",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4626272c-c190-4652-bac4-657a70fb2700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21905,7 +22106,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a451a107d4426e92b0297f9": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-01T13:45:52Z",
      "autores": [
       "Jorge Díaz"
@@ -21921,6 +22122,7 @@
      "id": "6a451a107d4426e92b0297f9",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/99990709-a1e2-4d04-048a-970853b46300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21932,7 +22134,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8b2bdb88f9a734aa02": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:03Z",
      "autores": [
       "Belle Burden"
@@ -21948,6 +22150,7 @@
      "id": "6a60bb8b2bdb88f9a734aa02",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1525a1f2-9a66-4973-6e7b-1d298f858900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21959,7 +22162,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8c2bdb88f9a734aa1a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:04Z",
      "autores": [
       "Rachel Reid"
@@ -21975,6 +22178,7 @@
      "id": "6a60bb8c2bdb88f9a734aa1a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/30e61124-d278-4e7e-6a44-92c9f020bb00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -21986,7 +22190,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8c2bdb88f9a734aa3e": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:04Z",
      "autores": [
       "Ian C. Esslemont"
@@ -22002,6 +22206,7 @@
      "id": "6a60bb8c2bdb88f9a734aa3e",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0607d26b-8d7d-4c1b-9489-b45d135cf700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22013,7 +22218,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8c2bdb88f9a734aa4a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:04Z",
      "autores": [
       "Freida McFadden"
@@ -22029,6 +22234,7 @@
      "id": "6a60bb8c2bdb88f9a734aa4a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5d5f42ea-8191-4e1e-d0d6-f2df25bee000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22040,7 +22246,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8c2bdb88f9a734aa66": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:04Z",
      "autores": [
       "Nicole Trope"
@@ -22056,6 +22262,7 @@
      "id": "6a60bb8c2bdb88f9a734aa66",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/3e7652b5-df78-4a5e-b1ff-2419147be500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22067,7 +22274,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8c2bdb88f9a734aa74": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:04Z",
      "autores": [
       "Santiago Vera"
@@ -22083,6 +22290,7 @@
      "id": "6a60bb8c2bdb88f9a734aa74",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/390dc2b8-84a2-4862-1170-9cfd49267300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22094,7 +22302,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aa82": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Carley Fortune"
@@ -22110,6 +22318,7 @@
      "id": "6a60bb8d2bdb88f9a734aa82",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/87ef0411-b099-4191-b196-56110a266600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22121,7 +22330,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aa90": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Iván Baeza"
@@ -22137,6 +22346,7 @@
      "id": "6a60bb8d2bdb88f9a734aa90",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7fc4e117-9960-422a-2314-9a203be37b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22148,7 +22358,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aa9e": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Danielle Steel"
@@ -22164,6 +22374,7 @@
      "id": "6a60bb8d2bdb88f9a734aa9e",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/30ee63f3-958c-4b47-e05a-2de615f62100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22175,7 +22386,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aaac": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Satu Rämö"
@@ -22191,6 +22402,7 @@
      "id": "6a60bb8d2bdb88f9a734aaac",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/af6f2025-9e47-49e0-ee5d-53ff3ca62200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22202,7 +22414,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aabf": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Anne Jacobs"
@@ -22218,6 +22430,7 @@
      "id": "6a60bb8d2bdb88f9a734aabf",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e9445da9-692f-4918-037f-a64939472600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -22229,7 +22442,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a60bb8d2bdb88f9a734aacd": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-07-22T12:46:05Z",
      "autores": [
       "Francisco Sempere"
@@ -22245,6 +22458,7 @@
      "id": "6a60bb8d2bdb88f9a734aacd",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f054ce03-6c58-43c9-bb10-7ecbaa55aa00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24011,7 +24225,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0dd1f9dbf22d77968c8": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:29Z",
      "autores": [
       "Laura Nowlin"
@@ -24027,6 +24241,7 @@
      "id": "6a8ea0dd1f9dbf22d77968c8",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/cc2acdf6-c5c6-4e0b-5283-7a27d2d39d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24038,7 +24253,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d77968fb": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "Sinclair Lewis"
@@ -24054,6 +24269,7 @@
      "id": "6a8ea0de1f9dbf22d77968fb",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9e6760d9-2782-436a-5511-fe5486d14e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24065,7 +24281,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d7796931": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "Sable Sorensen"
@@ -24081,6 +24297,7 @@
      "id": "6a8ea0de1f9dbf22d7796931",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4d9d708d-910f-45b4-41e9-2a246618a400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24092,7 +24309,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d7796951": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "Emily Ruskovich"
@@ -24108,6 +24325,7 @@
      "id": "6a8ea0de1f9dbf22d7796951",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5f0c9965-e119-4573-10d4-18a24396f700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24119,7 +24337,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d7796965": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "Freida McFadden"
@@ -24135,6 +24353,7 @@
      "id": "6a8ea0de1f9dbf22d7796965",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/448833e2-8828-4a09-b050-deb80207e600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24146,7 +24365,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d7796973": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "David Baldacci"
@@ -24162,6 +24381,7 @@
      "id": "6a8ea0de1f9dbf22d7796973",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ff49d689-5b67-4b46-91d8-4784b6d1b500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24173,7 +24393,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0de1f9dbf22d7796981": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:30Z",
      "autores": [
       "William Faulkner"
@@ -24189,6 +24409,7 @@
      "id": "6a8ea0de1f9dbf22d7796981",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1c133da2-3b6b-48df-442b-fdc5fb26a000/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24200,7 +24421,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0df1f9dbf22d779698f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:31Z",
      "autores": [
       "Violeta Reed"
@@ -24216,6 +24437,7 @@
      "id": "6a8ea0df1f9dbf22d779698f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d049220a-3f39-482a-3a0d-ac42f3dd3c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24227,7 +24449,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0df1f9dbf22d779699d": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:31Z",
      "autores": [
       "Carles Porta"
@@ -24243,6 +24465,7 @@
      "id": "6a8ea0df1f9dbf22d779699d",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/14941cf0-7e02-4a1b-c0cd-f1c8ab1bf700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24254,7 +24477,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a8ea0df1f9dbf22d77969ab": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-08-26T08:16:31Z",
      "autores": [
       "Freida McFadden"
@@ -24270,6 +24493,7 @@
      "id": "6a8ea0df1f9dbf22d77969ab",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5e326975-acf9-448c-0666-5793ed028500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24956,7 +25180,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cf75c1c5c34fb220ff2": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:07Z",
      "autores": [
       "Brandon Sanderson"
@@ -24972,6 +25196,7 @@
      "id": "6a9e9cf75c1c5c34fb220ff2",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/6d34de5d-d67c-4c93-0340-a42f43367500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -24983,7 +25208,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfa5c1c5c34fb2215d5": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:10Z",
      "autores": [
       "Teresa Cardona"
@@ -24999,6 +25224,7 @@
      "id": "6a9e9cfa5c1c5c34fb2215d5",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/2e21756a-9acc-45b6-82c2-c66c9a737a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25010,7 +25236,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfa5c1c5c34fb2215e3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:10Z",
      "autores": [
       "Estefanía Ruiz"
@@ -25026,6 +25252,7 @@
      "id": "6a9e9cfa5c1c5c34fb2215e3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/23c92e76-7a0d-4679-f920-88fcd8de2700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25037,7 +25264,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb2215ef": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Andrea Longarela"
@@ -25053,6 +25280,7 @@
      "id": "6a9e9cfb5c1c5c34fb2215ef",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/72a07fee-b94d-46d9-df4f-e492894acf00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25064,7 +25292,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb2215fd": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Margaret Atwood"
@@ -25080,6 +25308,7 @@
      "id": "6a9e9cfb5c1c5c34fb2215fd",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d80c9779-2d69-4e60-5c6c-26b088397d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25091,7 +25320,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221615": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Julia Cameron"
@@ -25107,6 +25336,7 @@
      "id": "6a9e9cfb5c1c5c34fb221615",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/59a7e5d3-e8e2-465f-9ef9-18046e5e2c00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25118,7 +25348,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221621": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Violaine Bérot"
@@ -25134,6 +25364,7 @@
      "id": "6a9e9cfb5c1c5c34fb221621",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e7df5557-cc01-422e-6a93-908de0272e00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25145,7 +25376,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221634": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Pablo Montoya"
@@ -25161,6 +25392,7 @@
      "id": "6a9e9cfb5c1c5c34fb221634",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/ffe38afe-00db-467c-8392-dac4c2818100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25172,7 +25404,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221652": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Toshikazu Kawaguchi"
@@ -25188,6 +25420,7 @@
      "id": "6a9e9cfb5c1c5c34fb221652",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0899e11f-291a-4749-66ad-4e2fe7c62800/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25199,7 +25432,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221660": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Cixin Liu"
@@ -25215,6 +25448,7 @@
      "id": "6a9e9cfb5c1c5c34fb221660",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c5469a4e-622d-4bc5-8dc7-615021a5bf00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25226,7 +25460,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb221670": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Inma Aguilera"
@@ -25242,6 +25476,7 @@
      "id": "6a9e9cfb5c1c5c34fb221670",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/a0542408-94dd-4e2e-c59c-f13973c73f00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25253,7 +25488,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfb5c1c5c34fb22169c": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:11Z",
      "autores": [
       "Quinn Slobodian"
@@ -25269,6 +25504,7 @@
      "id": "6a9e9cfb5c1c5c34fb22169c",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/93a69618-d01f-4dad-777c-71155b0afa00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25280,7 +25516,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfc5c1c5c34fb2216aa": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:12Z",
      "autores": [
       "Lisa Gardner"
@@ -25296,6 +25532,7 @@
      "id": "6a9e9cfc5c1c5c34fb2216aa",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/d509bde1-98e0-49ef-8b83-184d2573fb00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25307,7 +25544,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfc5c1c5c34fb2216b6": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:12Z",
      "autores": [
       "Carissa Véliz"
@@ -25323,6 +25560,7 @@
      "id": "6a9e9cfc5c1c5c34fb2216b6",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/5d87d36f-0d7b-4174-3767-b0259d563200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25334,7 +25572,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6a9e9cfc5c1c5c34fb2216d0": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-07T11:16:12Z",
      "autores": [
       "Flavia Costa"
@@ -25350,6 +25588,7 @@
      "id": "6a9e9cfc5c1c5c34fb2216d0",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/09d3c2b1-0b30-4212-1974-8378d3fea900/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25361,7 +25600,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91accb11a8e282dadb1ed": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:40Z",
      "autores": [
       "Aura Hayes"
@@ -25377,6 +25616,7 @@
      "id": "6aa91accb11a8e282dadb1ed",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/aea0d2de-b832-41ca-db0d-e2125b30d500/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25388,7 +25628,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acdb11a8e282dadb22f": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:41Z",
      "autores": [
       "Beth Brower"
@@ -25404,6 +25644,7 @@
      "id": "6aa91acdb11a8e282dadb22f",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/0be1a681-5707-4f42-79af-9fb371ed1a00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25415,7 +25656,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acdb11a8e282dadb241": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:41Z",
      "autores": [
       "Freida McFadden"
@@ -25431,6 +25672,7 @@
      "id": "6aa91acdb11a8e282dadb241",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/b37430c0-725a-4dd5-63fa-6ab8ce2f3200/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25442,7 +25684,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acdb11a8e282dadb253": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:41Z",
      "autores": [
       "Beth Brower"
@@ -25458,6 +25700,7 @@
      "id": "6aa91acdb11a8e282dadb253",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/77549af4-b1e5-463a-460f-e8c6b2a98b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25469,7 +25712,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acdb11a8e282dadb265": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:41Z",
      "autores": [
       "Freida McFadden"
@@ -25485,6 +25728,7 @@
      "id": "6aa91acdb11a8e282dadb265",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/abc0c9f0-431c-4d11-8af5-8d59bdfb7d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25496,7 +25740,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acdb11a8e282dadb289": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:41Z",
      "autores": [
       "Nerea Pérez de las Heras"
@@ -25512,6 +25756,7 @@
      "id": "6aa91acdb11a8e282dadb289",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7f8cf0c7-957e-4b4b-8c30-6e5f8e736600/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25523,7 +25768,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91aceb11a8e282dadb29b": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:42Z",
      "autores": [
       "Nelio Biedermann"
@@ -25539,6 +25784,7 @@
      "id": "6aa91aceb11a8e282dadb29b",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/95c276a4-d655-4fe1-06b4-9b0a07aad100/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25550,7 +25796,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91aceb11a8e282dadb358": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:42Z",
      "autores": [
       "Dandy Smith"
@@ -25566,6 +25812,7 @@
      "id": "6aa91aceb11a8e282dadb358",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/1d97d93e-af50-48f8-b49a-58d3348bdc00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25577,7 +25824,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91acfb11a8e282dadb463": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:43Z",
      "autores": [
       "Rodrigo Cortés"
@@ -25593,6 +25840,7 @@
      "id": "6aa91acfb11a8e282dadb463",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/02901137-93f2-43bb-b063-537e5ad3b700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -25604,7 +25852,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6aa91ad0b11a8e282dadb4e3": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-15T10:15:44Z",
      "autores": [
       "Adanía Shibli"
@@ -25620,6 +25868,7 @@
      "id": "6aa91ad0b11a8e282dadb4e3",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/aadc443f-ea3c-40cd-4de8-50f00eb10d00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26306,7 +26555,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6ab3a76faf69073bb1383827": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-23T10:18:23Z",
      "autores": [
       "David Foenkinos"
@@ -26322,6 +26571,7 @@
      "id": "6ab3a76faf69073bb1383827",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/f61b9485-5fae-4ef9-b65f-069c87fc3b00/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26333,7 +26583,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6ab3a780af69073bb13841ea": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-23T10:18:40Z",
      "autores": [
       "Dra. Ana Aznar"
@@ -26349,6 +26599,7 @@
      "id": "6ab3a780af69073bb13841ea",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/55239fb3-d772-42e2-4cb3-475ff87e8700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26360,7 +26611,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6ab3a784af69073bb138447a": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-23T10:18:44Z",
      "autores": [
       "Dra. Kerry Burnight"
@@ -26376,6 +26627,7 @@
      "id": "6ab3a784af69073bb138447a",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/e5163780-373d-437f-04cc-dfe1d19b1300/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26387,7 +26639,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6ab3a784af69073bb1384488": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-23T10:18:44Z",
      "autores": [
       "Piti Pinsach"
@@ -26403,6 +26655,7 @@
      "id": "6ab3a784af69073bb1384488",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/9666821a-3da1-4130-280f-d996dc894700/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26414,7 +26667,7 @@
      "visto_ultimo": "2026-10-05"
     },
     "6ab3a784af69073bb13844a4": {
-     "activo": true,
+     "activo": false,
      "alta": "2026-09-23T10:18:44Z",
      "autores": [
       "Ismael Galancho"
@@ -26430,6 +26683,7 @@
      "id": "6ab3a784af69073bb13844a4",
      "intereses": [],
      "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c3ec29b3-1e07-4a81-e64d-a2a13eaf9400/default",
+     "retirado": "2026-10-05T14:42:46Z",
      "secciones": [
       "6989c28fb1f2348d4d0f386e"
      ],
@@ -26556,10 +26810,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-07T23:59",
+     "disponible_el": "2026-12-08T03:46",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 7 dic 2026 a las 23:59 Reservar EPUB (El último cine de barrio)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 8 dic 2026 a las 03:46 Reservar EPUB (El último cine de barrio)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fa9015acb463909ab14",
@@ -26934,10 +27188,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-08T06:25",
+     "disponible_el": "2026-12-11T10:45",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 8 dic 2026 a las 06:25 Reservar EPUB ((Des)conectados)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 11 dic 2026 a las 10:45 Reservar EPUB ((Des)conectados)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f390cf479cb0b3638e",
@@ -27092,7 +27346,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-05T14:32:26Z",
+    "ultima_ok": "2026-10-05T14:42:46Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27100,16 +27354,16 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-05T14:32:26Z",
-     "ultimos": 427,
+     "ultima_lectura": "2026-10-05T14:42:46Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "69830e032580d662bfd9a2a0": {
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-05T14:32:26Z",
-     "ultimos": 322,
+     "ultima_lectura": "2026-10-05T14:42:46Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "6989c28fb1f2348d4d0f386e": {
@@ -27118,7 +27372,7 @@
      "total_web": 254,
      "ultima_lectura": "2026-10-05T14:32:26Z",
      "ultimos": 254,
-     "vigilada": true
+     "vigilada": false
     }
    },
    "ultima_completa": "2026-10-05T14:32:26Z"
@@ -27126,8 +27380,33 @@
  },
  "busquedas": {},
  "historial": [],
- "lista": {},
+ "lista": {
+  "madrid:66e19f00015f71d263254d92": {
+   "anadido": "2026-10-05T14:42:43Z",
+   "autores": [
+    "Iris Pérez Bonaventura"
+   ],
+   "biblioteca": "madrid",
+   "biblioteca_nombre": "eBiblio Madrid",
+   "comprobado": "2026-10-05T14:42:57Z",
+   "disponible_el": "2026-10-10T10:19",
+   "ejemplares": null,
+   "estado": "reservable",
+   "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 10 oct 2026 a las 10:19 Reservar EPUB (¡Hola, autoestima!)",
+   "formato": "EPUB",
+   "id": "66e19f00015f71d263254d92",
+   "origen": "telegram",
+   "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/adaf9ea6-251b-4c42-44e2-a62a0ed72400/default",
+   "sinopsis": "Atrévete a ser quien eres de verdad, sin miedos ni vergüenzas. ¡Hola, autoestima! La vida escolar puede ser complicada. Todos nuestros compañeros nos observan con lupa y no tienen miedo de señalarnos y burlarse si hacemos algo ...",
+   "tipo": "libro",
+   "titulo": "¡Hola, autoestima!",
+   "url": "https://madrid.ebiblio.es/resources/66e19f00015f71d263254d92"
+  }
+ },
  "opciones": {
+  "5fcfe7325613ef00018e4476": "madrid",
+  "5fcfe7435613ef00018e4706": "madrid",
+  "6422cbf1b818310001d28d90": "madrid",
   "651a7ca96286b800017f2f38": "madrid",
   "65d370bf927fcf0001aeb813": "madrid",
   "664ca5b3d091e572449bcf18": "madrid",
@@ -27136,7 +27415,7 @@
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899055
+  "offset": 119899059
  },
  "version": 1
 }
