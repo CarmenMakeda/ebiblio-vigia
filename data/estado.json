@@ -23287,10 +23287,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-24T02:01",
+     "disponible_el": "2026-12-24T20:22",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 24 dic 2026 a las 02:01 Reservar EPUB (Los figurantes)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 24 dic 2026 a las 20:22 Reservar EPUB (Los figurantes)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a63506a1026cb8e6e9131a2",
@@ -23746,10 +23746,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-11-23T17:28",
+     "disponible_el": "2026-11-24T06:12",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 23 nov 2026 a las 17:28 Reservar EPUB (La luna en las Usambara (Sueños de África 2))",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 nov 2026 a las 06:12 Reservar EPUB (La luna en las Usambara (Sueños de África 2))",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a63506d1026cb8e6e913481",
@@ -26184,10 +26184,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-25T14:16",
+     "disponible_el": "2026-12-25T10:17",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 25 dic 2026 a las 14:16 Reservar EPUB (El pacto de las sombras (Inspectora Julia Arrondo 3",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 25 dic 2026 a las 10:17 Reservar EPUB (El pacto de las sombras (Inspectora Julia Arrondo 3",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa929253076853ba7ec93e4",
@@ -26945,10 +26945,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-11-15T00:48",
+     "disponible_el": "2026-11-15T00:58",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 15 nov 2026 a las 00:48 Reservar EPUB (Conjura contra el rey Felipe)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 15 nov 2026 a las 00:58 Reservar EPUB (Conjura contra el rey Felipe)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fab015acb463909acf5",
@@ -27346,7 +27346,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-05T14:42:46Z",
+    "ultima_ok": "2026-10-05T15:02:19Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27354,7 +27354,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-05T14:42:46Z",
+     "ultima_lectura": "2026-10-05T15:02:19Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27362,7 +27362,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-05T14:42:46Z",
+     "ultima_lectura": "2026-10-05T15:02:19Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27381,41 +27381,46 @@
  "busquedas": {},
  "historial": [],
  "lista": {
-  "madrid:66e19f00015f71d263254d92": {
-   "anadido": "2026-10-05T14:42:43Z",
+  "madrid:5fcfb7846af9f8028930f4c8": {
+   "anadido": "2026-10-05T15:02:16Z",
    "autores": [
-    "Iris Pérez Bonaventura"
+    "Jo Nesbo"
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-05T14:42:57Z",
-   "disponible_el": "2026-10-10T10:19",
-   "ejemplares": null,
-   "estado": "reservable",
-   "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 10 oct 2026 a las 10:19 Reservar EPUB (¡Hola, autoestima!)",
+   "comprobado": "2026-10-05T15:02:29Z",
+   "disponible_el": null,
+   "ejemplares": 4,
+   "estado": "disponible",
+   "estado_texto": "EPUB Streaming 4 ejemplares disponibles Prestar EPUB (Fantasma )",
    "formato": "EPUB",
-   "id": "66e19f00015f71d263254d92",
+   "id": "5fcfb7846af9f8028930f4c8",
    "origen": "telegram",
-   "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/adaf9ea6-251b-4c42-44e2-a62a0ed72400/default",
-   "sinopsis": "Atrévete a ser quien eres de verdad, sin miedos ni vergüenzas. ¡Hola, autoestima! La vida escolar puede ser complicada. Todos nuestros compañeros nos observan con lupa y no tienen miedo de señalarnos y burlarse si hacemos algo ...",
+   "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/4abf4b16-97ec-415f-ccb2-8fe7297c1300/default",
+   "sinopsis": "Después de El leopardo llega Fantasma.El nuevo thriller de Harry Hole. HARRY HOLE AFRONTA UN NUEVO CASO Cuando Harry Hole se marchó a vivir a Hong Kong creyó que su vida cambiaría para siempre: dejaba atrás su pasado en Oslo...",
    "tipo": "libro",
-   "titulo": "¡Hola, autoestima!",
-   "url": "https://madrid.ebiblio.es/resources/66e19f00015f71d263254d92"
+   "titulo": "Fantasma",
+   "url": "https://madrid.ebiblio.es/resources/5fcfb7846af9f8028930f4c8"
   }
  },
  "opciones": {
+  "5fcfb57d6af9f8028930ca52": "madrid",
+  "5fcfb7846af9f8028930f4c8": "madrid",
   "5fcfe7325613ef00018e4476": "madrid",
   "5fcfe7435613ef00018e4706": "madrid",
   "6422cbf1b818310001d28d90": "madrid",
+  "64f858d0570d4e0001d8de2e": "madrid",
   "651a7ca96286b800017f2f38": "madrid",
   "65d370bf927fcf0001aeb813": "madrid",
+  "664ca5b1d091e572449bcd87": "madrid",
   "664ca5b3d091e572449bcf18": "madrid",
   "66e19f00015f71d263254d92": "madrid",
-  "68c81172d70bf46d9e1211c9": "madrid"
+  "68c81172d70bf46d9e1211c9": "madrid",
+  "6a1d70f9d5771c345f41f64d": "madrid"
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899059
+  "offset": 119899064
  },
  "version": 1
 }
