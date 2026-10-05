@@ -80,3 +80,16 @@ def chats_recientes(token: str) -> list[dict]:
                 "tipo": chat.get("type"),
             }
     return list(vistos.values())
+
+
+def actualizaciones(t: Telegram, offset: int) -> list[dict]:
+    """Mensajes recibidos por el bot desde la última vez (no bloquea)."""
+    return t._llama("getUpdates", {"offset": offset, "timeout": 0, "allowed_updates": '["message"]'})
+
+
+def fija_menu(t: Telegram) -> None:
+    import json
+    t._llama("setMyCommands", {"commands": json.dumps([
+        {"command": "lista", "description": "Libros que sigo para ti"},
+        {"command": "ayuda", "description": "Cómo apuntar un libro"},
+    ])})

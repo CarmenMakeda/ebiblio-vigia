@@ -44,6 +44,9 @@ intereses:
     # - infantil
   tipos: [libro, audiolibro]   # quita «audiolibro» si no te interesan
 
+# Tu lista «quiero leer» se maneja desde Telegram: escribe al bot el título
+# de un libro y lo sigue por ti. /lista para ver lo que sigue.
+
 avisos:
   # novedades: todas = cada libro nuevo | intereses = sólo los tuyos | ninguna
   novedades: todas

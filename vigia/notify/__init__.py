@@ -8,7 +8,7 @@ import re
 from ..config import Config
 from ..motor import Informe
 from .correo import Correo
-from .mensajes import Foto, Texto, redacta
+from .mensajes import Foto, Texto, redacta, redacta_lista
 from .telegram import ErrorTelegram, Telegram
 
 log = logging.getLogger(__name__)
@@ -33,10 +33,12 @@ def _consola(piezas) -> None:
         print(re.sub(r"<[^>]+>", "", texto), end="\n\n")
 
 
-def avisa(informes: list[Informe], cfg: Config, estado: dict) -> list[str]:
+def avisa(informes: list[Informe], cfg: Config, estado: dict, eventos_lista=None) -> list[str]:
     """Envía los avisos. Devuelve la lista de errores de envío (vacía si todo fue bien)."""
     errores: list[str] = []
-    piezas = redacta(informes, cfg, estado)
+    eventos_lista = eventos_lista or []
+    # Primero lo de tu lista «quiero leer»: es lo más urgente
+    piezas = redacta_lista(eventos_lista, cfg) + redacta(informes, cfg, estado)
     if not piezas:
         log.info("Nada que avisar")
         return errores
@@ -52,7 +54,7 @@ def avisa(informes: list[Informe], cfg: Config, estado: dict) -> list[str]:
             errores.append(f"Telegram: {e}")
     if "correo" in disponibles:
         try:
-            if disponibles["correo"].envia(informes, cfg):
+            if disponibles["correo"].envia(informes, cfg, eventos_lista):
                 log.info("Email enviado")
         except Exception as e:  # smtplib lanza muchos tipos distintos
             errores.append(f"Email: {type(e).__name__}: {e}")

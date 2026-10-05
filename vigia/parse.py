@@ -173,3 +173,38 @@ def lee_secciones_portada(html: str) -> list[Seccion]:
     if not secciones:
         raise ErrorDeLectura("No encuentro secciones en la portada")
     return secciones
+
+
+def id_de_url(texto: str) -> str | None:
+    """Extrae el id de recurso de un enlace de eBiblio (…/resources/<id>)."""
+    m = _RE_ID.search(texto or "")
+    return m.group(1) if m else None
+
+
+def lee_ficha(html: str, base_url: str, rid: str) -> Libro:
+    """Lee la ficha de un libro (/resources/<id>)."""
+    sopa = BeautifulSoup(html, "lxml")
+
+    def meta(prop: str) -> str:
+        m = sopa.find("meta", attrs={"property": prop})
+        return _limpio(m.get("content")) if m else ""
+
+    h1 = sopa.select_one("h1")
+    titulo = _limpio(h1.get_text()) if h1 else meta("og:title")
+    if not titulo:
+        raise ErrorDeLectura(f"La ficha {rid} no tiene título: puede que la web haya cambiado")
+    autores = list(dict.fromkeys(
+        _limpio(a.get_text()) for a in sopa.select('[itemprop="author"] [itemprop="name"]') if _limpio(a.get_text())
+    ))
+    img = sopa.select_one("img.cover")
+    bloque = sopa.select_one("section.transactions")
+    estado, ejemplares, fecha, texto = _estado(bloque)
+    formato = _formato(sopa)
+    tipo_tag = sopa.select_one('[itemtype*="schema.org/Audiobook"]')
+    tipo = "audiolibro" if tipo_tag or formato.startswith("AUDIO") else "libro"
+    return Libro(
+        id=rid, titulo=titulo, autores=autores, url=urljoin(base_url + "/", f"resources/{rid}"),
+        portada=(img.get("src") if img else None) or meta("og:image") or None,
+        sinopsis=meta("og:description"), formato=formato, tipo=tipo, estado=estado,
+        ejemplares=ejemplares, disponible_el=fecha, estado_texto=texto[:200],
+    )

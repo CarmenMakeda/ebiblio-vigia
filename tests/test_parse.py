@@ -79,3 +79,14 @@ def test_config_del_repositorio_es_valida():
     from vigia.config import carga
     c = carga(Path(__file__).parent.parent / "config.yaml")
     assert c.activas  # al menos una biblioteca activa (si no, carga() ya habría fallado)
+
+
+def test_ficha_de_libro():
+    from vigia.parse import id_de_url, lee_ficha
+    l = lee_ficha(_lee("ficha_reservable.html"), BASE, "6ab61fac015acb463909adc7")
+    assert l.titulo == "Una noche de 1947" and l.autores == ["Ángeles González-Sinde"]
+    assert l.estado is Estado.RESERVABLE and l.disponible_el == "2026-12-07T23:16"
+    assert l.portada.startswith("https://imagedelivery.net/") and l.formato == "EPUB"
+    assert l.url == "https://madrid.ebiblio.es/resources/6ab61fac015acb463909adc7"
+    assert id_de_url("mira https://madrid.ebiblio.es/resources/6ab61fac015acb463909adc7?x=1") == "6ab61fac015acb463909adc7"
+    assert id_de_url("hola") is None

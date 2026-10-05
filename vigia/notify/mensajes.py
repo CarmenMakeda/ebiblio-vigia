@@ -180,3 +180,44 @@ def redacta(informes: list[Informe], cfg: Config, estado: dict | None = None) ->
                 cuerpo = "\n".join([cab] + _lista(resto, cfg)) + _web(cfg)
                 piezas.extend(Texto(t) for t in trocea(cuerpo))
     return piezas
+
+
+def redacta_lista(eventos, cfg: Config) -> list[Foto | Texto]:
+    """Avisos de la lista «quiero leer»."""
+    piezas: list[Foto | Texto] = []
+    for ev in eventos:
+        r = ev.libro
+        if ev.tipo == "encontrado" and ev.seguidos:
+            lineas = [f"🎉 <b>¡Ha llegado a eBiblio «{escape(ev.busqueda)}»!</b>", "Ya lo sigo para ti:", ""]
+            for d in ev.seguidos:
+                lineas.append(f'<a href="{escape(d["url"])}">{escape(d["titulo"])}</a>{" 🎧" if d.get("tipo") == "audiolibro" else ""}\n{linea_estado(d)}\n')
+            if any(d.get("estado") == "disponible" for d in ev.seguidos):
+                lineas.append("¡Está libre ahora mismo! Corre a cogerlo.")
+            texto = "\n".join(lineas)
+            portada = next((d.get("portada") for d in ev.seguidos if d.get("portada")), None)
+            piezas.append(Foto(portada, texto, texto) if cfg.avisos.portadas and portada else Texto(texto))
+            continue
+        if ev.tipo == "encontrado":
+            lineas = [f"🎉 <b>Ha llegado a eBiblio algo que buscabas:</b> «{escape(ev.busqueda)}»",
+                      "Hay varios libros con ese título; toca el que quieras seguir:", ""]
+            for bib, l in ev.opciones:
+                d = l.a_dict()
+                a = f" — <i>{escape(autores(d))}</i>" if d.get("autores") else ""
+                lineas.append(f'<a href="{escape(d["url"])}">{escape(d["titulo"])}</a>{a}\n{linea_estado(d)}\n👉 Seguir este: /s_{l.id}\n')
+            piezas.append(Texto("\n".join(lineas)))
+            continue
+        if ev.tipo == "retirado":
+            piezas.append(Texto(f"ℹ️ «{escape(r['titulo'])}» ya no aparece en el catálogo de {escape(r.get('biblioteca_nombre', 'eBiblio'))}. Lo quito de tu lista."))
+            continue
+        cab = ("🟢 <b>¡Está libre! Cógelo ya</b>" if ev.tipo == "disponible"
+               else "🔔 <b>Ya puedes reservarlo</b>")
+        partes = [cab, f"<b>{escape(r['titulo'])}</b>"]
+        if r.get("autores"):
+            partes.append(f"✍️ {escape(autores(r))}")
+        partes.append(linea_estado(r))
+        partes.append(f"📌 De tu lista «quiero leer» · {escape(r.get('biblioteca_nombre', ''))}")
+        partes.append(f'<a href="{escape(r["url"])}">Abrir en eBiblio →</a>')
+        partes.append(f"\nSi ya lo tienes: /quitar_{r['id']}")
+        texto = "\n".join(partes)
+        piezas.append(Foto(r["portada"], texto, texto) if cfg.avisos.portadas and r.get("portada") else Texto(texto))
+    return piezas

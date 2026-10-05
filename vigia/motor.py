@@ -85,6 +85,8 @@ class Vigia:
         c = config.comprobacion
         self.cliente = cliente or Cliente(c.user_agent, pausa=c.pausa_segundos)
         self.ahora = ahora or (lambda: datetime.now(timezone.utc))
+        self.seguidos: set[str] = set()          # «bib:id» de la lista quiero leer (se avisan aparte)
+        self.vistos: dict[str, Libro] = {}       # libros leídos en esta vuelta, para no repetir peticiones
 
     # ------------------------------------------------------------------ público
     def comprueba(self, biblioteca: Biblioteca, forzar_completa: bool = False) -> Informe:
@@ -207,6 +209,8 @@ class Vigia:
     def _registra(self, b: dict, libro: Libro, bundle: str, nombre: str, ahora: datetime,
                   silencioso: bool, seccion_nueva: bool, inf: Informe) -> None:
         cfg = self.cfg
+        clave_lista = f"{b['_id']}:{libro.id}"
+        self.vistos[clave_lista] = libro
         mot = motivos(libro, cfg.intereses)
         exc = excluido(libro, cfg.intereses) and not any(a in mot for a in cfg.intereses.autores)
         rec = b["libros"].get(libro.id)
@@ -244,7 +248,7 @@ class Vigia:
         rec["cambio_estado"] = _iso(ahora)
         rec["estado_anterior"] = anterior.value
         mejora = libro.estado.rango > anterior.rango and libro.estado in (Estado.DISPONIBLE, Estado.RESERVABLE)
-        if not mejora or silencioso or exc:
+        if not mejora or silencioso or exc or clave_lista in self.seguidos:
             return
         modo = cfg.avisos.liberados
         if modo == "ninguna" or (modo == "intereses" and not mot):

@@ -13,6 +13,8 @@ import sys
 from . import estado as est
 from .config import ErrorDeConfiguracion, carga
 from .models import Estado
+from .buzon import atiende
+from .lista import Lista
 from .motor import Evento, Informe, Vigia
 from .notify import avisa, canales
 from .notify.telegram import ErrorTelegram, chats_recientes
@@ -31,13 +33,32 @@ def comprobar(args) -> int:
     cfg = carga(args.config)
     estado = est.carga(args.estado)
     vigia = Vigia(cfg, estado)
+    lista = Lista(cfg, estado, vigia.cliente)
+
+    # 1. Mensajes que me has escrito en Telegram (apuntar libros, /lista…)
+    tg = canales().get("telegram")
+    if tg:
+        n = atiende(tg, tg.chat_id, lista, estado)
+        if n:
+            logging.info("Telegram: %d mensajes atendidos", n)
+            est.guarda(estado, args.estado)
+
+    # 2. Novedades
+    vigia.seguidos = lista.claves_seguidas
     informes = [vigia.comprueba(b, forzar_completa=args.completa) for b in cfg.activas]
     for inf in informes:
         logging.info(_resumen(inf))
+
+    # 3. Tu lista «quiero leer» y los títulos que aún no habían llegado
+    eventos_lista = lista.comprueba(vigia.vistos) + lista.revisa_busquedas()
+    logging.info("Lista «quiero leer»: %d libros seguidos, %d avisos, %d búsquedas pendientes",
+                 len(lista.libros), len(eventos_lista), len(lista.busquedas))
+
     # Se guarda antes de avisar: si un envío falla, no se repetirán avisos en la próxima vuelta.
     est.guarda(estado, args.estado)
-    genera(estado, cfg, args.web)
-    errores = avisa(informes, cfg, estado)
+    if args.web_activa:
+        genera(estado, cfg, args.web)
+    errores = avisa(informes, cfg, estado, eventos_lista)
     _resumen_github(informes)
     return 1 if errores else 0
 
@@ -104,6 +125,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--config", default="config.yaml")
     p.add_argument("--estado", default="data/estado.json")
     p.add_argument("--web", default="_site", help="carpeta donde generar la web")
+    p.add_argument("--sin-web", dest="web_activa", action="store_false", help="no generar la web")
     p.add_argument("--completa", action="store_true", help="fuerza una lectura completa de todas las páginas")
     p.add_argument("-v", "--detalle", action="store_true")
     args = p.parse_args(argv)

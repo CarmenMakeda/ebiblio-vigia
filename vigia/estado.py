@@ -15,6 +15,7 @@ def vacio() -> dict:
 
 def biblioteca(estado: dict, bid: str) -> dict:
     b = estado["bibliotecas"].setdefault(bid, {})
+    b["_id"] = bid
     b.setdefault("inicializada", False)
     b.setdefault("secciones", {})
     b.setdefault("libros", {})

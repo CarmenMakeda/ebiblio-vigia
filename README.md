@@ -1,11 +1,11 @@
 # 📚 Vigía eBiblio
 
-Te avisa por Telegram (y si quieres, por email) en cuanto entran libros nuevos en eBiblio, y cuando un libro que te interesa se puede coger o reservar. Además mantiene una página web propia con todas las novedades y su disponibilidad.
+Te avisa por Telegram (y si quieres, por email) en cuanto entran libros nuevos en eBiblio, y cuando un libro que te interesa se puede coger o reservar. Opcionalmente, mantiene también una página web con todas las novedades y su disponibilidad.
 
 - **Cada hora, de 7:00 a 23:00**, mira las listas «Novedades ficción», «Novedades no ficción» y «Nuevos audiolibros».
 - **Te manda la tanda nueva** con el estado de cada libro: 🟢 disponible ya, 🟡 se puede reservar (con fecha) o 🔴 sin reservas libres.
 - **Tus autores y temas favoritos** llegan aparte, con portada y ⭐.
-- **Te avisa 🔔 cuando un libro que te interesa se libera.**
+- **Tu lista «quiero leer»:** escríbele al bot el título de cualquier libro (sea novedad o no, esté ya en eBiblio o no) y te avisa 🔔 cuando se pueda reservar y 🟢 cuando esté libre.
 - Si la web de eBiblio cambia o deja de responder, te avisa ⚠️ en vez de quedarse callado.
 - Funciona gratis en GitHub, aunque tengas el ordenador apagado.
 
@@ -43,7 +43,9 @@ Los secretos están cifrados: nadie los ve, aunque el repositorio sea público.
 3. Crea otro secreto llamado `TELEGRAM_CHAT_ID` con ese número.
 4. Vuelve a lanzar `probar`. Te llegará un mensaje de prueba al bot. ✅
 
-### 5. La web (opcional, pero merece la pena)
+### 5. La web (opcional)
+
+Sólo si quieres una página con todas las novedades y filtros. Requiere que el repositorio sea público.
 
 1. **Settings → Pages → Build and deployment → Source:** elige **GitHub Actions**.
 2. **Settings → Secrets and variables → Actions → pestaña Variables → New repository variable:** nombre `PUBLICAR_WEB`, valor `true`.
@@ -78,6 +80,22 @@ intereses:
 En la misma sección `avisos` puedes elegir que te avise de **todas** las novedades o **sólo de las que te interesan**.
 
 Al guardar, se ejecuta una prueba automática que comprueba que el archivo es correcto. Si te llega un email de GitHub con «Pruebas ❌», es que hay un error de formato. Lo más habitual es una sangría mal puesta: cada guion va con dos espacios delante.
+
+## Tu lista «quiero leer»
+
+En Telegram, escríbele al bot el **título** del libro (y el autor, si quieres afinar):
+
+| Caso | Qué hace |
+|---|---|
+| El título corresponde a un solo libro | Lo sigue directamente, en todas sus ediciones (EPUB, audiolibro…), y te dice cómo está ahora |
+| Hay varios libros con ese título de autores distintos | Te pregunta cuál es; toca `/s_…` en el tuyo (o escribe también el autor) |
+| El título **aún no está** en eBiblio | Lo busca cada día; cuando llega, empieza a seguirlo y te avisa |
+| `/lista` | Lo que sigue para ti, cómo está cada libro y los títulos que aún busca |
+| `/quitar_…` o `/olvidar_…` | Deja de seguir un libro o de buscar un título (vienen en cada mensaje) |
+
+Te avisa 🔔 cuando un libro de tu lista se pueda reservar y 🟢 cuando esté libre.
+
+El bot lee tus mensajes en cada comprobación (cada hora), así que **puede tardar un rato en contestar**. Sólo hace caso a tu chat: si otra persona le escribe, la ignora.
 
 ## Añadir Castilla y León o Andalucía
 

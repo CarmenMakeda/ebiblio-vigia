@@ -62,6 +62,7 @@ class Comprobacion:
     pausa_segundos: float = 2.0
     sincronizacion_completa_horas: float = 20
     dias_seccion_nueva: int = 7
+    lista_max: int = 40           # libros de «quiero leer» revisados en cada vuelta
     user_agent: str = (
         "Mozilla/5.0 (compatible; VigiaEbiblio/1.0; uso personal de una lectora; "
         "+https://github.com/)"

@@ -52,6 +52,7 @@ class WebFalsa:
     def __init__(self):
         self.secciones: dict[str, tuple[str, list[dict]]] = {}
         self.extra_portada: list[tuple[str, str]] = []  # secciones no vigiladas
+        self.catalogo: list[dict] = []   # libros que no están en novedades pero existen
         self.caida = False
         self.peticiones = 0
         self.urls: list[str] = []
@@ -79,4 +80,34 @@ class WebFalsa:
                 raise NoEncontrado(url)
             nombre, libros = self.secciones[bundle]
             return pagina_bundle(nombre, bundle, libros, int(q or 1))
+        if ruta.startswith("/resources?q="):
+            from urllib.parse import unquote_plus
+            from vigia.parse import normaliza
+            palabras = normaliza(unquote_plus(ruta.split("=", 1)[1])).split()
+            res = [l for l in self._todos() if all(p in normaliza(l["titulo"] + " " + l["autor"]).split() for p in palabras)]
+            return pagina_bundle("Catálogo", "x", res, 1)
+        if ruta.startswith("/resources/"):
+            rid = ruta.split("/")[2]
+            l = next((l for l in self._todos() if l["id"] == rid), None)
+            if not l:
+                raise NoEncontrado(url)
+            return ficha(l)
         raise NoEncontrado(url)
+
+    def _todos(self) -> list[dict]:
+        vistos, todos = set(), []
+        for _, libros in self.secciones.values():
+            for l in libros:
+                if l["id"] not in vistos:
+                    vistos.add(l["id"])
+                    todos.append(l)
+        return todos + [l for l in self.catalogo if l["id"] not in vistos]
+
+
+def ficha(l: dict) -> str:
+    return (f'<html><head><meta property="og:title" content="{escape(l["titulo"])}">'
+            f'<meta property="og:description" content="Sinopsis de {escape(l["titulo"])}"></head><body>'
+            f'<img class="cover" src="https://img/{l["id"]}"><h1>{escape(l["titulo"])}</h1>'
+            f'<span itemprop="author"><span itemprop="name">{escape(l["autor"])}</span></span>'
+            f'<section class="media transactions"><h2 class="epub transaction__title"><span>EPUB</span></h2>{_bloque(l["estado"])}</section>'
+            f'</body></html>')
