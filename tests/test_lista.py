@@ -227,3 +227,87 @@ def test_sin_audiolibros_la_lista_sigue_solo_el_epub():
     lista = Lista(v.cfg, v.estado, Cliente(), ahora=reloj)
     r = responde(lista, "La asistenta")
     assert "Apuntado en tu lista" in r and len(lista.libros) == 1
+
+
+class ClienteReal:
+    """Sirve búsquedas reales guardadas de madrid.ebiblio.es."""
+    def __init__(self, mapa):
+        from pathlib import Path
+        fix = Path(__file__).parent / "fixtures"
+        self.mapa = {k: (fix / v).read_text(encoding="utf-8") for k, v in mapa.items()}
+        self.peticiones = 0
+        self.urls = []
+
+    def get(self, url):
+        from urllib.parse import unquote_plus
+        self.peticiones += 1
+        self.urls.append(unquote_plus(url))
+        if "/resources?" in url:
+            clave = unquote_plus(url.split("?", 1)[1])
+            return self.mapa.get(clave, "<html><body><main></main></body></html>")
+        rid = url.rsplit("/", 1)[1]
+        return f'<h1>Libro {rid}</h1><section class="transactions"><h2 class="transaction__title">EPUB</h2><div class="availability">En este momento no hay reservas libres</div></section>'
+
+
+FANTASMA = {
+    "q=Fantasma de nerea Pérez de las heras": "busqueda_fantasma_frase.html",
+    "q=Fantasma": "busqueda_fantasma.html",
+    "author_keyword=nerea Pérez de las heras": "autor_nerea.html",
+}
+
+
+def test_titulo_y_autor_juntos_se_separan_y_detecta_que_solo_hay_audiolibro():
+    web, v, reloj, bib, _, _ = preparar()
+    v.cfg.intereses.tipos = ["libro"]
+    c = ClienteReal(FANTASMA)
+    lista = Lista(v.cfg, v.estado, c, ahora=reloj)
+    r = responde(lista, "Fantasma de nerea Pérez de las heras")
+    assert "sólo está en eBiblio como <b>audiolibro</b>" in r and "Nerea Pérez de las Heras" in r
+    assert "Pieces of Her" not in r and lista.libros == {} and len(lista.busquedas) == 1
+    assert c.peticiones == 2   # la frase entera (falla) y luego sólo el título
+
+
+def test_con_audiolibros_activados_lo_sigue():
+    web, v, reloj, bib, _, _ = preparar()
+    v.cfg.intereses.tipos = ["libro", "audiolibro"]
+    lista = Lista(v.cfg, v.estado, ClienteReal(FANTASMA), ahora=reloj)
+    assert "Apuntado en tu lista" in responde(lista, "Fantasma de nerea Pérez de las heras")
+
+
+def test_errata_ofrece_parecidos_y_al_elegir_deja_de_buscar():
+    web, v, reloj, bib, _, _ = preparar()
+    v.cfg.intereses.tipos = ["libro"]
+    lista = Lista(v.cfg, v.estado, ClienteReal({"q=La asistena": "busqueda_asistenta.html"}), ahora=reloj)
+    r = responde(lista, "La asistena")
+    assert "¿Es alguno de estos?" in r and "La asistenta" in r and len(lista.busquedas) == 1
+    rid = r.split("/s_")[1].split()[0]
+    assert "Apuntado" in responde(lista, f"/s_{rid}")
+    assert lista.busquedas == {}
+
+
+def test_saludos_no_se_buscan():
+    web, v, reloj, bib, lista, _ = preparar()
+    for t in ("hola", "Hola!", "buenas tardes", "Gracias"):
+        assert "¡Hola!" in responde(lista, t)
+    assert lista.libros == {} and lista.busquedas == {} and web.peticiones == 0
+
+
+def test_consultas_que_se_prueban():
+    web, v, reloj, bib, lista, _ = preparar()
+    assert lista._consultas("Fantasma de nerea Pérez de las heras")[:3] == [
+        ("q", "Fantasma de nerea Pérez de las heras"), ("q", "Fantasma"), ("autor", "nerea Pérez de las heras")]
+    assert ("q", "Una noche de 1947") in lista._consultas("Una noche de 1947 - Ángeles González-Sinde")
+    assert lista._consultas("La asistenta") == [("q", "La asistenta")]
+
+
+def test_mismo_titulo_y_el_otro_solo_en_audio_pregunta_en_vez_de_elegir():
+    """Caso real: «Fantasma» de Jo Nesbø (EPUB) y de Nerea Pérez de las Heras (sólo audio)."""
+    web, v, reloj, bib, _, _ = preparar()
+    v.cfg.intereses.tipos = ["libro"]
+    lista = Lista(v.cfg, v.estado, ClienteReal(FANTASMA), ahora=reloj)
+    r = responde(lista, "Fantasma")
+    assert "Hay varios libros titulados «Fantasma»" in r and "Jo Nesbo" in r
+    assert "Nerea Pérez de las Heras, pero sólo en audiolibro" in r
+    assert lista.libros == {}                       # no elige por ella
+    assert r.count("/s_") == 1
+    assert "Apuntado" in responde(lista, "Fantasma Jo Nesbo")   # con el autor, sin dudas

@@ -6,6 +6,7 @@ import logging
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 import re
+from difflib import SequenceMatcher
 from urllib.parse import quote_plus
 
 from .config import Biblioteca, Config
@@ -18,6 +19,8 @@ log = logging.getLogger(__name__)
 HORAS_ENFRIAMIENTO = 12
 HORAS_ENTRE_BUSQUEDAS = 20
 MAX_OPCIONES = 5
+MAX_CONSULTAS = 6
+CONECTORES = {"de", "del", "por"}
 
 
 def _iso(dt: datetime) -> str:
@@ -35,6 +38,18 @@ def _palabras_titulo(titulo: str) -> set[str]:
 
 def clave_busqueda(texto: str) -> str:
     return hashlib.sha1(normaliza(texto).encode()).hexdigest()[:8]
+
+
+@dataclass
+class Resultado:
+    claros: list = field(default_factory=list)        # es ese libro: se sigue directamente
+    dudosos: list = field(default_factory=list)       # mismo título, autores distintos: preguntar
+    parecidos: list = field(default_factory=list)     # no está tal cual, pero se parece
+    otro_formato: list = field(default_factory=list)  # existe, pero sólo en un formato que no sigues
+
+    @property
+    def opciones(self) -> list:
+        return self.dudosos or self.parecidos
 
 
 @dataclass
@@ -83,26 +98,78 @@ class Lista:
         return None
 
     # ------------------------------------------------------------------ búsqueda
-    def busca(self, texto: str) -> list[tuple[Biblioteca, Libro]]:
-        q = normaliza(texto)
-        encontrados: list[tuple[int, int, Biblioteca, Libro]] = []
+    def _consultas(self, texto: str) -> list[tuple[str, str]]:
+        """Qué buscar en eBiblio, en orden. Su buscador funciona mal con frases largas
+        (título + autor), así que si hace falta se prueba también a separarlos."""
+        palabras = texto.split()
+        consultas = [("q", texto)]
+        for i, p in enumerate(palabras):
+            if 0 < i < len(palabras) - 1 and normaliza(p) in CONECTORES:
+                consultas.append(("q", " ".join(palabras[:i])))
+                consultas.append(("autor", " ".join(palabras[i + 1:])))
+        if " - " in texto or " – " in texto or "," in texto:
+            partes = re.split(r"\s+[-–]\s+|\s*,\s*", texto, maxsplit=1)
+            if len(partes) == 2 and all(partes):
+                consultas += [("q", partes[0]), ("autor", partes[1])]
+        for n in (3, 2, 1):
+            # Primeras palabras como posible título, si dicen algo (no sólo «La», «El»…)
+            if len(palabras) > n and any(len(normaliza(w)) >= 4 for w in palabras[:n]):
+                consultas.append(("q", " ".join(palabras[:n])))
+        vistas, unicas = set(), []
+        for c in consultas:
+            if c not in vistas:
+                vistas.add(c)
+                unicas.append(c)
+        return unicas[:MAX_CONSULTAS]
+
+    def busca(self, texto: str) -> "Resultado":
+        """Busca un título (con o sin autor) y clasifica lo encontrado."""
+        permitidos_tipos = {t for t in self.cfg.intereses.tipos if t in ("libro", "audiolibro")}
+        todos: dict[str, tuple[Biblioteca, Libro]] = {}
         for bib in self.cfg.activas:
-            pag = lee_seccion(self.cliente.get(f"{bib.url}/resources?q={quote_plus(texto)}"), bib.url)
-            for orden, l in enumerate(pag.libros):
-                if l.tipo not in ("libro", "audiolibro") or l.tipo not in self.cfg.intereses.tipos:
-                    continue
-                t = normaliza(l.titulo)
-                todo = normaliza(l.titulo + " " + " ".join(l.autores))
-                rango = 0 if t == q or todo == q else 1 if (t.startswith(q) or all(p in todo.split() for p in q.split())) else 2
-                encontrados.append((rango, orden, bib, l))
-        encontrados.sort(key=lambda x: (x[0], x[1]))
-        res = [(b, l) for _, _, b, l in encontrados[:MAX_OPCIONES]]
-        for b, l in res:
+            for tipo, valor in self._consultas(texto):
+                param = "author_keyword" if tipo == "autor" else "q"
+                pag = lee_seccion(self.cliente.get(f"{bib.url}/resources?{param}={quote_plus(valor)}"), bib.url)
+                for l in pag.libros:
+                    if l.tipo in ("libro", "audiolibro"):
+                        todos.setdefault(l.id, (bib, l))
+                if self.coincidentes(texto, list(todos.values())):
+                    break
+        lista = list(todos.values())
+        permitidos = [(b, l) for b, l in lista if l.tipo in permitidos_tipos]
+        coinc = self.coincidentes(texto, permitidos)
+        # Para decidir si hay dudas se miran TODOS los formatos: si existe otro libro con ese
+        # título de otro autor (aunque sólo esté en audio), no se elige por la lectora.
+        coinc_todos = self.coincidentes(texto, lista)
+        autores = {normaliza(l.autores[0]) if l.autores else "" for _, l in coinc_todos}
+        res = Resultado()
+        if coinc:
+            if len(autores) == 1:
+                res.claros = coinc
+            else:
+                res.dudosos = coinc[:MAX_OPCIONES]
+                res.otro_formato = [x for x in coinc_todos if x not in permitidos]
+        else:
+            res.otro_formato = [x for x in self.coincidentes(texto, lista) if x not in permitidos]
+            res.parecidos = self._parecidos(texto, permitidos)
+        for b, l in res.dudosos + res.parecidos:
             self.opciones[l.id] = b.id
         if len(self.opciones) > 200:
             for k in list(self.opciones)[:-200]:
                 self.opciones.pop(k)
         return res
+
+    def _parecidos(self, texto: str, res: list[tuple[Biblioteca, Libro]]) -> list[tuple[Biblioteca, Libro]]:
+        """Resultados cuyo título se parece de verdad a lo escrito (admite erratas)."""
+        q = [w for w in normaliza(texto).split() if len(w) >= 4]
+        puntuados = []
+        for orden, (b, l) in enumerate(res):
+            titulo = [w for w in _palabras_titulo(l.titulo) if len(w) >= 4]
+            aciertos = sum(1 for w in q if any(SequenceMatcher(None, w, t).ratio() >= 0.8 for t in titulo))
+            if aciertos:
+                puntuados.append((-aciertos, orden, b, l))
+        puntuados.sort(key=lambda x: (x[0], x[1]))
+        return [(b, l) for _, _, b, l in puntuados[:MAX_OPCIONES]]
 
     def coincidentes(self, texto: str, res: list[tuple[Biblioteca, Libro]]) -> list[tuple[Biblioteca, Libro]]:
         """Resultados cuyo título es lo escrito (admitiendo además palabras del autor)."""
@@ -199,18 +266,15 @@ class Lista:
                 log.warning("No pude repetir la búsqueda «%s»: %s", b["texto"], e)
                 continue
             b["ultima"] = _iso(ahora)
-            if not res:
-                continue
-            self.busquedas.pop(clave)
-            claros = self.claros(b["texto"], res)
-            if claros:
+            if res.claros:
                 try:
-                    recs = self.sigue(claros)
+                    recs = self.sigue(res.claros)
                 except (ErrorDeRed, ErrorDeLectura) as e:
                     log.warning("No pude abrir «%s»: %s", b["texto"], e)
-                    recs = []
-                if recs:
-                    eventos.append(EventoLista("encontrado", {}, busqueda=b["texto"], seguidos=recs))
                     continue
-            eventos.append(EventoLista("encontrado", {}, busqueda=b["texto"], opciones=self.coincidentes(b["texto"], res) or res))
+                self.busquedas.pop(clave)
+                eventos.append(EventoLista("encontrado", {}, busqueda=b["texto"], seguidos=recs))
+            elif res.dudosos:
+                self.busquedas.pop(clave)
+                eventos.append(EventoLista("encontrado", {}, busqueda=b["texto"], opciones=res.dudosos))
         return eventos

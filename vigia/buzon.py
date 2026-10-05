@@ -15,11 +15,13 @@ from .lista import Lista
 from .models import Estado, Libro
 from .notify.mensajes import autores, linea_estado
 from .notify.telegram import ErrorTelegram, Telegram, actualizaciones, fija_menu
-from .parse import ErrorDeLectura
+from .parse import ErrorDeLectura, normaliza
 
 log = logging.getLogger(__name__)
 
 VERSION_MENU = 1
+SALUDOS = {"hola", "holi", "hey", "buenas", "buenos dias", "buenas tardes", "buenas noches", "hola buenas",
+           "gracias", "muchas gracias", "ok", "vale", "adios", "hi", "hello", "prueba", "test", "que tal", "hola que tal"}
 
 AYUDA = (
     "📚 <b>Tu lista «quiero leer»</b>\n\n"
@@ -105,7 +107,11 @@ def responde(lista: Lista, texto: str) -> str:
         return f"🗑 Dejo de buscar «{escape(b['texto'])}»." if b else "No tenía esa búsqueda guardada. /lista"
     if orden.startswith("/s_"):
         rid = orden[3:]
-        bib = lista.biblioteca(lista.opciones.get(rid, "")) or lista.cfg.activas[0]
+        op = lista.opciones.get(rid, "")
+        if isinstance(op, dict):
+            lista.olvida(op.get("p", ""))   # ya ha elegido: no hace falta seguir buscando ese título
+            op = op.get("b", "")
+        bib = lista.biblioteca(op) or lista.cfg.activas[0]
         return _apunta(lista, bib, rid)
     if orden.startswith("/"):
         return "No conozco esa orden. /ayuda"
@@ -113,24 +119,46 @@ def responde(lista: Lista, texto: str) -> str:
     if "http://" in texto or "https://" in texto or "ebiblio.es" in texto:
         return "No hace falta el enlace: escríbeme sólo el título del libro (y el autor, si quieres)."
 
+    if normaliza(texto) in SALUDOS:
+        return "¡Hola! 👋\n\n" + AYUDA
+
     # Título (y quizá autor): busco en el catálogo
     try:
         res = lista.busca(texto)
     except (ErrorDeRed, ErrorDeLectura) as e:
         return f"Ahora no puedo buscar en eBiblio ({escape(str(e))}). Escríbeme el título otra vez más tarde."
-    if not res:
-        clave = lista.pendiente(texto)
-        return (f"🔎 «{escape(texto)}» aún no está en eBiblio.\n"
-                f"Lo buscaré cada día y, cuando llegue, empezaré a seguirlo y te avisaré.\n"
-                f"Dejar de buscarlo: /olvidar_{clave}")
-    claros = lista.claros(texto, res)
-    if claros:
-        return _sigue_varios(lista, claros)
-    mismos = lista.coincidentes(texto, res)
-    if mismos:
-        return _opciones(lista, mismos, f"🔎 Hay varios libros titulados «{escape(texto)}». Toca el que quieras seguir:")
-    return _opciones(lista, res, f"🔎 No encuentro exactamente «{escape(texto)}», pero hay esto. Toca el que quieras seguir, "
-                                 f"o escríbeme el título completo:")
+    if res.claros:
+        return _sigue_varios(lista, res.claros)
+    if res.dudosos:
+        respuesta = _opciones(lista, res.dudosos, f"🔎 Hay varios libros titulados «{escape(texto)}». "
+                                                  f"Toca el que quieras seguir:")
+        if res.otro_formato:
+            otros = "; ".join(
+                f"«{escape(l.titulo)}»" + (f" de {escape(l.autores[0])}" if l.autores else "")
+                for _, l in res.otro_formato[:3])
+            respuesta += (f"\nTambién está {otros}, pero sólo en audiolibro, que no sigues. "
+                          f"Si es ese el que buscas, escríbeme también el autor y lo buscaré cada día "
+                          f"por si llega como libro electrónico.")
+        return respuesta
+
+    clave = lista.pendiente(texto)
+    olvidar = f"Dejar de buscarlo: /olvidar_{clave}"
+    if res.otro_formato:
+        _, l = res.otro_formato[0]
+        autor = f" de {escape(l.autores[0])}" if l.autores else ""
+        formato = "audiolibro" if l.tipo == "audiolibro" else "libro electrónico"
+        return (f"🎧 «{escape(l.titulo)}»{autor} sólo está en eBiblio como <b>{formato}</b>, "
+                f"y ese formato no lo sigues.\n"
+                f"Lo buscaré cada día por si llega en otro formato, y te avisaré.\n{olvidar}")
+    if res.parecidos:
+        for b, l in res.parecidos:
+            lista.opciones[l.id] = {"b": b.id, "p": clave}
+        return _opciones(lista, res.parecidos,
+                         f"🔎 No encuentro exactamente «{escape(texto)}». ¿Es alguno de estos?") + (
+            "\nSi no es ninguno, revisa cómo está escrito. Mientras, lo buscaré cada día por si llega.\n" + olvidar)
+    return (f"🔎 «{escape(texto)}» aún no está en eBiblio.\n"
+            f"Lo buscaré cada día y, cuando llegue, empezaré a seguirlo y te avisaré.\n"
+            f"Si crees que sí está, revisa cómo está escrito el título.\n{olvidar}")
 
 
 def _sigue_varios(lista: Lista, claros: list) -> str:
