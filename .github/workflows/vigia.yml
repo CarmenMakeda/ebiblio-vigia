@@ -30,9 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -52,12 +52,14 @@ jobs:
         run: |
           set +e
           ACCION="${{ inputs.accion || 'comprobar' }}"
+          WEB="--sin-web"
+          if [ "${{ vars.PUBLICAR_WEB }}" = "true" ]; then WEB=""; fi
           if [ "$ACCION" = "probar" ]; then
             python -m vigia probar
           elif [ "$ACCION" = "comprobar-completa" ]; then
-            python -m vigia comprobar --completa
+            python -m vigia comprobar --completa $WEB
           else
-            python -m vigia comprobar
+            python -m vigia comprobar $WEB
           fi
           echo "codigo=$?" >> "$GITHUB_OUTPUT"
 
