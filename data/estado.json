@@ -25115,10 +25115,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2027-01-03T16:20",
+     "disponible_el": "2027-01-04T07:19",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 3 ene 2027 a las 16:20 Reservar EPUB (El pastor y los lobos)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 4 ene 2027 a las 07:19 Reservar EPUB (El pastor y los lobos)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a99c759d9898dd23a1fbedf",
@@ -26058,10 +26058,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2027-01-03T05:11",
+     "disponible_el": "2027-01-03T16:44",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 3 ene 2027 a las 05:11 Reservar EPUB (El secreto de la niñera)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 3 ene 2027 a las 16:44 Reservar EPUB (El secreto de la niñera)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa929243076853ba7ec9243",
@@ -27386,7 +27386,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-06T11:31:08Z",
+    "ultima_ok": "2026-10-06T11:51:19Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27394,16 +27394,16 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-06T11:31:08Z",
-     "ultimos": 427,
+     "ultima_lectura": "2026-10-06T11:51:19Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "69830e032580d662bfd9a2a0": {
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-06T11:31:08Z",
-     "ultimos": 322,
+     "ultima_lectura": "2026-10-06T11:51:19Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "6989c28fb1f2348d4d0f386e": {
