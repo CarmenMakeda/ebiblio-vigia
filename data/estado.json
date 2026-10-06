@@ -26847,10 +26847,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-09T08:34",
+     "disponible_el": "2026-12-09T09:24",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 9 dic 2026 a las 08:34 Reservar EPUB (El último cine de barrio)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 9 dic 2026 a las 09:24 Reservar EPUB (El último cine de barrio)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fa9015acb463909ab14",
@@ -27386,7 +27386,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-06T11:51:19Z",
+    "ultima_ok": "2026-10-06T12:06:27Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27394,7 +27394,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-06T11:51:19Z",
+     "ultima_lectura": "2026-10-06T12:06:27Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27402,7 +27402,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-06T11:51:19Z",
+     "ultima_lectura": "2026-10-06T12:06:27Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27426,7 +27426,29 @@
   }
  },
  "historial": [],
- "lista": {},
+ "lista": {
+  "madrid:68b71f2d9b9abc4d9f538f00": {
+   "anadido": "2026-10-06T12:06:27Z",
+   "autores": [
+    "Lana Corujo"
+   ],
+   "biblioteca": "madrid",
+   "biblioteca_nombre": "eBiblio Madrid",
+   "comprobado": "2026-10-06T12:06:37Z",
+   "disponible_el": null,
+   "ejemplares": null,
+   "estado": "sin_reservas",
+   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Texto y audio sincronizados En este momento no hay reservas libres. Inténtelo más adelante",
+   "formato": "EPUB",
+   "id": "68b71f2d9b9abc4d9f538f00",
+   "origen": "telegram",
+   "portada": "https://covers.feedbooks.net/item/6302985.jpg?size=large&t=1729879447",
+   "sinopsis": "LA ERUPCIÓN LITERARIA DEL AÑO: DOS HERMANAS UNIDAS POR UN JUEGO, UN VOLCÁN Y UNA TRAGEDIA *PREMIO JAVIER MOROTE A LA MEJOR AUTORA REVELACIÓN, PREMIO AZAGAL Y PREMIO LIBRERÍA DE MUJERES 2025* «Una yincana por el cielo estrella...",
+   "tipo": "libro",
+   "titulo": "Han cantado bingo",
+   "url": "https://madrid.ebiblio.es/resources/68b71f2d9b9abc4d9f538f00"
+  }
+ },
  "opciones": {
   "5fcfb57d6af9f8028930ca52": "madrid",
   "5fcfb7846af9f8028930f4c8": "madrid",
@@ -27445,7 +27467,7 @@
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899067
+  "offset": 119899069
  },
  "version": 1
 }
