@@ -26410,10 +26410,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-10-25T07:39",
+     "disponible_el": "2026-10-26T08:22",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 25 oct 2026 a las 07:39 Reservar EPUB (Tsunami)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 26 oct 2026 a las 08:22 Reservar EPUB (Tsunami)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa92fee101fed3111749922",
@@ -27386,7 +27386,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-06T12:06:27Z",
+    "ultima_ok": "2026-10-06T12:31:03Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -27394,7 +27394,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-06T12:06:27Z",
+     "ultima_lectura": "2026-10-06T12:31:03Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27402,7 +27402,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-06T12:06:27Z",
+     "ultima_lectura": "2026-10-06T12:31:03Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -27434,7 +27434,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-06T12:06:37Z",
+   "comprobado": "2026-10-06T12:31:13Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "sin_reservas",
