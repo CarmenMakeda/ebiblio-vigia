@@ -19,11 +19,24 @@ bibliotecas:
       - Novedades no ficción
       # - Nuevos audiolibros   (quita la # para vigilar también audiolibros)
 
-  # Siguiente fase: cambia «activa» a true cuando quieras probarlas.
   - id: castillayleon
     nombre: eBiblio Castilla y León
     url: https://castillayleon.ebiblio.es
-    activa: false
+    activa: true
+    # Castilla y León no tiene listas de «Novedades» en su portada. En su lugar
+    # se vigila el catálogo ordenado por «Adquisiciones recientes»: lo último
+    # que llega sale primero. Sólo cuentan las primeras «paginas» (40 libros
+    # cada una; 10 páginas ≈ las llegadas de los últimos 2-3 meses).
+    # filtro = lo que va detrás de «?» en la dirección del catálogo de eBiblio.
+    #   nature=ebook                            → todos los libros electrónicos
+    #   nature=ebook&category=fiction&category_standard=ebiblio → sólo ficción
+    # (Los infantiles y juveniles se descartan con «infantil: false», más abajo.)
+    consultas:
+      - nombre: Novedades libros electrónicos
+        filtro: nature=ebook
+        paginas: 10
+
+  # Siguiente fase: cambia «activa» a true cuando quieras probarla.
 
   - id: andalucia
     nombre: eBiblio Andalucía
@@ -43,6 +56,7 @@ intereses:
   excluir:             # libros que no quieres ni ver en los avisos
     # - infantil
   tipos: [libro]       # añade «audiolibro» si quieres también audiolibros: [libro, audiolibro]
+  infantil: false      # false = no avisar de libros infantiles y juveniles (en ninguna biblioteca)
 
 # Tu lista «quiero leer» se maneja desde Telegram: escribe al bot el título
 # de un libro y lo sigue por ti. /lista para ver lo que sigue.

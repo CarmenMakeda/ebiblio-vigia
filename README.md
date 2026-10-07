@@ -97,9 +97,18 @@ Te avisa 🔔 cuando un libro de tu lista se pueda reservar y 🟢 cuando esté 
 
 El bot lee tus mensajes en cada comprobación (cada hora), así que **puede tardar un rato en contestar**. Sólo hace caso a tu chat: si otra persona le escribe, la ignora.
 
-## Añadir Castilla y León o Andalucía
+## Varias bibliotecas: Madrid, Castilla y León, Andalucía
 
-En `config.yaml` cambia `activa: false` por `activa: true` en la biblioteca que quieras. Las tres usan la misma plataforma. La primera comprobación de cada biblioteca nueva vuelve a ser silenciosa.
+En `config.yaml` cambia `activa: false` por `activa: true` en la biblioteca que quieras. Todas usan la misma plataforma. La primera comprobación de cada biblioteca nueva vuelve a ser silenciosa.
+
+Cada biblioteca organiza sus novedades a su manera:
+
+- **Madrid** tiene listas «Novedades ficción» y «Novedades no ficción» en la portada. Se vigilan con `secciones:`.
+- **Castilla y León** no tiene listas de novedades. Se vigila su catálogo ordenado por «Adquisiciones recientes» con `consultas:` (ver `config.yaml`): `filtro` es lo que va detrás de `?` en la dirección del catálogo y `paginas`, cuántas páginas de 40 libros cuentan como novedad.
+
+Con más de una biblioteca, la lista «quiero leer» busca cada título en todas y te dice en cuál está cada ejemplar.
+
+Con `infantil: false` (en `intereses:`) no te avisa de libros infantiles ni juveniles en ninguna biblioteca. Los reconoce porque el catálogo de eBiblio los marca con «Público: Infantil/Juvenil». Tu lista «quiero leer» no se ve afectada: si sigues un libro infantil, te avisa igual.
 
 ---
 
