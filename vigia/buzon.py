@@ -36,10 +36,17 @@ AYUDA = (
 )
 
 
-def _ficha_corta(rec: dict) -> str:
+def _donde(lista: Lista, rec: dict) -> str:
+    """« · eBiblio Madrid» cuando se vigila más de una biblioteca (si no, sobra)."""
+    if len(lista.cfg.activas) > 1 and rec.get("biblioteca_nombre"):
+        return f" · {escape(rec['biblioteca_nombre'])}"
+    return ""
+
+
+def _ficha_corta(rec: dict, donde: str = "") -> str:
     a = f" — <i>{escape(autores(rec))}</i>" if rec.get("autores") else ""
     tipo = " 🎧" if rec.get("tipo") == "audiolibro" else ""
-    return f'<a href="{escape(rec["url"])}">{escape(rec["titulo"])}</a>{tipo}{a}\n{linea_estado(rec)}'
+    return f'<a href="{escape(rec["url"])}">{escape(rec["titulo"])}</a>{tipo}{a}{donde}\n{linea_estado(rec)}'
 
 
 def _opciones(lista: Lista, res: list[tuple], cabecera: str) -> str:
@@ -61,7 +68,7 @@ def texto_lista(lista: Lista) -> str:
         partes.append(f"📌 <b>Sigo {len(lista.libros)} libro{'s' if len(lista.libros) != 1 else ''} para ti</b>\n")
         orden = sorted(lista.libros.values(), key=lambda r: (-Estado(r.get("estado", "desconocido")).rango, r["titulo"].lower()))
         for r in orden:
-            partes.append(f"{_ficha_corta(r)}\nQuitar: /quitar_{r['id']}\n")
+            partes.append(f"{_ficha_corta(r, _donde(lista, r))}\nQuitar: /quitar_{r['id']}\n")
     if lista.busquedas:
         partes.append("🔎 <b>Títulos que busco cada día</b> (aún no están en eBiblio)\n")
         for clave, b in lista.busquedas.items():
@@ -77,14 +84,14 @@ def _apunta(lista: Lista, bib, rid: str) -> str:
     except (ErrorDeRed, ErrorDeLectura) as e:
         return f"Ahora no puedo abrir ese libro en eBiblio ({escape(str(e))}). Vuelve a escribirme el título más tarde."
     if not nuevo:
-        return f"Ya lo seguía:\n{_ficha_corta(rec)}"
+        return f"Ya lo seguía:\n{_ficha_corta(rec, _donde(lista, rec))}"
     e = Estado(rec["estado"])
     extra = {
         Estado.DISPONIBLE: "\n\n¡Está libre ahora mismo! Corre a cogerlo.",
         Estado.RESERVABLE: "\n\nYa se puede reservar. Si lo quieres, resérvalo; si no, te avisaré cuando quede libre.",
         Estado.SIN_RESERVAS: "\n\nAhora no admite reservas. Te aviso en cuanto se pueda reservar o quede libre.",
     }.get(e, "\n\nTe aviso cuando cambie su disponibilidad.")
-    return f"📌 <b>Apuntado en tu lista</b>\n{_ficha_corta(rec)}{extra}"
+    return f"📌 <b>Apuntado en tu lista</b>\n{_ficha_corta(rec, _donde(lista, rec))}{extra}"
 
 
 def responde(lista: Lista, texto: str) -> str:
@@ -173,7 +180,7 @@ def _sigue_varios(lista: Lista, claros: list) -> str:
     lineas = [f"📌 <b>Sigo «{escape(r0['titulo'])}»</b> en sus {len(recs)} ediciones:"]
     for r in recs:
         fmt = "🎧 Audiolibro" if r.get("tipo") == "audiolibro" else f"📖 {escape((r.get('formato') or 'Libro').title())}"
-        lineas.append(f'\n{fmt}: <a href="{escape(r["url"])}">{escape(r["titulo"])}</a>\n{linea_estado(r)}\nQuitar: /quitar_{r["id"]}')
+        lineas.append(f'\n{fmt}{_donde(lista, r)}: <a href="{escape(r["url"])}">{escape(r["titulo"])}</a>\n{linea_estado(r)}\nQuitar: /quitar_{r["id"]}')
     if any(Estado(r["estado"]) is Estado.DISPONIBLE for r in recs):
         lineas.append("\n¡Hay una edición libre ahora mismo! Corre a cogerla.")
     else:

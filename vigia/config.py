@@ -15,6 +15,43 @@ class ErrorDeConfiguracion(Exception):
     pass
 
 
+ORDEN_LLEGADA = "sort_by=created_at_desc"
+
+
+@dataclass
+class Consulta:
+    """Lista de novedades hecha con el catálogo ordenado por fecha de llegada.
+
+    Sirve para las bibliotecas que no tienen listas («bundles») de novedades, como
+    Castilla y León: `/resources?nature=ebook&sort_by=created_at_desc` muestra primero
+    lo último que ha llegado. Se vigilan sólo las primeras `paginas` (40 libros cada una).
+    """
+    nombre: str
+    filtro: str                   # parámetros del catálogo, p. ej. "nature=ebook"
+    paginas: int = 10
+
+    def __post_init__(self):
+        f = self.filtro.strip()
+        if "?" in f:
+            f = f.split("?", 1)[1]
+        partes = [x for x in f.split("&") if x and not x.startswith(("sort_by=", "page=", "view=", "l="))]
+        self.filtro = "&".join(partes)
+        try:
+            self.paginas = int(self.paginas)
+        except (TypeError, ValueError):
+            raise ErrorDeConfiguracion(f"paginas de «{self.nombre}» debe ser un número") from None
+        if not 1 <= self.paginas <= 25:
+            raise ErrorDeConfiguracion(f"paginas de «{self.nombre}» debe estar entre 1 y 25")
+
+    @property
+    def clave(self) -> str:
+        return "q:" + self.filtro
+
+    def url(self, base: str, pagina: int = 1) -> str:
+        q = "&".join(x for x in (self.filtro, ORDEN_LLEGADA) if x)
+        return f"{base}/resources?{q}" + (f"&page={pagina}" if pagina > 1 else "")
+
+
 @dataclass
 class Biblioteca:
     id: str
@@ -22,6 +59,15 @@ class Biblioteca:
     url: str
     activa: bool = True
     secciones: list[str] = field(default_factory=list)  # nombres o "re:<regex>"; vacío = automático
+    consultas: list[Consulta] = field(default_factory=list)  # novedades sacadas del catálogo
+
+    @property
+    def usa_portada(self) -> bool:
+        """¿Hay que buscar listas de novedades en la portada? No si sólo se usan consultas."""
+        return bool(self.secciones) or not self.consultas
+
+    def consulta(self, clave: str) -> Consulta | None:
+        return next((c for c in self.consultas if c.clave == clave), None)
 
     def __post_init__(self):
         self.url = self.url.rstrip("/")
@@ -37,6 +83,7 @@ class Intereses:
     palabras: list[str] = field(default_factory=list)
     excluir: list[str] = field(default_factory=list)
     tipos: list[str] = field(default_factory=lambda: ["libro", "audiolibro"])
+    infantil: bool = True         # False = no avisar de libros infantiles/juveniles
 
 
 @dataclass
@@ -108,6 +155,11 @@ def carga(ruta: str | Path = "config.yaml") -> Config:
                 url=str(b["url"]),
                 activa=bool(b.get("activa", True)),
                 secciones=_lista(b.get("secciones")),
+                consultas=[
+                    Consulta(nombre=str(c.get("nombre") or "Novedades"), filtro=str(c.get("filtro") or ""),
+                             paginas=c.get("paginas", 10))
+                    for c in (b.get("consultas") or [])
+                ],
             )
         )
     if not any(b.activa for b in bibliotecas):
@@ -119,6 +171,7 @@ def carga(ruta: str | Path = "config.yaml") -> Config:
         palabras=_lista(i.get("palabras")),
         excluir=_lista(i.get("excluir")),
         tipos=_lista(i.get("tipos")) or ["libro", "audiolibro"],
+        infantil=i.get("infantil", True) is not False,
     )
     a = datos.get("avisos") or {}
     avisos = Avisos(**{k: v for k, v in a.items() if k in Avisos.__dataclass_fields__ and v is not None})

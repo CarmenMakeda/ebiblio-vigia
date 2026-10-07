@@ -127,13 +127,17 @@ class Lista:
         permitidos_tipos = {t for t in self.cfg.intereses.tipos if t in ("libro", "audiolibro")}
         todos: dict[str, tuple[Biblioteca, Libro]] = {}
         for bib in self.cfg.activas:
+            de_esta: list[tuple[Biblioteca, Libro]] = []
             for tipo, valor in self._consultas(texto):
                 param = "author_keyword" if tipo == "autor" else "q"
                 pag = lee_seccion(self.cliente.get(f"{bib.url}/resources?{param}={quote_plus(valor)}"), bib.url)
                 for l in pag.libros:
-                    if l.tipo in ("libro", "audiolibro"):
-                        todos.setdefault(l.id, (bib, l))
-                if self.coincidentes(texto, list(todos.values())):
+                    if l.tipo in ("libro", "audiolibro") and l.id not in todos:
+                        todos[l.id] = (bib, l)
+                        de_esta.append((bib, l))
+                # Cada biblioteca se busca por su cuenta: que el libro esté en una no
+                # significa que la primera consulta baste para encontrarlo en la otra.
+                if self.coincidentes(texto, de_esta):
                     break
         lista = list(todos.values())
         permitidos = [(b, l) for b, l in lista if l.tipo in permitidos_tipos]
@@ -178,7 +182,9 @@ class Lista:
         for bib, l in res:
             titulo = _palabras_titulo(l.titulo)
             autor = set(normaliza(" ".join(l.autores)).split())
-            if titulo and titulo <= q and q <= titulo | autor:
+            # «Los huérfanos de Carmen Mola»: el «de» que une título y autor no cuenta
+            pedidas = q - (CONECTORES - titulo - autor)
+            if titulo and titulo <= pedidas and pedidas <= titulo | autor:
                 fuertes.append((bib, l))
         return fuertes
 

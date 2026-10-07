@@ -19,6 +19,12 @@ log = logging.getLogger(__name__)
 HORAS_REDESCUBRIR = 20
 HORAS_ENFRIAMIENTO_LIBERADO = 12
 MAX_HISTORIAL = 300
+# Libros infantiles/juveniles: el catálogo los marca con «Público: Infantil/Juvenil».
+# Las listas de novedades no lo dicen, así que se lee aparte esa parte del catálogo
+# (por fecha de llegada) y se recuerdan sus ids.
+URL_INFANTIL = "/resources?nature=ebook&audience=youth&sort_by=created_at_desc"
+PAGINAS_INFANTIL = 5
+MAX_INFANTIL = 3000
 
 
 @dataclass
@@ -87,6 +93,7 @@ class Vigia:
         self.ahora = ahora or (lambda: datetime.now(timezone.utc))
         self.seguidos: set[str] = set()          # «bib:id» de la lista quiero leer (se avisan aparte)
         self.vistos: dict[str, Libro] = {}       # libros leídos en esta vuelta, para no repetir peticiones
+        self.infantiles: set[str] = set()        # ids de libros infantiles de la biblioteca en curso
 
     # ------------------------------------------------------------------ público
     def comprueba(self, biblioteca: Biblioteca, forzar_completa: bool = False) -> Informe:
@@ -103,6 +110,7 @@ class Vigia:
                 or ahora - ultima >= timedelta(hours=self.cfg.comprobacion.sincronizacion_completa_horas)
             )
             inf.completa = completa
+            self.infantiles = self._infantiles(biblioteca, b)
             hechas: list[str] = []
             for intento in range(2):
                 secciones = self._secciones(biblioteca, b, ahora, inf, forzar=intento > 0)
@@ -142,18 +150,61 @@ class Vigia:
         self._historial(inf, ahora)
         return inf
 
+    # ------------------------------------------------------------- infantiles
+    def _infantiles(self, bib: Biblioteca, b: dict) -> set[str]:
+        """Ids de los libros infantiles/juveniles, para no avisar de ellos (si así se ha pedido)."""
+        if self.cfg.intereses.infantil:
+            return set()
+        guardados: list[str] = b.setdefault("infantil", [])
+        conocidos = set(guardados)
+        try:
+            for pagina in range(1, PAGINAS_INFANTIL + 1):
+                url = bib.url + URL_INFANTIL + (f"&page={pagina}" if pagina > 1 else "")
+                pag = lee_seccion(self.cliente.get(url), bib.url)
+                ids = [l.id for l in pag.libros]
+                ya = any(i in conocidos for i in ids)
+                for i in ids:
+                    if i not in conocidos:
+                        conocidos.add(i)
+                        guardados.append(i)
+                # Por orden de llegada: en cuanto aparece uno conocido, lo demás ya se tiene
+                if ya or not pag.hay_siguiente:
+                    break
+        except (ErrorDeRed, ErrorDeLectura) as e:
+            log.warning("No pude leer los libros infantiles de %s (%s); uso los ya conocidos", bib.nombre, e)
+        del guardados[:-MAX_INFANTIL]
+        return set(guardados)
+
     # ------------------------------------------------------------- secciones
     def _secciones(self, bib: Biblioteca, b: dict, ahora: datetime, inf: Informe, forzar: bool) -> list[tuple[str, str]]:
+        """Listas a vigilar: (clave, nombre). La clave es el id del bundle o «q:<filtro>»."""
+        elegidas = self._bundles(bib, b, ahora, inf, forzar) if bib.usa_portada else []
+        if not bib.usa_portada:
+            for k, v in b["secciones"].items():
+                if not k.startswith("q:"):
+                    v["vigilada"] = False
+        claves = {c.clave for c in bib.consultas}
+        for k, v in b["secciones"].items():
+            if k.startswith("q:") and k not in claves:
+                v["vigilada"] = False
+        for c in bib.consultas:
+            sec = b["secciones"].setdefault(c.clave, {"sincronizada": False})
+            sec.update(nombre=c.nombre, vigilada=True)
+            elegidas.append((c.clave, c.nombre))
+        return elegidas
+
+    def _bundles(self, bib: Biblioteca, b: dict, ahora: datetime, inf: Informe, forzar: bool) -> list[tuple[str, str]]:
         # Las ya conocidas, filtradas por lo que diga config.yaml ahora (por si lo has cambiado)
         vigiladas = [(k, v["nombre"]) for k, v in b["secciones"].items()
-                     if v.get("vigilada") and _seccion_elegida(v["nombre"], bib.secciones)]
+                     if not k.startswith("q:") and v.get("vigilada") and _seccion_elegida(v["nombre"], bib.secciones)]
         conocidas = {normaliza(n) for _, n in vigiladas}
         falta_alguna = any(not f.startswith("re:") and normaliza(f) not in conocidas for f in bib.secciones)
         ultima = _de_iso(b["descubierto"])
         if (not forzar and vigiladas and not falta_alguna and ultima
                 and ahora - ultima < timedelta(hours=HORAS_REDESCUBRIR)):
             for k, v in b["secciones"].items():
-                v["vigilada"] = any(k == x for x, _ in vigiladas)
+                if not k.startswith("q:"):
+                    v["vigilada"] = any(k == x for x, _ in vigiladas)
             return vigiladas
         try:
             todas = lee_secciones_portada(self.cliente.get(bib.url + "/"))
@@ -170,7 +221,8 @@ class Vigia:
             raise ErrorDeLectura(f"No encuentro secciones de novedades en la portada de {bib.nombre}")
         ids = {s.bundle for s in elegidas}
         for k, v in b["secciones"].items():
-            v["vigilada"] = k in ids
+            if not k.startswith("q:"):
+                v["vigilada"] = k in ids
         for s in elegidas:
             sec = b["secciones"].setdefault(s.bundle, {"sincronizada": False})
             sec.update(nombre=s.nombre, total_web=s.total, vigilada=True)
@@ -179,14 +231,21 @@ class Vigia:
 
     def _lee_paginas(self, bib: Biblioteca, bundle: str, leer_todo: bool, conocidos: set[str]) -> tuple[list[Libro], bool]:
         c = self.cfg.comprobacion
+        consulta = bib.consulta(bundle)
+        maximo = consulta.paginas if consulta else c.paginas_max
         libros: dict[str, Libro] = {}
         pagina, terminado = 1, False
-        while pagina <= c.paginas_max:
-            url = f"{bib.url}/bundles/{bundle}" + (f"?page={pagina}" if pagina > 1 else "")
+        while pagina <= maximo:
+            if consulta:
+                url = consulta.url(bib.url, pagina)
+            else:
+                url = f"{bib.url}/bundles/{bundle}" + (f"?page={pagina}" if pagina > 1 else "")
             pag = lee_seccion(self.cliente.get(url), bib.url)
             for l in pag.libros:
                 libros.setdefault(l.id, l)
-            if not pag.hay_siguiente:
+            # En una consulta, la «lista» son sus primeras páginas: llegar al final de ellas
+            # es haberla leído entera (lo que queda detrás ya no cuenta como novedad).
+            if not pag.hay_siguiente or (consulta and pagina >= maximo):
                 terminado = True
                 break
             todos_nuevos = pag.libros and all(l.id not in conocidos for l in pag.libros)
@@ -225,7 +284,8 @@ class Vigia:
         clave_lista = f"{b['_id']}:{libro.id}"
         self.vistos[clave_lista] = libro
         mot = motivos(libro, cfg.intereses)
-        exc = excluido(libro, cfg.intereses) and not any(a in mot for a in cfg.intereses.autores)
+        exc = (excluido(libro, cfg.intereses) and not any(a in mot for a in cfg.intereses.autores)) \
+            or libro.id in self.infantiles
         rec = b["libros"].get(libro.id)
         alta = libro.alta
         if rec is None:

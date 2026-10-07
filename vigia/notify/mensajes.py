@@ -144,7 +144,7 @@ def redacta(informes: list[Informe], cfg: Config, estado: dict | None = None) ->
         if inf.inicial and not inf.error:
             texto = (
                 f"✅ <b>Vigía eBiblio activado · {escape(nombre)}</b>\n"
-                f"Vigilo {len(inf.secciones)} secciones: {escape(', '.join(inf.secciones))}.\n"
+                f"Vigilo {len(inf.secciones)} {'secciones' if len(inf.secciones) != 1 else 'sección'}: {escape(', '.join(inf.secciones))}.\n"
                 f"He registrado {inf.total_activos} títulos. A partir de ahora te aviso de cada novedad."
             )
             if estado is not None:
