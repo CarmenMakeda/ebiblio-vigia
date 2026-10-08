@@ -9883,11 +9883,12 @@
       "Gay Talese"
      ],
      "base": true,
-     "cambio_estado": "2026-10-07T08:32:18Z",
-     "disponible_el": null,
-     "ejemplares": 1,
-     "estado": "disponible",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 1 ejemplar disponible Prestar EPUB (El reino y el poder)",
+     "cambio_estado": "2026-10-08T07:32:14Z",
+     "disponible_el": "2026-10-23T19:26",
+     "ejemplares": null,
+     "estado": "reservable",
+     "estado_anterior": "disponible",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 23 oct 2026 a las 19:26 Reservar EPUB (El reino y el poder)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92907ce307333db14a74",
@@ -10217,9 +10218,9 @@
      "base": true,
      "cambio_estado": "2026-10-07T08:32:18Z",
      "disponible_el": null,
-     "ejemplares": 1,
+     "ejemplares": 2,
      "estado": "disponible",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 1 ejemplar disponible Prestar EPUB (Otoño alemán)",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 2 ejemplares disponibles Prestar EPUB (Otoño alemán)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92917ce307333db14b3e",
@@ -10840,9 +10841,9 @@
      "base": true,
      "cambio_estado": "2026-10-07T08:32:18Z",
      "disponible_el": null,
-     "ejemplares": 1,
+     "ejemplares": 2,
      "estado": "disponible",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 1 ejemplar disponible Prestar EPUB (Nunca muere)",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 2 ejemplares disponibles Prestar EPUB (Nunca muere)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92947ce307333db14c9e",
@@ -11081,14 +11082,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-08T06:31:15Z",
+    "ultima_ok": "2026-10-08T07:32:14Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-08T06:31:15Z",
+     "ultima_lectura": "2026-10-08T07:32:14Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -34158,10 +34159,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-09T17:49",
+     "disponible_el": "2026-12-14T20:30",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 9 dic 2026 a las 17:49 Reservar EPUB (Cazadores de estrellas)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 14 dic 2026 a las 20:30 Reservar EPUB (Cazadores de estrellas)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a6222066779317ff92f6296",
@@ -36018,10 +36019,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-10-14T10:31",
+     "disponible_el": "2026-10-22T07:41",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 14 oct 2026 a las 10:31 Reservar EPUB (Lo intolerable)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 22 oct 2026 a las 07:41 Reservar EPUB (Lo intolerable)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a917527dec17e293a16f640",
@@ -38329,10 +38330,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-07T23:16",
+     "disponible_el": "2026-12-07T23:20",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 7 dic 2026 a las 23:16 Reservar EPUB (Conjura contra el rey Felipe)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 7 dic 2026 a las 23:20 Reservar EPUB (Conjura contra el rey Felipe)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fab015acb463909acf5",
@@ -38656,10 +38657,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2027-01-03T15:32",
+     "disponible_el": "2026-12-31T19:46",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 3 ene 2027 a las 15:32 Reservar EPUB (Hay una plaza para ti)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 31 dic 2026 a las 19:46 Reservar EPUB (Hay una plaza para ti)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f890cf479cb0b366bd",
@@ -38734,7 +38735,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-08T06:31:04Z",
+    "ultima_ok": "2026-10-08T07:32:02Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -38742,7 +38743,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 427,
-     "ultima_lectura": "2026-10-08T06:31:04Z",
+     "ultima_lectura": "2026-10-08T07:32:02Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -38750,7 +38751,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 322,
-     "ultima_lectura": "2026-10-08T06:31:04Z",
+     "ultima_lectura": "2026-10-08T07:32:02Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -38769,6 +38770,27 @@
  "busquedas": {},
  "historial": [],
  "lista": {
+  "castillayleon:6a9a935b60239c3e531b3fbb": {
+   "anadido": "2026-10-08T07:32:01Z",
+   "autores": [
+    "Alejandro Palomas"
+   ],
+   "biblioteca": "castillayleon",
+   "biblioteca_nombre": "eBiblio Castilla y León",
+   "comprobado": "2026-10-08T07:32:23Z",
+   "disponible_el": null,
+   "ejemplares": null,
+   "estado": "sin_reservas",
+   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz En este momento no hay reservas libres. Inténtelo más adelante",
+   "formato": "EPUB",
+   "id": "6a9a935b60239c3e531b3fbb",
+   "origen": "telegram",
+   "portada": "https://covers.feedbooks.net/item/8299457.jpg?size=large&t=1788300437",
+   "sinopsis": "Un relato sobre la impactante belleza de las cosas comunes, el amor entre generaciones y la inesperada huella que dejamos en quienes más queremos. «—¿Tú sabes qué había antes? —¿Antes de qué? —Del trigo. —Bosque. Antes había bo...",
+   "tipo": "libro",
+   "titulo": "Casa",
+   "url": "https://castillayleon.ebiblio.es/resources/6a9a935b60239c3e531b3fbb"
+  },
   "castillayleon:6a9a935c60239c3e531b408e": {
    "anadido": "2026-10-07T08:33:15Z",
    "autores": [
@@ -38776,7 +38798,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-08T06:31:23Z",
+   "comprobado": "2026-10-08T07:32:23Z",
    "disponible_el": "2026-11-15T15:29",
    "ejemplares": null,
    "estado": "reservable",
@@ -38797,7 +38819,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-08T06:31:23Z",
+   "comprobado": "2026-10-08T07:32:23Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -38816,13 +38838,15 @@
    "autores": [
     "Lana Corujo"
    ],
+   "avisado_reservable": "2026-10-08T07:32:23Z",
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-08T06:31:23Z",
-   "disponible_el": null,
+   "cambio_estado": "2026-10-08T07:32:23Z",
+   "comprobado": "2026-10-08T07:32:23Z",
+   "disponible_el": "2027-01-06T08:40",
    "ejemplares": null,
-   "estado": "sin_reservas",
-   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Texto y audio sincronizados En este momento no hay reservas libres. Inténtelo más adelante",
+   "estado": "reservable",
+   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Texto y audio sincronizados Próximo ejemplar disponible el 6 ene 2027 a las 08:40 Reservar EPUB (Han",
    "formato": "EPUB",
    "id": "68b71f2d9b9abc4d9f538f00",
    "origen": "telegram",
@@ -38871,7 +38895,7 @@
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899072
+  "offset": 119899073
  },
  "version": 1
 }
