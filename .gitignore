@@ -1,0 +1,14 @@
+# Archivos que Python y las pruebas crean solos: no se guardan en el repositorio.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Entornos virtuales de Python
+.venv/
+venv/
+
+# Archivos temporales del sistema y de editores
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
