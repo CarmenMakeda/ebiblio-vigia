@@ -104,7 +104,7 @@ En `config.yaml` cambia `activa: false` por `activa: true` en la biblioteca que 
 Cada biblioteca organiza sus novedades a su manera:
 
 - **Madrid** tiene listas «Novedades ficción» y «Novedades no ficción» en la portada. Se vigilan con `secciones:`.
-- **Castilla y León** no tiene listas de novedades. Se vigila su catálogo ordenado por «Adquisiciones recientes» con `consultas:` (ver `config.yaml`): `filtro` es lo que va detrás de `?` en la dirección del catálogo y `paginas`, cuántas páginas de 40 libros cuentan como novedad.
+- **Castilla y León** y **Andalucía** no tienen listas de novedades. Se vigila su catálogo ordenado por «Adquisiciones recientes» con `consultas:` (ver `config.yaml`): `filtro` es lo que va detrás de `?` en la dirección del catálogo y `paginas`, cuántas páginas de 40 libros cuentan como novedad.
 
 Con más de una biblioteca, la lista «quiero leer» busca cada título en todas y te dice en cuál está cada ejemplar.
 

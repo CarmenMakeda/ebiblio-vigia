@@ -36,12 +36,19 @@ bibliotecas:
         filtro: nature=ebook
         paginas: 10
 
-  # Siguiente fase: cambia «activa» a true cuando quieras probarla.
-
   - id: andalucia
     nombre: eBiblio Andalucía
     url: https://andalucia.ebiblio.es
-    activa: false
+    activa: true
+    # Igual que Castilla y León: no tiene listas de «Novedades» en la portada,
+    # así que se vigila el catálogo por «Adquisiciones recientes».
+    # Andalucía compra menos a menudo (oct 2026: última tanda el 13 jul),
+    # así que 10 páginas ≈ las llegadas de los últimos 4-5 meses.
+    #   nature=ebook&category=fiction&category_standard=ebiblio → sólo ficción
+    consultas:
+      - nombre: Novedades libros electrónicos
+        filtro: nature=ebook
+        paginas: 10
 
 # Lo que te interesa. Los libros que coincidan llegan con portada y ⭐,
 # y te aviso también cuando se liberan. Da igual mayúsculas y tildes.
