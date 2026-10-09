@@ -11059,14 +11059,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-09T18:26:15Z",
+    "ultima_ok": "2026-10-09T18:31:18Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-09T18:26:15Z",
+     "ultima_lectura": "2026-10-09T18:31:18Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22185,14 +22185,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-09T18:26:07Z",
+    "ultima_ok": "2026-10-09T18:31:09Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-09T18:26:07Z",
+     "ultima_lectura": "2026-10-09T18:31:09Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -49383,10 +49383,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-08T23:47:54Z",
-     "disponible_el": "2026-11-22T00:09",
+     "disponible_el": "2026-11-22T16:00",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 22 nov 2026 a las 00:09 Reservar EPUB (Fantasma)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 22 nov 2026 a las 16:00 Reservar EPUB (Fantasma)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fa6015acb463909a889",
@@ -50451,7 +50451,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-09T18:25:56Z",
+    "ultima_ok": "2026-10-09T18:30:58Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -50459,7 +50459,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 438,
-     "ultima_lectura": "2026-10-09T18:25:56Z",
+     "ultima_lectura": "2026-10-09T18:30:58Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50467,7 +50467,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 331,
-     "ultima_lectura": "2026-10-09T18:25:56Z",
+     "ultima_lectura": "2026-10-09T18:30:58Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50518,7 +50518,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-09T18:26:24Z",
+   "comprobado": "2026-10-09T18:31:27Z",
    "disponible_el": "2027-01-07T00:19",
    "ejemplares": null,
    "estado": "reservable",
@@ -50539,7 +50539,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-09T18:26:24Z",
+   "comprobado": "2026-10-09T18:31:27Z",
    "disponible_el": "2026-11-15T22:42",
    "ejemplares": null,
    "estado": "reservable",
@@ -50560,7 +50560,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-09T18:26:24Z",
+   "comprobado": "2026-10-09T18:31:27Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -50583,7 +50583,7 @@
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
    "cambio_estado": "2026-10-09T10:31:21Z",
-   "comprobado": "2026-10-09T18:26:24Z",
+   "comprobado": "2026-10-09T18:31:27Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "sin_reservas",
