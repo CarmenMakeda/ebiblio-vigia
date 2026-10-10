@@ -11061,14 +11061,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T05:32:27Z",
+    "ultima_ok": "2026-10-10T06:31:13Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T05:32:27Z",
+     "ultima_lectura": "2026-10-10T06:31:13Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22203,15 +22203,15 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T05:31:58Z",
+    "ultima_ok": "2026-10-10T06:31:04Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T05:31:58Z",
-     "ultimos": 400,
+     "ultima_lectura": "2026-10-10T06:31:04Z",
+     "ultimos": 80,
      "vigilada": true
     }
    },
@@ -49659,10 +49659,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-08T23:47:54Z",
-     "disponible_el": "2027-01-06T23:15",
+     "disponible_el": "2027-01-06T23:16",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 ene 2027 a las 23:15 Reservar EPUB (El falsificador)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 ene 2027 a las 23:16 Reservar EPUB (El falsificador)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fab015acb463909ad21",
@@ -50072,11 +50072,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-09T05:30:54Z",
-     "disponible_el": "2026-10-30T00:13",
+     "disponible_el": "2026-10-30T04:53",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 30 oct 2026 a las 00:13 Reservar EPUB (El sueño lo cura todo)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 30 oct 2026 a las 04:53 Reservar EPUB (El sueño lo cura todo)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f190cf479cb0b36245",
@@ -50347,12 +50347,12 @@
       "Julia Navarro"
      ],
      "base": false,
-     "cambio_estado": "2026-10-10T05:30:54Z",
-     "disponible_el": "2027-01-08T06:22",
+     "cambio_estado": "2026-10-10T06:30:50Z",
+     "disponible_el": null,
      "ejemplares": null,
-     "estado": "reservable",
-     "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 8 ene 2027 a las 06:22 Reservar EPUB (Una familia moderna)",
+     "estado": "sin_reservas",
+     "estado_anterior": "reservable",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz En este momento no hay reservas libres. Inténtelo más adelante",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb73ccd0bfa3aa0698705",
@@ -50483,7 +50483,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T05:30:54Z",
+    "ultima_ok": "2026-10-10T06:30:50Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -50491,16 +50491,16 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 439,
-     "ultima_lectura": "2026-10-10T05:30:54Z",
-     "ultimos": 439,
+     "ultima_lectura": "2026-10-10T06:30:50Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "69830e032580d662bfd9a2a0": {
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 331,
-     "ultima_lectura": "2026-10-10T05:30:54Z",
-     "ultimos": 331,
+     "ultima_lectura": "2026-10-10T06:30:50Z",
+     "ultimos": 72,
      "vigilada": true
     },
     "6989c28fb1f2348d4d0f386e": {
@@ -50550,7 +50550,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-10T05:32:36Z",
+   "comprobado": "2026-10-10T06:31:21Z",
    "disponible_el": "2027-01-07T00:19",
    "ejemplares": null,
    "estado": "reservable",
@@ -50559,7 +50559,7 @@
    "id": "6a9a935b60239c3e531b3fbb",
    "origen": "telegram",
    "portada": "https://covers.feedbooks.net/item/8299457.jpg?size=large&t=1788300437",
-   "sinopsis": "Un relato sobre la impactante belleza de las cosas comunes, el amor entre generaciones y la inesperada huella que dejamos en quienes más queremos. «—¿Tú sabes qué había antes? —¿Antes de qué? —Del ...",
+   "sinopsis": "Un relato sobre la impactante belleza de las cosas comunes, el amor entre generaciones y la inesperada huella que dejamos en quienes más queremos. «—¿Tú sabes qué había antes? —¿Antes de qué? —Del trigo. —Bosque. Antes había bo...",
    "tipo": "libro",
    "titulo": "Casa",
    "url": "https://castillayleon.ebiblio.es/resources/6a9a935b60239c3e531b3fbb"
@@ -50571,7 +50571,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-10T05:32:36Z",
+   "comprobado": "2026-10-10T06:31:21Z",
    "disponible_el": "2026-11-15T22:42",
    "ejemplares": null,
    "estado": "reservable",
@@ -50580,7 +50580,7 @@
    "id": "6a9a935c60239c3e531b408e",
    "origen": "telegram",
    "portada": "https://covers.feedbooks.net/item/8310219.jpg?size=large&t=1788386761",
-   "sinopsis": "¿CÓMO TE DESPIDES DE UNA PARTE DE TU CUERPO? UN RELATO ÍNTIMO Y UNIVERSAL SOBRE LA PÉRDIDA Y LA IDENTIDAD «Una no ficción literaria ejemplar, un engranaje preciso donde la vivencia personal trascie...",
+   "sinopsis": "¿CÓMO TE DESPIDES DE UNA PARTE DE TU CUERPO? UN RELATO ÍNTIMO Y UNIVERSAL SOBRE LA PÉRDIDA Y LA IDENTIDAD «Una no ficción literaria ejemplar, un engranaje preciso donde la vivencia personal trasciende sus propias barreras para ...",
    "tipo": "libro",
    "titulo": "Fantasma",
    "url": "https://castillayleon.ebiblio.es/resources/6a9a935c60239c3e531b408e"
@@ -50592,7 +50592,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-10T05:32:36Z",
+   "comprobado": "2026-10-10T06:31:21Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -50615,7 +50615,7 @@
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
    "cambio_estado": "2026-10-09T10:31:21Z",
-   "comprobado": "2026-10-10T05:32:36Z",
+   "comprobado": "2026-10-10T06:31:21Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "sin_reservas",
