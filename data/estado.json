@@ -11069,14 +11069,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T16:17:24Z",
+    "ultima_ok": "2026-10-10T16:31:15Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T16:17:24Z",
+     "ultima_lectura": "2026-10-10T16:31:15Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -20949,11 +20949,12 @@
       "Baruch Spinoza"
      ],
      "base": true,
-     "cambio_estado": "2026-10-07T08:32:18Z",
-     "disponible_el": null,
-     "ejemplares": 1,
-     "estado": "disponible",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz 1 ejemplar disponible Prestar EPUB (Ética)",
+     "cambio_estado": "2026-10-10T16:31:07Z",
+     "disponible_el": "2026-10-24T22:26",
+     "ejemplares": null,
+     "estado": "reservable",
+     "estado_anterior": "disponible",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 24 oct 2026 a las 22:26 Reservar EPUB (Ética)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92907ce307333db14a52",
@@ -22214,14 +22215,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T16:17:15Z",
+    "ultima_ok": "2026-10-10T16:31:07Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T16:17:15Z",
+     "ultima_lectura": "2026-10-10T16:31:07Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -50253,11 +50254,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-09T05:30:54Z",
-     "disponible_el": "2026-11-21T23:37",
+     "disponible_el": "2026-11-22T04:57",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 21 nov 2026 a las 23:37 Reservar EPUB (Ojalá curar fuera más fácil)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 22 nov 2026 a las 04:57 Reservar EPUB (Ojalá curar fuera más fácil)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f890cf479cb0b36691",
@@ -50504,9 +50505,9 @@
      "base": false,
      "cambio_estado": "2026-10-10T12:30:54Z",
      "disponible_el": null,
-     "ejemplares": 4,
+     "ejemplares": 3,
      "estado": "disponible",
-     "estado_texto": "EPUB Streaming 4 ejemplares disponibles Prestar EPUB (Generación 15-M)",
+     "estado_texto": "EPUB Streaming 3 ejemplares disponibles Prestar EPUB (Generación 15-M)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accdf811b9e0a16f977b",
@@ -50553,7 +50554,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T16:17:03Z",
+    "ultima_ok": "2026-10-10T16:30:52Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -50561,7 +50562,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 439,
-     "ultima_lectura": "2026-10-10T16:17:03Z",
+     "ultima_lectura": "2026-10-10T16:30:52Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50569,7 +50570,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 331,
-     "ultima_lectura": "2026-10-10T16:17:03Z",
+     "ultima_lectura": "2026-10-10T16:30:52Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50638,7 +50639,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-10T16:17:32Z",
+   "comprobado": "2026-10-10T16:31:24Z",
    "disponible_el": "2027-01-07T00:19",
    "ejemplares": null,
    "estado": "reservable",
@@ -50659,7 +50660,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-10T16:17:32Z",
+   "comprobado": "2026-10-10T16:31:24Z",
    "disponible_el": "2026-11-15T22:42",
    "ejemplares": null,
    "estado": "reservable",
@@ -50680,7 +50681,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-10T16:17:32Z",
+   "comprobado": "2026-10-10T16:31:24Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -50703,7 +50704,7 @@
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
    "cambio_estado": "2026-10-09T10:31:21Z",
-   "comprobado": "2026-10-10T16:17:32Z",
+   "comprobado": "2026-10-10T16:31:24Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "sin_reservas",
