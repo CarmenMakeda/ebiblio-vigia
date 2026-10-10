@@ -11068,14 +11068,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T11:15:49Z",
+    "ultima_ok": "2026-10-10T11:31:14Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T11:15:49Z",
+     "ultima_lectura": "2026-10-10T11:31:14Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -21692,10 +21692,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-07T08:32:18Z",
-     "disponible_el": "2026-10-26T13:37",
+     "disponible_el": "2026-11-15T15:03",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 26 oct 2026 a las 13:37 Reservar EPUB (La Ilustración oscura)",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 15 nov 2026 a las 15:03 Reservar EPUB (La Ilustración oscura)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92937ce307333db14c03",
@@ -22211,14 +22211,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T11:15:40Z",
+    "ultima_ok": "2026-10-10T11:31:06Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-10T11:15:40Z",
+     "ultima_lectura": "2026-10-10T11:31:06Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -49368,11 +49368,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-09T05:30:54Z",
-     "disponible_el": "2026-11-21T23:16",
+     "disponible_el": "2026-11-21T23:21",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 21 nov 2026 a las 23:16 Reservar EPUB (Te di la mano)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 21 nov 2026 a las 23:21 Reservar EPUB (Te di la mano)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fa5015acb463909a80f",
@@ -49835,11 +49835,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-09T05:30:54Z",
-     "disponible_el": "2026-11-21T23:20",
+     "disponible_el": "2026-11-21T23:55",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 21 nov 2026 a las 23:20 Reservar EPUB (John, hijo de John)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 21 nov 2026 a las 23:55 Reservar EPUB (John, hijo de John)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fae015acb463909afb2",
@@ -50489,12 +50489,39 @@
      "url": "https://madrid.ebiblio.es/resources/6ac7accaf811b9e0a16f950b",
      "visto_primero": "2026-10-09T10:30:51Z",
      "visto_ultimo": "2026-10-10"
+    },
+    "6ac7accff811b9e0a16f989a": {
+     "activo": true,
+     "alta": "2026-10-08T14:46:39Z",
+     "autores": [
+      "Montero Glez"
+     ],
+     "base": false,
+     "cambio_estado": "2026-10-10T11:30:54Z",
+     "disponible_el": null,
+     "ejemplares": 6,
+     "estado": "disponible",
+     "estado_texto": "EPUB Streaming 6 ejemplares disponibles Prestar EPUB (El camino de los gitanos)",
+     "excluido": false,
+     "formato": "EPUB",
+     "id": "6ac7accff811b9e0a16f989a",
+     "intereses": [],
+     "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/c3ccb1c9-2190-409e-8ea0-4b111eff7d00/default",
+     "secciones": [
+      "69830e032580d662bfd9a2a0"
+     ],
+     "sinopsis": "A partir de los últimos días de García Lorca en la capital, Montero Glez construye un apasionante recorrido por el Madrid más oculto y literario. A través de una voz íntima y poética, Montero Glez ...",
+     "tipo": "libro",
+     "titulo": "El camino de los gitanos",
+     "url": "https://madrid.ebiblio.es/resources/6ac7accff811b9e0a16f989a",
+     "visto_primero": "2026-10-10T11:30:54Z",
+     "visto_ultimo": "2026-10-10"
     }
    },
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-10T11:15:27Z",
+    "ultima_ok": "2026-10-10T11:30:54Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -50502,7 +50529,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 439,
-     "ultima_lectura": "2026-10-10T11:15:27Z",
+     "ultima_lectura": "2026-10-10T11:30:54Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50510,7 +50537,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 331,
-     "ultima_lectura": "2026-10-10T11:15:27Z",
+     "ultima_lectura": "2026-10-10T11:30:54Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50549,6 +50576,15 @@
    "fecha": "2026-10-09T10:30:51Z",
    "liberados": 0,
    "nuevos": 1
+  },
+  {
+   "biblioteca": "madrid",
+   "ejemplos": [
+    "El camino de los gitanos"
+   ],
+   "fecha": "2026-10-10T11:30:54Z",
+   "liberados": 0,
+   "nuevos": 1
   }
  ],
  "lista": {
@@ -50561,7 +50597,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-10T11:15:59Z",
+   "comprobado": "2026-10-10T11:31:21Z",
    "disponible_el": "2027-01-07T00:19",
    "ejemplares": null,
    "estado": "reservable",
@@ -50582,7 +50618,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-10T11:15:59Z",
+   "comprobado": "2026-10-10T11:31:21Z",
    "disponible_el": "2026-11-15T22:42",
    "ejemplares": null,
    "estado": "reservable",
@@ -50603,7 +50639,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-10T11:15:59Z",
+   "comprobado": "2026-10-10T11:31:21Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -50626,7 +50662,7 @@
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
    "cambio_estado": "2026-10-09T10:31:21Z",
-   "comprobado": "2026-10-10T11:15:59Z",
+   "comprobado": "2026-10-10T11:31:21Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "sin_reservas",
