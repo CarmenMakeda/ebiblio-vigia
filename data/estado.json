@@ -11111,14 +11111,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-13T19:31:19Z",
+    "ultima_ok": "2026-10-13T19:54:50Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-13T19:31:19Z",
+     "ultima_lectura": "2026-10-13T19:54:50Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22288,14 +22288,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-13T19:31:09Z",
+    "ultima_ok": "2026-10-13T19:54:41Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-13T19:31:09Z",
+     "ultima_lectura": "2026-10-13T19:54:41Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -46454,10 +46454,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-11-03T22:30",
+     "disponible_el": "2026-11-03T20:50",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 3 nov 2026 a las 22:30 Reservar EPUB (Los mandarines)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 3 nov 2026 a las 20:50 Reservar EPUB (Los mandarines)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a883a5c1f73e5a2746f4895",
@@ -46837,10 +46837,10 @@
      "base": true,
      "cambio_estado": "2026-10-10T08:30:54Z",
      "disponible_el": null,
-     "ejemplares": 3,
+     "ejemplares": 4,
      "estado": "disponible",
      "estado_anterior": "reservable",
-     "estado_texto": "EPUB Streaming 3 ejemplares disponibles Prestar EPUB (En diciembre llegaban las brisas)",
+     "estado_texto": "EPUB Streaming 4 ejemplares disponibles Prestar EPUB (En diciembre llegaban las brisas)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a883a5f1f73e5a2746f4c9f",
@@ -50018,10 +50018,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-10-24T08:47",
+     "disponible_el": "2026-10-24T13:45",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 oct 2026 a las 08:47 Reservar EPUB (El botín)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 oct 2026 a las 13:45 Reservar EPUB (El botín)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61faf015acb463909b04a",
@@ -50182,11 +50182,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-09T05:30:54Z",
-     "disponible_el": "2026-10-30T12:50",
+     "disponible_el": "2026-11-01T12:27",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 30 oct 2026 a las 12:50 Reservar EPUB (Esto no es arte)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 1 nov 2026 a las 12:27 Reservar EPUB (Esto no es arte)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626ef90cf479cb0b36095",
@@ -50678,7 +50678,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-13T19:30:58Z",
+    "ultima_ok": "2026-10-13T19:54:29Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -50686,7 +50686,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 439,
-     "ultima_lectura": "2026-10-13T19:30:58Z",
+     "ultima_lectura": "2026-10-13T19:54:29Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50694,7 +50694,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 333,
-     "ultima_lectura": "2026-10-13T19:30:58Z",
+     "ultima_lectura": "2026-10-13T19:54:29Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -50763,7 +50763,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-13T19:31:27Z",
+   "comprobado": "2026-10-13T19:54:59Z",
    "disponible_el": "2027-01-07T00:19",
    "ejemplares": null,
    "estado": "reservable",
@@ -50784,7 +50784,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-13T19:31:27Z",
+   "comprobado": "2026-10-13T19:54:59Z",
    "disponible_el": "2026-11-21T17:27",
    "ejemplares": null,
    "estado": "reservable",
@@ -50805,7 +50805,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-13T19:31:27Z",
+   "comprobado": "2026-10-13T19:54:59Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -50824,15 +50824,15 @@
    "autores": [
     "Lana Corujo"
    ],
-   "avisado_reservable": "2026-10-11T09:31:17Z",
+   "avisado_reservable": "2026-10-13T19:54:59Z",
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "cambio_estado": "2026-10-11T10:31:16Z",
-   "comprobado": "2026-10-13T19:31:27Z",
-   "disponible_el": null,
+   "cambio_estado": "2026-10-13T19:54:59Z",
+   "comprobado": "2026-10-13T19:54:59Z",
+   "disponible_el": "2027-01-11T00:30",
    "ejemplares": null,
-   "estado": "sin_reservas",
-   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Texto y audio sincronizados En este momento no hay reservas libres. Inténtelo más adelante",
+   "estado": "reservable",
+   "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Texto y audio sincronizados Próximo ejemplar disponible el 11 ene 2027 a las 00:30 Reservar EPUB (Ha",
    "formato": "EPUB",
    "id": "68b71f2d9b9abc4d9f538f00",
    "origen": "telegram",
