@@ -9967,10 +9967,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-08T15:31:18Z",
-     "disponible_el": "2026-12-23T09:10",
+     "disponible_el": "2026-12-02T09:20",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 23 dic 2026 a las 09:10 Reservar EPUB (Poesía completa)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 2 dic 2026 a las 09:20 Reservar EPUB (Poesía completa)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a54b3d97b70777c9fd754d5",
@@ -11172,14 +11172,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-17T07:31:10Z",
+    "ultima_ok": "2026-10-17T08:31:36Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-17T07:31:10Z",
+     "ultima_lectura": "2026-10-17T08:31:36Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -20220,11 +20220,11 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-13T20:31:08Z",
-     "disponible_el": "2026-10-29T17:33",
+     "disponible_el": "2026-10-31T17:59",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 29 oct 2026 a las 17:33 Reservar EPUB (Los infinitos)",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 31 oct 2026 a las 17:59 Reservar EPUB (Los infinitos)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf928d7ce307333db14861",
@@ -22370,14 +22370,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-17T07:31:02Z",
+    "ultima_ok": "2026-10-17T08:31:28Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-17T07:31:02Z",
+     "ultima_lectura": "2026-10-17T08:31:28Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -48728,10 +48728,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-12-24T09:39",
+     "disponible_el": "2026-12-23T08:52",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 24 dic 2026 a las 09:39 Reservar EPUB (Giulia, el amor y un puñado de lavanda)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 23 dic 2026 a las 08:52 Reservar EPUB (Giulia, el amor y un puñado de lavanda)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa929203076853ba7ec8dcf",
@@ -49331,10 +49331,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-11-08T09:10",
+     "disponible_el": "2026-11-07T09:16",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 8 nov 2026 a las 09:10 Reservar EPUB (Identidad)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 7 nov 2026 a las 09:16 Reservar EPUB (Identidad)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa92fef101fed3111749a12",
@@ -49357,12 +49357,12 @@
       "Lucía Galán Bertrand"
      ],
      "base": true,
-     "cambio_estado": "2026-10-17T07:30:50Z",
-     "disponible_el": "2027-01-15T08:22",
+     "cambio_estado": "2026-10-17T08:31:15Z",
+     "disponible_el": null,
      "ejemplares": null,
-     "estado": "reservable",
-     "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 15 ene 2027 a las 08:22 Reservar EPUB (Adolescencia)",
+     "estado": "sin_reservas",
+     "estado_anterior": "reservable",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz En este momento no hay reservas libres. Inténtelo más adelante",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa92ff0101fed3111749a52",
@@ -49555,9 +49555,9 @@
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
      "disponible_el": null,
-     "ejemplares": 20,
+     "ejemplares": 19,
      "estado": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz 20 ejemplares disponibles Prestar EPUB (Fatalidad)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz 19 ejemplares disponibles Prestar EPUB (Fatalidad)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fa4015acb463909a6be",
@@ -50330,11 +50330,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-16T06:30:55Z",
-     "disponible_el": "2026-11-05T23:38",
+     "disponible_el": "2026-11-06T00:19",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 5 nov 2026 a las 23:38 Reservar EPUB (Servicio interior)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 nov 2026 a las 00:19 Reservar EPUB (Servicio interior)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fb0015acb463909b17a",
@@ -50496,11 +50496,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-16T07:30:57Z",
-     "disponible_el": "2026-11-29T00:41",
+     "disponible_el": "2026-11-29T05:33",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 29 nov 2026 a las 00:41 Reservar EPUB (Agotada)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 29 nov 2026 a las 05:33 Reservar EPUB (Agotada)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626ef90cf479cb0b36149",
@@ -50855,11 +50855,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-16T07:30:57Z",
-     "disponible_el": "2026-11-06T16:21",
+     "disponible_el": "2026-11-09T07:40",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 nov 2026 a las 16:21 Reservar EPUB (La clave está en la fibra)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 9 nov 2026 a las 07:40 Reservar EPUB (La clave está en la fibra)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f990cf479cb0b3679e",
@@ -51047,12 +51047,12 @@
       "Julia Navarro"
      ],
      "base": false,
-     "cambio_estado": "2026-10-17T05:30:56Z",
-     "disponible_el": "2027-01-14T06:03",
+     "cambio_estado": "2026-10-17T08:31:15Z",
+     "disponible_el": null,
      "ejemplares": null,
-     "estado": "reservable",
-     "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 14 ene 2027 a las 06:03 Reservar EPUB (Una familia moderna)",
+     "estado": "sin_reservas",
+     "estado_anterior": "reservable",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz En este momento no hay reservas libres. Inténtelo más adelante",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb73ccd0bfa3aa0698705",
@@ -51186,10 +51186,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-16T05:30:52Z",
-     "disponible_el": "2026-11-28T23:15",
+     "disponible_el": "2026-11-28T23:22",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 28 nov 2026 a las 23:15 Reservar EPUB (Gran manual del fracaso)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 28 nov 2026 a las 23:22 Reservar EPUB (Gran manual del fracaso)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb743cd0bfa3aa0698c66",
@@ -51516,10 +51516,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-16T05:30:52Z",
-     "disponible_el": "2026-12-21T23:18",
+     "disponible_el": "2026-12-21T23:19",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 21 dic 2026 a las 23:18 Reservar EPUB (Todos duermen)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 21 dic 2026 a las 23:19 Reservar EPUB (Todos duermen)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accbf811b9e0a16f9605",
@@ -51571,11 +51571,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-11T06:30:55Z",
-     "disponible_el": "2026-11-24T00:35",
+     "disponible_el": "2026-11-24T19:36",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 nov 2026 a las 00:35 Reservar EPUB (Generación 15-M)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 nov 2026 a las 19:36 Reservar EPUB (Generación 15-M)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accdf811b9e0a16f977b",
@@ -51623,7 +51623,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-17T07:30:50Z",
+    "ultima_ok": "2026-10-17T08:31:15Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -51631,7 +51631,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 461,
-     "ultima_lectura": "2026-10-17T07:30:50Z",
+     "ultima_lectura": "2026-10-17T08:31:15Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -51639,7 +51639,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 341,
-     "ultima_lectura": "2026-10-17T07:30:50Z",
+     "ultima_lectura": "2026-10-17T08:31:15Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -51659,7 +51659,12 @@
   "a1ac7323": {
    "anadida": "2026-10-15T16:31:17Z",
    "texto": "David y Claudia",
-   "ultima": "2026-10-16T12:31:40Z"
+   "ultima": "2026-10-17T08:31:52Z"
+  },
+  "b2027e4a": {
+   "anadida": "2026-10-17T08:31:15Z",
+   "texto": "Qué vamos a hacer esta noche",
+   "ultima": "2026-10-17T08:31:15Z"
   }
  },
  "historial": [
@@ -51759,7 +51764,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-08T23:48:24Z",
-   "comprobado": "2026-10-17T07:31:18Z",
+   "comprobado": "2026-10-17T08:31:45Z",
    "disponible_el": "2026-12-22T15:09",
    "ejemplares": null,
    "estado": "reservable",
@@ -51780,7 +51785,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-17T07:31:18Z",
+   "comprobado": "2026-10-17T08:31:45Z",
    "disponible_el": "2026-12-08T23:02",
    "ejemplares": null,
    "estado": "reservable",
@@ -51801,7 +51806,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-17T07:31:18Z",
+   "comprobado": "2026-10-17T08:31:45Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -51817,11 +51822,19 @@
   }
  },
  "opciones": {
+  "5fcfb13c6af9f8028930705c": {
+   "b": "madrid",
+   "p": "b2027e4a"
+  },
   "5fcfb1866af9f80289307683": {
    "b": "madrid",
    "p": "a9360bfb"
   },
   "5fcfb57d6af9f8028930ca52": "madrid",
+  "5fcfb6ba6af9f8028930e443": {
+   "b": "madrid",
+   "p": "b2027e4a"
+  },
   "5fcfb7286af9f8028930ed3f": {
    "b": "madrid",
    "p": "a9360bfb"
@@ -51831,9 +51844,17 @@
    "b": "madrid",
    "p": "a9360bfb"
   },
+  "5fcfb7d16af9f8028930fafb": {
+   "b": "madrid",
+   "p": "b2027e4a"
+  },
   "5fcfe7325613ef00018e4476": "madrid",
   "5fcfe7435613ef00018e4706": "madrid",
   "5fcfe7bb5613ef00018e59b4": "madrid",
+  "6220d4990006200001546e1b": {
+   "b": "castillayleon",
+   "p": "b2027e4a"
+  },
   "623c4c9235d60e00013b4934": {
    "b": "castillayleon",
    "p": "a9360bfb"
@@ -51852,6 +51873,10 @@
   "6543c440161a5b00014c405a": "madrid",
   "659ff1905c233c0001eee5fe": "madrid",
   "65d370bf927fcf0001aeb813": "madrid",
+  "660e692c7a69080001df1f73": {
+   "b": "castillayleon",
+   "p": "b2027e4a"
+  },
   "664ca5b1d091e572449bcd87": "madrid",
   "664ca5b3d091e572449bcf18": "madrid",
   "664ca5b4d091e572449bcf6f": "madrid",
@@ -51863,7 +51888,7 @@
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899076
+  "offset": 119899077
  },
  "version": 1
 }
