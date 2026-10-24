@@ -11216,14 +11216,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T09:31:21Z",
+    "ultima_ok": "2026-10-24T10:31:16Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-24T09:31:21Z",
+     "ultima_lectura": "2026-10-24T10:31:16Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -21204,10 +21204,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-07T08:32:18Z",
-     "disponible_el": "2026-11-29T17:54",
+     "disponible_el": "2026-12-03T12:31",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 29 nov 2026 a las 17:54 Reservar EPUB (Fury Bound. Furia de lobo (Los",
+     "estado_texto": "EPUB Streaming Totalmente accesible Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 3 dic 2026 a las 12:31 Reservar EPUB (Fury Bound. Furia de lobo (Los ",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abf92907ce307333db14a62",
@@ -21310,7 +21310,7 @@
      "activo": true,
      "alta": "2026-10-02T11:16:33Z",
      "autores": [
-      "Elisabet Benavent"
+      "Elísabet Benavent"
      ],
      "base": true,
      "cambio_estado": "2026-10-07T08:32:18Z",
@@ -22456,14 +22456,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T09:31:11Z",
+    "ultima_ok": "2026-10-24T10:31:08Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-24T09:31:11Z",
+     "ultima_lectura": "2026-10-24T10:31:08Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22691,7 +22691,10 @@
     "6ad87bbf52c6b2ae0549427a",
     "6ad87bbe52c6b2ae05494233",
     "6ad87bbe52c6b2ae05494214",
-    "6ad87bb752c6b2ae05493ca6"
+    "6ad87bb752c6b2ae05493ca6",
+    "6ad87bbc52c6b2ae05494019",
+    "6ad87bba52c6b2ae05493e6c",
+    "6ad87bb952c6b2ae05493d7d"
    ],
    "inicializada": true,
    "libros": {
@@ -47489,10 +47492,10 @@
      "base": true,
      "cambio_estado": "2026-10-06T09:41:08Z",
      "disponible_el": null,
-     "ejemplares": 3,
+     "ejemplares": 4,
      "estado": "disponible",
      "estado_anterior": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz 3 ejemplares disponibles Prestar EPUB (Juvencolía)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz 4 ejemplares disponibles Prestar EPUB (Juvencolía)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a917523dec17e293a16f0b3",
@@ -48932,10 +48935,10 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-05T14:32:26Z",
-     "disponible_el": "2026-11-23T12:57",
+     "disponible_el": "2026-11-26T10:14",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 23 nov 2026 a las 12:57 Reservar EPUB (Esta es tu casa)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 26 nov 2026 a las 10:14 Reservar EPUB (Esta es tu casa)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa929223076853ba7ec9055",
@@ -50312,11 +50315,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-17T11:30:56Z",
-     "disponible_el": "2026-11-06T14:47",
+     "disponible_el": "2026-11-07T06:28",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 nov 2026 a las 14:47 Reservar EPUB (Engaño)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 7 nov 2026 a las 06:28 Reservar EPUB (Engaño)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab61fae015acb463909af86",
@@ -50730,11 +50733,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T09:30:53Z",
-     "disponible_el": "2026-11-13T05:28",
+     "disponible_el": "2026-11-13T09:43",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 13 nov 2026 a las 05:28 Reservar EPUB (Historia del universo invisible)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 13 nov 2026 a las 09:43 Reservar EPUB (Historia del universo invisible)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f190cf479cb0b36273",
@@ -50898,11 +50901,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T10:30:52Z",
-     "disponible_el": "2026-11-13T05:55",
+     "disponible_el": "2026-11-13T10:50",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 13 nov 2026 a las 05:55 Reservar EPUB (El regreso de China)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 13 nov 2026 a las 10:50 Reservar EPUB (El regreso de China)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f390cf479cb0b36417",
@@ -52168,12 +52171,12 @@
       "Rosa Ribas"
      ],
      "base": false,
-     "cambio_estado": "2026-10-24T07:30:57Z",
-     "disponible_el": null,
+     "cambio_estado": "2026-10-24T10:30:57Z",
+     "disponible_el": "2027-01-22T05:56",
      "ejemplares": null,
-     "estado": "sin_reservas",
-     "estado_anterior": "reservable",
-     "estado_texto": "EPUB Streaming En este momento no hay reservas libres. Inténtelo más adelante",
+     "estado": "reservable",
+     "estado_anterior": "sin_reservas",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 22 ene 2027 a las 05:56 Reservar EPUB (Todos duermen)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accbf811b9e0a16f9605",
@@ -52300,12 +52303,39 @@
      "url": "https://madrid.ebiblio.es/resources/6ac7accff811b9e0a16f989a",
      "visto_primero": "2026-10-10T11:30:54Z",
      "visto_ultimo": "2026-10-24"
+    },
+    "6ad87bc052c6b2ae05494400": {
+     "activo": true,
+     "alta": "2026-10-21T08:45:52Z",
+     "autores": [
+      "Santiago Lorenzo"
+     ],
+     "base": false,
+     "cambio_estado": "2026-10-24T10:30:57Z",
+     "disponible_el": null,
+     "ejemplares": 10,
+     "estado": "disponible",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz 10 ejemplares disponibles Prestar EPUB (Contenta)",
+     "excluido": false,
+     "formato": "EPUB",
+     "id": "6ad87bc052c6b2ae05494400",
+     "intereses": [],
+     "portada": "https://imagedelivery.net/QDkyDSqaJI1JEO0MqH_3SQ/7fce748e-c1ca-4fc6-239e-016ce2455200/default",
+     "secciones": [
+      "6972422ff7b4bb0e618ee5a5"
+     ],
+     "sinopsis": "Cecilia Pérez Pacheco tiene treinta y nueve años y se dedica a grabar reportajes para bodas y comuniones. Le va fatal. Sufre, por si esto fuese poco, un desengaño amoroso de los que te dejan el ...",
+     "tipo": "libro",
+     "titulo": "Contenta",
+     "url": "https://madrid.ebiblio.es/resources/6ad87bc052c6b2ae05494400",
+     "visto_primero": "2026-10-24T10:30:57Z",
+     "visto_ultimo": "2026-10-24"
     }
    },
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T09:31:00Z",
+    "ultima_ok": "2026-10-24T10:30:57Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -52313,7 +52343,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 469,
-     "ultima_lectura": "2026-10-24T09:31:00Z",
+     "ultima_lectura": "2026-10-24T10:30:57Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52321,7 +52351,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 352,
-     "ultima_lectura": "2026-10-24T09:31:00Z",
+     "ultima_lectura": "2026-10-24T10:30:57Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52456,6 +52486,15 @@
    "fecha": "2026-10-23T05:30:51Z",
    "liberados": 0,
    "nuevos": 19
+  },
+  {
+   "biblioteca": "madrid",
+   "ejemplos": [
+    "Contenta"
+   ],
+   "fecha": "2026-10-24T10:30:57Z",
+   "liberados": 0,
+   "nuevos": 1
   }
  ],
  "lista": {
@@ -52468,7 +52507,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-22T21:31:26Z",
-   "comprobado": "2026-10-24T09:31:29Z",
+   "comprobado": "2026-10-24T10:31:24Z",
    "disponible_el": "2027-01-20T23:00",
    "ejemplares": null,
    "estado": "reservable",
@@ -52489,7 +52528,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-24T09:31:29Z",
+   "comprobado": "2026-10-24T10:31:24Z",
    "disponible_el": "2026-12-03T21:30",
    "ejemplares": null,
    "estado": "reservable",
@@ -52510,7 +52549,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-24T09:31:29Z",
+   "comprobado": "2026-10-24T10:31:24Z",
    "disponible_el": "2026-12-17T13:23",
    "ejemplares": null,
    "estado": "reservable",
@@ -52531,7 +52570,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-24T09:31:29Z",
+   "comprobado": "2026-10-24T10:31:24Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
