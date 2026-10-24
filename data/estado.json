@@ -11081,11 +11081,11 @@
      ],
      "base": true,
      "cambio_estado": "2026-10-17T14:31:30Z",
-     "disponible_el": "2026-11-07T15:09",
+     "disponible_el": "2026-11-24T16:25",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 7 nov 2026 a las 15:09 Reservar EPUB (Star Wars The New Republic nº 01)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 24 nov 2026 a las 16:25 Reservar EPUB (Star Wars The New Republic nº 01)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6a54b3dd7b70777c9fd75714",
@@ -11216,14 +11216,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T12:31:23Z",
+    "ultima_ok": "2026-10-24T13:31:36Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-24T12:31:23Z",
+     "ultima_lectura": "2026-10-24T13:31:36Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22456,14 +22456,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T12:31:15Z",
+    "ultima_ok": "2026-10-24T13:31:28Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-24T12:31:15Z",
+     "ultima_lectura": "2026-10-24T13:31:28Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -50902,11 +50902,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T10:30:52Z",
-     "disponible_el": "2026-11-16T08:29",
+     "disponible_el": "2026-11-16T14:27",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 16 nov 2026 a las 08:29 Reservar EPUB (El regreso de China)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 16 nov 2026 a las 14:27 Reservar EPUB (El regreso de China)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f390cf479cb0b36417",
@@ -51206,11 +51206,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T15:31:02Z",
-     "disponible_el": "2026-11-13T05:45",
+     "disponible_el": "2026-11-13T06:27",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 13 nov 2026 a las 05:45 Reservar EPUB (Las Hadas Modernas)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 13 nov 2026 a las 06:27 Reservar EPUB (Las Hadas Modernas)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb739cd0bfa3aa069841b",
@@ -51234,10 +51234,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T05:30:51Z",
-     "disponible_el": "2026-11-12T23:18",
+     "disponible_el": "2026-11-12T23:22",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 12 nov 2026 a las 23:18 Reservar EPUB (Histeria)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 12 nov 2026 a las 23:22 Reservar EPUB (Histeria)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb73acd0bfa3aa0698495",
@@ -51316,10 +51316,10 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T05:30:51Z",
-     "disponible_el": "2026-12-05T23:16",
+     "disponible_el": "2026-12-05T23:17",
      "ejemplares": null,
      "estado": "reservable",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 5 dic 2026 a las 23:16 Reservar EPUB (Fuegos artificiales)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 5 dic 2026 a las 23:17 Reservar EPUB (Fuegos artificiales)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb73bcd0bfa3aa0698542",
@@ -52174,11 +52174,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-24T10:30:57Z",
-     "disponible_el": "2027-01-22T05:56",
+     "disponible_el": "2027-01-16T19:03",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 22 ene 2027 a las 05:56 Reservar EPUB (Todos duermen)",
+     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 16 ene 2027 a las 19:03 Reservar EPUB (Todos duermen)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accbf811b9e0a16f9605",
@@ -52314,11 +52314,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-24T12:31:03Z",
-     "disponible_el": "2026-11-14T11:37",
+     "disponible_el": "2026-11-14T11:38",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 14 nov 2026 a las 11:37 Reservar EPUB (Contenta)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 14 nov 2026 a las 11:38 Reservar EPUB (Contenta)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ad87bc052c6b2ae05494400",
@@ -52338,7 +52338,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-24T12:31:03Z",
+    "ultima_ok": "2026-10-24T13:31:14Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -52346,7 +52346,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 469,
-     "ultima_lectura": "2026-10-24T12:31:03Z",
+     "ultima_lectura": "2026-10-24T13:31:14Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52354,7 +52354,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 352,
-     "ultima_lectura": "2026-10-24T12:31:03Z",
+     "ultima_lectura": "2026-10-24T13:31:14Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52371,6 +52371,11 @@
   }
  },
  "busquedas": {
+  "2495631f": {
+   "anadida": "2026-10-24T13:31:14Z",
+   "texto": "La sexta facción",
+   "ultima": "2026-10-24T13:31:14Z"
+  },
   "a1ac7323": {
    "anadida": "2026-10-15T16:31:17Z",
    "texto": "David y Claudia",
@@ -52510,7 +52515,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-22T21:31:26Z",
-   "comprobado": "2026-10-24T12:31:32Z",
+   "comprobado": "2026-10-24T13:31:44Z",
    "disponible_el": "2027-01-20T23:00",
    "ejemplares": null,
    "estado": "reservable",
@@ -52531,7 +52536,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-24T12:31:32Z",
+   "comprobado": "2026-10-24T13:31:44Z",
    "disponible_el": "2026-12-03T21:30",
    "ejemplares": null,
    "estado": "reservable",
@@ -52552,7 +52557,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-24T12:31:32Z",
+   "comprobado": "2026-10-24T13:31:44Z",
    "disponible_el": "2026-12-17T13:23",
    "ejemplares": null,
    "estado": "reservable",
@@ -52573,7 +52578,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-24T12:31:32Z",
+   "comprobado": "2026-10-24T13:31:44Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
@@ -52589,10 +52594,18 @@
   }
  },
  "opciones": {
+  "5fcfb0196af9f8028930576f": {
+   "b": "madrid",
+   "p": "2495631f"
+  },
   "5fcfb13c6af9f8028930705c": "madrid",
   "5fcfb1866af9f80289307683": {
    "b": "madrid",
    "p": "a9360bfb"
+  },
+  "5fcfb4db6af9f8028930bd3e": {
+   "b": "madrid",
+   "p": "2495631f"
   },
   "5fcfb57d6af9f8028930ca52": "madrid",
   "5fcfb6ba6af9f8028930e443": "madrid",
@@ -52623,7 +52636,15 @@
    "b": "madrid",
    "p": "a1ac7323"
   },
+  "63f4be1631693900010f76b0": {
+   "b": "madrid",
+   "p": "2495631f"
+  },
   "6422cbf1b818310001d28d90": "madrid",
+  "647f3aae0819cc00016fb4a7": {
+   "b": "madrid",
+   "p": "2495631f"
+  },
   "64f858d0570d4e0001d8de2e": "madrid",
   "651a7ca96286b800017f2f38": "madrid",
   "6543c440161a5b00014c405a": "madrid",
@@ -52638,11 +52659,15 @@
   "68c81172d70bf46d9e1211c9": "madrid",
   "69c15932270854bb4f27b5b7": "madrid",
   "6a1d70f9d5771c345f41f64d": "madrid",
+  "6a421b92a39a19bcdad38e01": {
+   "b": "madrid",
+   "p": "2495631f"
+  },
   "6a883a5a1f73e5a2746f4730": "madrid"
  },
  "telegram": {
   "menu": 1,
-  "offset": 119899078
+  "offset": 119899079
  },
  "version": 1
 }
