@@ -11239,14 +11239,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-29T15:31:34Z",
+    "ultima_ok": "2026-10-29T16:31:15Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-29T15:31:34Z",
+     "ultima_lectura": "2026-10-29T16:31:15Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -22496,14 +22496,14 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-29T15:31:26Z",
+    "ultima_ok": "2026-10-29T16:31:06Z",
     "ultimo_error": ""
    },
    "secciones": {
     "q:nature=ebook": {
      "nombre": "Novedades libros electrónicos",
      "sincronizada": true,
-     "ultima_lectura": "2026-10-29T15:31:26Z",
+     "ultima_lectura": "2026-10-29T16:31:06Z",
      "ultimos": 80,
      "vigilada": true
     }
@@ -49117,12 +49117,12 @@
       "Alicia Giménez Bartlett"
      ],
      "base": true,
-     "cambio_estado": "2026-10-29T12:31:01Z",
-     "disponible_el": "2027-01-27T12:58",
+     "cambio_estado": "2026-10-29T16:30:56Z",
+     "disponible_el": null,
      "ejemplares": null,
-     "estado": "reservable",
-     "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 27 ene 2027 a las 12:58 Reservar EPUB (Bajo el cielo infernal)",
+     "estado": "sin_reservas",
+     "estado_anterior": "reservable",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz En este momento no hay reservas libres. Inténtelo más adelante",
      "excluido": false,
      "formato": "EPUB",
      "id": "6aa929243076853ba7ec9291",
@@ -50866,11 +50866,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-10T21:30:53Z",
-     "disponible_el": "2026-11-20T13:55",
+     "disponible_el": "2026-11-19T17:25",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 20 nov 2026 a las 13:55 Reservar EPUB (La genealogía del abandono)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 19 nov 2026 a las 17:25 Reservar EPUB (La genealogía del abandono)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ab626f190cf479cb0b362d0",
@@ -51921,11 +51921,11 @@
      ],
      "base": false,
      "cambio_estado": "2026-10-23T11:30:53Z",
-     "disponible_el": "2026-12-06T12:03",
+     "disponible_el": "2026-12-07T11:58",
      "ejemplares": null,
      "estado": "reservable",
      "estado_anterior": "disponible",
-     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 6 dic 2026 a las 12:03 Reservar EPUB (El desorden de cumplir años)",
+     "estado_texto": "EPUB Streaming Compatible con lectores de pantalla y conversión de texto a voz Próximo ejemplar disponible el 7 dic 2026 a las 11:58 Reservar EPUB (El desorden de cumplir años)",
      "excluido": false,
      "formato": "EPUB",
      "id": "6abcb748cd0bfa3aa069918c",
@@ -52196,12 +52196,12 @@
       "Patrick Radden Keefe"
      ],
      "base": false,
-     "cambio_estado": "2026-10-29T15:31:14Z",
-     "disponible_el": "2027-01-27T16:07",
+     "cambio_estado": "2026-10-29T16:30:56Z",
+     "disponible_el": null,
      "ejemplares": null,
-     "estado": "reservable",
-     "estado_anterior": "sin_reservas",
-     "estado_texto": "EPUB Streaming Próximo ejemplar disponible el 27 ene 2027 a las 16:07 Reservar EPUB (El hijo del oligarca)",
+     "estado": "sin_reservas",
+     "estado_anterior": "reservable",
+     "estado_texto": "EPUB Streaming En este momento no hay reservas libres. Inténtelo más adelante",
      "excluido": false,
      "formato": "EPUB",
      "id": "6ac7accaf811b9e0a16f950b",
@@ -52417,7 +52417,7 @@
    "salud": {
     "alertado": false,
     "fallos": 0,
-    "ultima_ok": "2026-10-29T15:31:14Z",
+    "ultima_ok": "2026-10-29T16:30:56Z",
     "ultimo_error": ""
    },
    "secciones": {
@@ -52425,7 +52425,7 @@
      "nombre": "Novedades ficción",
      "sincronizada": true,
      "total_web": 468,
-     "ultima_lectura": "2026-10-29T15:31:14Z",
+     "ultima_lectura": "2026-10-29T16:30:56Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52433,7 +52433,7 @@
      "nombre": "Novedades no ficción",
      "sincronizada": true,
      "total_web": 352,
-     "ultima_lectura": "2026-10-29T15:31:14Z",
+     "ultima_lectura": "2026-10-29T16:30:56Z",
      "ultimos": 72,
      "vigilada": true
     },
@@ -52594,7 +52594,7 @@
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
    "cambio_estado": "2026-10-22T21:31:26Z",
-   "comprobado": "2026-10-29T15:31:42Z",
+   "comprobado": "2026-10-29T16:31:23Z",
    "disponible_el": "2027-01-20T23:00",
    "ejemplares": null,
    "estado": "reservable",
@@ -52615,7 +52615,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-29T15:31:42Z",
+   "comprobado": "2026-10-29T16:31:23Z",
    "disponible_el": "2026-12-26T15:38",
    "ejemplares": null,
    "estado": "reservable",
@@ -52636,7 +52636,7 @@
    ],
    "biblioteca": "castillayleon",
    "biblioteca_nombre": "eBiblio Castilla y León",
-   "comprobado": "2026-10-29T15:31:42Z",
+   "comprobado": "2026-10-29T16:31:23Z",
    "disponible_el": "2026-12-17T13:23",
    "ejemplares": null,
    "estado": "reservable",
@@ -52657,7 +52657,7 @@
    ],
    "biblioteca": "madrid",
    "biblioteca_nombre": "eBiblio Madrid",
-   "comprobado": "2026-10-29T15:31:42Z",
+   "comprobado": "2026-10-29T16:31:23Z",
    "disponible_el": null,
    "ejemplares": null,
    "estado": "disponible",
